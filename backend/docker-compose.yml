@@ -1,0 +1,49 @@
+version: '3'
+services:
+
+  face_detection:
+    build:
+      context: ./face_detection
+      dockerfile: Dockerfile
+    volumes:
+      - ./face_detection:/code
+    command: /bin/sh ./run.sh
+    ports:
+      - 9001:9000
+    networks:
+      - backend
+
+  face_recognition:
+    build:
+      context: ./face_recognition
+      dockerfile: Dockerfile
+    volumes:
+      - ./face_recognition:/code
+    command: /bin/sh ./run.sh
+    ports:
+      - 9002:9000
+    networks:
+      - backend
+
+  mongo:
+    image: mongo
+    user: root
+    ports:
+      - "27017:27017"
+    networks:
+      - backend
+
+  mongo-express:
+      image: mongo-express
+      ports:
+        - "8000:8081"
+      environment:
+        ME_CONFIG_BASICAUTH_USERNAME: root
+        ME_CONFIG_BASICAUTH_PASSWORD: lulapt13
+        ME_CONFIG_MONGODB_SERVER: mongo
+      networks:
+        - backend
+
+networks:
+  backend:
+    driver: bridge
