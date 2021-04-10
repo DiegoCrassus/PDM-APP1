@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="cadastro_teste">Cadastro</string>
+    <string name="login_teste">Login</string>
 </resources>
