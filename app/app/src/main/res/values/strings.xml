@@ -7,8 +7,10 @@
     <string name="segunda_foto">2ª Foto</string>
     <string name="terceira_foto">3ª Foto</string>
     <string name="cadastroTitle">Cadastro</string>
-    <string name="descrição_cadastro">Para realizar o cadastro do reconhecimento facial é necessário tirar três fotos do seu rosto.</string>
+    <string name="descrição_cadastro">Para o cadastro é necessário entrar com um email e três fotos do rosto para o reconhecimento facial.</string>
     <string name="cadastrar">Cadastrar</string>
     <string name="cadastro_email">Para continuar com o reconhecimento facial, será necessário a utilização de um email.</string>
     <string name="continuar">Continuar</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
 </resources>
