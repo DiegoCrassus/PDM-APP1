@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="cadastro_teste">Cadastro</string>
     <string name="login_teste">Login</string>
+    <string name="tirar_foto">Tirar foto</string>
+    <string name="todo">TODO</string>
+    <string name="primeira_foto">1ª Foto</string>
+    <string name="segunda_foto">2ª Foto</string>
+    <string name="terceira_foto">3ª Foto</string>
+    <string name="cadastroTitle">Cadastro</string>
+    <string name="descrição_cadastro">Para realizar o cadastro do reconhecimento facial é necessário tirar três fotos do seu rosto.</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="cadastro_email">Para continuar com o reconhecimento facial, será necessário a utilização de um email.</string>
+    <string name="continuar">Continuar</string>
 </resources>
