@@ -21,6 +21,8 @@ import java.io.File
 import java.io.ByteArrayOutputStream
 import android.os.StrictMode
 import org.json.*
+import java.util.Timer
+import kotlin.concurrent.schedule
 
 
 private const val RECOGNITION_TRAIN = "http://192.168.0.61:9002/api/recognition/use"
@@ -55,6 +57,24 @@ class signUp : AppCompatActivity() {
                 Toast.makeText(this@signUp, "Unable to open camera", Toast.LENGTH_SHORT).show()
             }
         }
+
+        btnSend.setOnClickListener {
+            val success: Boolean? = faceRecognitionRegister()
+
+            if (success == true) {
+                Toast.makeText(this@signUp, "Registro concluido com sucesso!", Toast.LENGTH_SHORT).show()
+                Timer("SettingUp", false).schedule(4000) {
+                    startActivity(Intent(this@signUp, MainActivity::class.java))
+                }
+            } else {
+                Toast.makeText(this@signUp, "Falha ao tentar registrar, tente novamente!", Toast.LENGTH_SHORT).show()
+                Timer("SettingUp", false).schedule(4000) {
+                    startActivity(Intent(this@signUp, MainActivity::class.java))
+                }
+
+            }
+        }
+
         textFieldEmail.addTextChangedListener(object:TextWatcher{
             override fun afterTextChanged(s: Editable?) {
             }
@@ -108,13 +128,23 @@ class signUp : AppCompatActivity() {
                     }
                 }
                 2 -> {
-                    secondPhoto.isChecked = true
+                    try {
+                        faceDetect(listPayload[0])
+                        listPayload.remove(listPayload[0])
+                    } catch (e: java.net.ProtocolException) {
+                        secondPhoto.isChecked = true
+                    }
+
                 }
                 3 -> {
-
-                    thirdPhoro.isChecked = true
-                    btnTakePicture.isEnabled = false
-                    btnSend.isEnabled = true
+                    try {
+                        faceDetect(listPayload[0])
+                        listPayload.remove(listPayload[0])
+                    } catch (e: java.net.ProtocolException) {
+                        thirdPhoro.isChecked = true
+                        btnTakePicture.isEnabled = false
+                        btnSend.isEnabled = true
+                    }
                 }
             }
         } else {
@@ -123,16 +153,23 @@ class signUp : AppCompatActivity() {
 
     }
 
+    private fun faceRecognitionRegister(): Boolean? {
+        if (name == null) {
+            name = "User";
+        }
 
-    private fun faceDetect(imageB64:String): Boolean? {
+        return false
+    }
+
+    private fun faceDetect(imageB64:String) {
         val jsonObj = JSONObject()
         jsonObj.put("image", imageB64)
         val JSON = MediaType.parse("application/json; charset=utf-8")
 
-        val response: RequestBody? = RequestBody.create(JSON, jsonObj.toString())
+        val payload: RequestBody? = RequestBody.create(JSON, jsonObj.toString())
         val request = Request.Builder()
             .header("Connection","close")
-            .method("POST", response)
+            .method("POST", payload)
             .addHeader("content-type", "application/json")
             .url(DETECTION)
             .build()
@@ -142,24 +179,14 @@ class signUp : AppCompatActivity() {
             val response = client.newCall(request).execute()
             val body = response.body()
             if (body != null) {
-                val json = body?.string()
-                val obj = JSONObject(json)
-                Log.d("response", obj.toString())
-
-
+                body?.string()
             }
         } catch (e: java.net.SocketTimeoutException) {
             Toast.makeText(this@signUp, "Backend offline!", Toast.LENGTH_SHORT).show()
         }
-        return false
 
     }
-    private fun faceRecognition(listImage:List<String>) {
-        if (name == null) {
-            name = "User";
-        }
-    }
-    
+
     private fun validateEmail(email:String): Boolean? {
         val request = Request.Builder()
                 .header("User-Agent", "OkHttp Headers.java")
