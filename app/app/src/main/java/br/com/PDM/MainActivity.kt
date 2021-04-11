@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnCadastro.setOnClickListener {
-            startActivity(Intent(this, signUpEmail::class.java))
+            startActivity(Intent(this, signUp::class.java))
         }
     }
 
