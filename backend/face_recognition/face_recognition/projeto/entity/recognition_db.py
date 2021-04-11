@@ -1,5 +1,6 @@
 from bson.objectid import ObjectId
 from pymongo import MongoClient
+from projeto.utils.Logger import objLogger
 import settings
 
 
@@ -8,12 +9,11 @@ class MongoDB():
         self.client = MongoClient(settings.MONGO_URI)
         self.database = self.client[settings.MONGO_DATABASE]
         self.POC_collection = self.database[settings.MONGO_POC_COLLECTION]
+        objLogger.debug("Opened connection!")
 
     def close(self):
         self.client.close()
-
-
-        return db_response
+        objLogger.debug("Closed connection!")
 
     def get_faces_n_names_from_db(user_id=None):
         self.connect()

@@ -3,6 +3,7 @@ import logging
 import base64
 import requests
 import multiprocessing as mp
+import ast
 from flask import request
 from flask_restplus import Resource
 from projeto.restplus import api
@@ -13,6 +14,7 @@ from projeto.bo.model_identificador import predict_face_recognition, train_knn_m
 from projeto.utils.Exception import ControllException
 from projeto.exception.NoFaceError import FaceException
 from projeto.constants import CodeHttp, Message
+from projeto.utils.Logger import objLogger
 
 log = logging.getLogger(__name__)
 ns = api.namespace('recognition', description='Post operação.')
@@ -47,7 +49,7 @@ class PostsCollection(Resource):
         try:
             payload = {"image": image_base64}
 
-            request_data_detection = requests.post("http://face_detection:9000/api/detection/",
+            request_data_detection = requests.post("http://face_detection:9001/api/detection/",
                                                    json=payload).json()
 
             try:
@@ -85,20 +87,25 @@ class PostsCollection(Resource):
 
 @ns.route('/train')
 class PostsCollection(Resource):
-
     @api.response(200, 'Enviado com sucesso.')
-    @ns.doc(params={
-        "user": "id do usuário associado a base de dados",
-        "faces": "Lista de rostos a serem adcionados na base de dados em base64",
-        "name": "Nome correspondente as faces com mesmo indice no formato string"})
     def post(self):
         try:
-            request_data = request.get_json()[0]
+            request_data = request.get_json()
             pool = mp.Pool()
 
             user_id = request_data["user"]
             faces = request_data["face"]
-            names = request_data["name"]
+            name = request_data["name"]
+
+            if isinstance(faces, str):
+                faces = faces.replace("[", "")
+                faces = faces.replace("]", "")
+                faces = faces.split(",")
+
+            objLogger.debug("name: {}".format(name))
+            objLogger.debug("user_id: {}".format(user_id))
+            objLogger.debug("num faces: {}".format(len(faces)))
+
 
         except KeyError as error:
             return objException.send_exception_simple(error,
@@ -111,7 +118,7 @@ class PostsCollection(Resource):
 
         face_pessoa = []
         for face in faces:
-            face_pessoa.append((face, name, user_id))
+            face_pessoa.append(([face], name, user_id))
         
         response = pool.map(train_knn_model, face_pessoa)
 
