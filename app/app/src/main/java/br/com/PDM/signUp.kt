@@ -19,6 +19,9 @@ import kotlinx.android.synthetic.main.activity_sign_up.*
 import okhttp3.*
 import java.io.File
 import java.io.ByteArrayOutputStream
+import android.os.StrictMode
+import org.json.*
+
 
 private const val RECOGNITION_TRAIN = "http://192.168.0.61:9002/api/recognition/use"
 private const val DETECTION = "http://192.168.0.61:9001/api/detection/"
@@ -37,6 +40,9 @@ class signUp : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
 
+        val policy: StrictMode.ThreadPolicy? = android.os.StrictMode.ThreadPolicy.Builder().permitAll().build()
+        StrictMode.setThreadPolicy(policy)
+
         btnTakePicture.setOnClickListener {
             val takePictureIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
             photoFile = getPhotoFile(FILE_NAME)
@@ -46,7 +52,7 @@ class signUp : AppCompatActivity() {
             if (takePictureIntent.resolveActivity(this.packageManager) != null) {
                 startActivityForResult(takePictureIntent, REQUEST_CODE)
             } else {
-                Toast.makeText(this, "Unable to open camera", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@signUp, "Unable to open camera", Toast.LENGTH_SHORT).show()
             }
         }
         textFieldEmail.addTextChangedListener(object:TextWatcher{
@@ -58,11 +64,15 @@ class signUp : AppCompatActivity() {
 
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
                 if (android.util.Patterns.EMAIL_ADDRESS.matcher(textFieldEmail.text.toString()).matches()) {
+
                     email = textFieldEmail.text.toString()
-                    Log.d("Email", email.toString())
                     val validEmail = validateEmail(email!!)
                     Log.d("valid", validEmail.toString())
-                    btnTakePicture.isEnabled = true
+                    if (validEmail == true) {
+                        btnTakePicture.isEnabled = true
+                    } else {
+                        Toast.makeText(this@signUp, "Houve um problema com este email!", Toast.LENGTH_SHORT).show()
+                    }
                 }
             }
 
@@ -90,7 +100,12 @@ class signUp : AppCompatActivity() {
 
             when (listPayload.size) {
                 1 -> {
-                    firstPhoto.isChecked = true
+                    try {
+                        faceDetect(listPayload[0])
+                        listPayload.remove(listPayload[0])
+                    } catch (e: java.net.ProtocolException) {
+                        firstPhoto.isChecked = true
+                    }
                 }
                 2 -> {
                     secondPhoto.isChecked = true
@@ -108,28 +123,73 @@ class signUp : AppCompatActivity() {
 
     }
 
-    private fun faceDetect(imageB64:String) {
+
+    private fun faceDetect(imageB64:String): Boolean? {
+        val jsonObj = JSONObject()
+        jsonObj.put("image", imageB64)
+        val JSON = MediaType.parse("application/json; charset=utf-8")
+
+        val response: RequestBody? = RequestBody.create(JSON, jsonObj.toString())
+        val request = Request.Builder()
+            .header("Connection","close")
+            .method("POST", response)
+            .addHeader("content-type", "application/json")
+            .url(DETECTION)
+            .build()
+        Log.d("Request", "request created at $DETECTION")
+
+        try {
+            val response = client.newCall(request).execute()
+            val body = response.body()
+            if (body != null) {
+                val json = body?.string()
+                val obj = JSONObject(json)
+                Log.d("response", obj.toString())
+
+
+            }
+        } catch (e: java.net.SocketTimeoutException) {
+            Toast.makeText(this@signUp, "Backend offline!", Toast.LENGTH_SHORT).show()
+        }
+        return false
 
     }
     private fun faceRecognition(listImage:List<String>) {
         if (name == null) {
             name = "User";
         }
-
-
-
     }
-    private fun validateEmail(email:String): Response? {
-        Log.d("Email", email)
+    
+    private fun validateEmail(email:String): Boolean? {
         val request = Request.Builder()
-            .addHeader("email", email)
-            .url(EMAIL_CHECK)
-            .build()
+                .header("User-Agent", "OkHttp Headers.java")
+                .addHeader("Accept", "application/json")
+                .addHeader("email", email)
+                .addHeader("Connection","close")
+                .url(EMAIL_CHECK)
+                .build()
         Log.d("Request", "request created at $EMAIL_CHECK")
-        val response = async client.newCall(request).execute()
-        Log.d("Response", response.toString())
-        return response
+        try {
+            val response = client.newCall(request).execute()
+            val body = response.body()
+            if (body != null) {
+                val json = body?.string()
+                val obj = JSONObject(json)
+                val data = obj.get("data")
+                try {
+                    if (data.toString().length < 10) {
+                        return true
+                    } else {
+                        return false
+                    }
+                } catch (e: Exception) {
+                    return false
+                }
+            }
+        } catch (e: java.net.SocketTimeoutException) {
+            Toast.makeText(this@signUp, "Backend offline!", Toast.LENGTH_SHORT).show()
+        }
+        return false
 
     }
-
 }

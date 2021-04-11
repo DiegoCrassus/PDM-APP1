@@ -29,6 +29,7 @@ class PostsCollection(Resource):
         """
         objLogger.debug(Message.REQUEST)
         request_data = request.headers
+        objLogger.debug(request_data)
 
         try:
             if "email" in request_data:
