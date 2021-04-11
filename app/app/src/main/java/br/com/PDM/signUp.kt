@@ -49,7 +49,7 @@ class signUp : AppCompatActivity() {
             val takePictureIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
             photoFile = getPhotoFile(FILE_NAME)
 
-            var fileProvider = FileProvider.getUriForFile(this, "br.com.PDM.fileprovider", photoFile)
+            val fileProvider = FileProvider.getUriForFile(this, "br.com.PDM.fileprovider", photoFile)
             takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, fileProvider)
             if (takePictureIntent.resolveActivity(this.packageManager) != null) {
                 startActivityForResult(takePictureIntent, REQUEST_CODE)
@@ -91,6 +91,7 @@ class signUp : AppCompatActivity() {
                     if (validEmail == true) {
                         btnTakePicture.isEnabled = true
                     } else {
+                        btnTakePicture.isEnabled = false
                         Toast.makeText(this@signUp, "Houve um problema com este email!", Toast.LENGTH_SHORT).show()
                     }
                 }
@@ -110,11 +111,9 @@ class signUp : AppCompatActivity() {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         if (requestCode == REQUEST_CODE && resultCode == Activity.RESULT_OK) {
-            val takenImage = BitmapFactory.decodeFile(photoFile.absolutePath)
-            val stream = ByteArrayOutputStream()
-            takenImage.compress(Bitmap.CompressFormat.JPEG, 100, stream)
-            val image = stream.toByteArray()
-            val takenImageBase64 = Base64.encodeToString(image, Base64.DEFAULT)
+            Log.d("image_path", photoFile.absolutePath)
+            val bytes = File(photoFile.absolutePath).readBytes()
+            val takenImageBase64 = Base64.encodeToString(bytes, Base64.DEFAULT)
             listPayload.add(takenImageBase64)
             Log.d("LIST_COUNT", listPayload.size.toString())
 
@@ -162,6 +161,7 @@ class signUp : AppCompatActivity() {
         jsonObj.put("name", name)
         jsonObj.put("user", email)
         jsonObj.put("face", listPayload)
+        Log.d("payload", jsonObj.toString())
 
         val JSON = MediaType.parse("application/json; charset=utf-8")
         val payload: RequestBody? = RequestBody.create(JSON, jsonObj.toString())
@@ -171,7 +171,7 @@ class signUp : AppCompatActivity() {
             .addHeader("content-type", "application/json")
             .url(RECOGNITION_TRAIN)
             .build()
-        Log.d("Request", "request created at $DETECTION")
+        Log.d("Request", "request created at $RECOGNITION_TRAIN")
 
         try {
             val response = client.newCall(request).execute()
