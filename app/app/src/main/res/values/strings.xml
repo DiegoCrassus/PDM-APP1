@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="login_teste">Login</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="login">Login</string>
     <string name="tirar_foto">Tirar foto</string>
     <string name="todo">TODO</string>
     <string name="primeira_foto">1ª Foto</string>
@@ -13,11 +14,17 @@
     <string name="continuar">Continuar</string>
     <string name="email">Email</string>
     <string name="name">Name</string>
+
     <string name="default_user">User</string>
+<<<<<<< HEAD
     <string name="title_activity_on_boarding_fragment">OnBoardingFragment</string>
     <!--
     This string is used for square devices and overridden by hello_world in
     values-round/strings.xml for round devices.
     -->
     <string name="hello_world">Hello Square World!</string>
+=======
+
+
+>>>>>>> cca6a81f6a98335b779c5ce8d7dc068fd215a2f3
 </resources>
