@@ -25,7 +25,7 @@ import java.util.Timer
 import kotlin.concurrent.schedule
 
 
-private const val RECOGNITION_TRAIN = "http://192.168.0.61:9002/api/recognition/use"
+private const val RECOGNITION_TRAIN = "http://192.168.0.61:9002/api/recognition/train"
 private const val DETECTION = "http://192.168.0.61:9001/api/detection/"
 private const val EMAIL_CHECK = "http://192.168.0.61:9003/api/pdm/POC"
 private const val FILE_NAME = "photo.jpg"
@@ -63,12 +63,12 @@ class signUp : AppCompatActivity() {
 
             if (success == true) {
                 Toast.makeText(this@signUp, "Registro concluido com sucesso!", Toast.LENGTH_SHORT).show()
-                Timer("SettingUp", false).schedule(4000) {
+                Timer("SettingUp", false).schedule(2000) {
                     startActivity(Intent(this@signUp, MainActivity::class.java))
                 }
             } else {
                 Toast.makeText(this@signUp, "Falha ao tentar registrar, tente novamente!", Toast.LENGTH_SHORT).show()
-                Timer("SettingUp", false).schedule(4000) {
+                Timer("SettingUp", false).schedule(2000) {
                     startActivity(Intent(this@signUp, MainActivity::class.java))
                 }
 
@@ -158,6 +158,31 @@ class signUp : AppCompatActivity() {
             name = "User";
         }
 
+        val jsonObj = JSONObject()
+        jsonObj.put("name", name)
+        jsonObj.put("user", email)
+        jsonObj.put("face", listPayload)
+
+        val JSON = MediaType.parse("application/json; charset=utf-8")
+        val payload: RequestBody? = RequestBody.create(JSON, jsonObj.toString())
+        val request = Request.Builder()
+            .header("Connection","close")
+            .method("POST", payload)
+            .addHeader("content-type", "application/json")
+            .url(RECOGNITION_TRAIN)
+            .build()
+        Log.d("Request", "request created at $DETECTION")
+
+        try {
+            val response = client.newCall(request).execute()
+            val body = response.body()
+            if (body != null) {
+                val body = body?.string()
+                Log.d("body", body.toString())
+            }
+        } catch (e: java.net.SocketTimeoutException) {
+            Toast.makeText(this@signUp, "Backend offline!", Toast.LENGTH_SHORT).show()
+        }
         return false
     }
 
@@ -184,7 +209,6 @@ class signUp : AppCompatActivity() {
         } catch (e: java.net.SocketTimeoutException) {
             Toast.makeText(this@signUp, "Backend offline!", Toast.LENGTH_SHORT).show()
         }
-
     }
 
     private fun validateEmail(email:String): Boolean? {
@@ -204,7 +228,7 @@ class signUp : AppCompatActivity() {
                 val obj = JSONObject(json)
                 val data = obj.get("data")
                 try {
-                    if (data.toString().length < 10) {
+                    if (data.toString().length < 5) {
                         return true
                     } else {
                         return false
@@ -217,6 +241,5 @@ class signUp : AppCompatActivity() {
             Toast.makeText(this@signUp, "Backend offline!", Toast.LENGTH_SHORT).show()
         }
         return false
-
     }
 }
