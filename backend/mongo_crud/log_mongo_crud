@@ -1,0 +1,39 @@
+2021-04-10 23:59:51.582 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Request recebida.
+2021-04-10 23:59:51.585 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection established.
+2021-04-11 00:02:02.060 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Request recebida.
+2021-04-11 00:02:02.064 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection established.
+2021-04-11 00:02:41.610 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Request recebida.
+2021-04-11 00:02:41.616 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection established.
+2021-04-11 00:03:39.232 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Request recebida.
+2021-04-11 00:06:09.092 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Request recebida.
+2021-04-11 00:06:09.096 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection established.
+2021-04-11 00:06:09.105 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection closed.
+2021-04-11 00:06:09.106 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.19.0.1 --- Success: response received successfully.
+2021-04-11 00:06:26.642 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Request recebida.
+2021-04-11 00:06:26.643 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection established.
+2021-04-11 00:06:26.652 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection closed.
+2021-04-11 00:06:26.653 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.19.0.1 --- Success: response received successfully.
+2021-04-11 00:06:31.551 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Request recebida.
+2021-04-11 00:06:31.553 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection established.
+2021-04-11 00:06:31.560 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection closed.
+2021-04-11 00:06:31.561 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.19.0.1 --- Success: response received successfully.
+2021-04-11 00:06:44.347 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Request recebida.
+2021-04-11 00:06:44.349 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection established.
+2021-04-11 00:06:44.356 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection closed.
+2021-04-11 00:06:44.358 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.19.0.1 --- Success: response received successfully.
+2021-04-11 00:35:54.323 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Request recebida.
+2021-04-11 00:35:54.327 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection established.
+2021-04-11 00:35:54.335 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection closed.
+2021-04-11 00:35:54.336 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.19.0.1 --- Success: response received successfully.
+2021-04-11 01:01:23.042 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Request recebida.
+2021-04-11 01:01:23.045 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection established.
+2021-04-11 01:01:23.053 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection closed.
+2021-04-11 01:01:23.054 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.19.0.1 --- Success: response received successfully.
+2021-04-11 01:02:33.051 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Request recebida.
+2021-04-11 01:02:33.054 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection established.
+2021-04-11 01:02:33.062 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection closed.
+2021-04-11 01:02:33.063 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.19.0.1 --- Success: response received successfully.
+2021-04-11 01:32:22.653 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Request recebida.
+2021-04-11 01:32:22.672 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection established.
+2021-04-11 01:32:22.680 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection closed.
+2021-04-11 01:32:22.681 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.19.0.1 --- Success: response received successfully.

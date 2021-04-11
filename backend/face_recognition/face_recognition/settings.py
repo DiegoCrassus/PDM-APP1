@@ -1,3 +1,4 @@
+import os
 # Flask settings
 FLASK_SERVER_NAME = None
 FLASK_HOST = '0.0.0.0'
@@ -11,3 +12,11 @@ RESTPLUS_MASK_SWAGGER = False
 RESTPLUS_ERROR_404_HELP = False
 
 MIN_FACE = 3
+
+MONGO_DATABASE = os.environ.get("MONGO_DATABASE", "pdm_recognition")
+MONGO_POC_COLLECTION = os.environ.get("MONGO_POC_COLLECTION", "PDM")
+MONGO_ID = os.environ.get("MONGO_ID", "root")
+MONGODB_PORT = int(os.environ.get("MONGODB_PORT", "27017"))
+MONGO_PASSWORD = os.environ.get("MONGO_PASSWORD", "pdm123")
+MONGO_HOST = os.environ.get("MONGO_HOST", "mongo")
+MONGO_URI = "mongodb://{}:{}@{}:{}/".format(MONGO_ID, MONGO_PASSWORD, MONGO_HOST, MONGODB_PORT)

@@ -3,7 +3,7 @@ import dlib
 import requests
 
 from projeto.utils.Base64 import decode_image_from_base64
-from projeto.entity.recognition_db import face_recognition_collection
+from projeto.entity.recognition_db import mongo_db
 from projeto.utils.Exception import ControllException
 from projeto.constants import Message, CodeHttp
 objException = ControllException()
@@ -89,7 +89,7 @@ def save_knn_inputs(face_encondings_list, names, user_id, face_images_as_b64):
         }
         new_elements_mongo.append(new_element)
 
-    status = face_recognition_collection.insert_many(new_elements_mongo)
+    status = mongo_db.POC_collection.insert_many(new_elements_mongo)
 
     return status
 
@@ -103,7 +103,7 @@ def get_face_encondings_from_db(user_id):
     face_encodings = []
     names = []
 
-    elements = face_recognition_collection.find({"user": user_id})
+    elements = mongo_db.POC_collection.find({"user": user_id})
 
     for element in elements:
         face_encodings.append(list_to_ndarray(element['face_encode']))

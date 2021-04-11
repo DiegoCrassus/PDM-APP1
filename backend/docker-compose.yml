@@ -25,24 +25,26 @@ services:
     networks:
       - backend
 
+  mongo_crud:
+    build:
+      context: ./mongo_crud
+      dockerfile: Dockerfile
+    volumes:
+      - ./mongo_crud:/code
+    command: /bin/sh ./run.sh
+    ports:
+      - 9003:9000
+    networks:
+      - backend
+
   mongo:
-    image: mongo
-    user: root
+    build:
+      context: ./mongo/
+      dockerfile: Dockerfile
     ports:
       - "27017:27017"
     networks:
       - backend
-
-  mongo-express:
-      image: mongo-express
-      ports:
-        - "8000:8081"
-      environment:
-        ME_CONFIG_BASICAUTH_USERNAME: root
-        ME_CONFIG_BASICAUTH_PASSWORD: lulapt13
-        ME_CONFIG_MONGODB_SERVER: mongo
-      networks:
-        - backend
 
 networks:
   backend:

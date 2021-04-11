@@ -8,7 +8,7 @@ from flask_restplus import Resource
 from projeto.restplus import api
 from flask import jsonify
 
-from projeto.entity.recognition_db import get_faces_n_names_from_db, delete_document_from_db, get_num_of_faces
+from projeto.entity.recognition_db import mongo_db
 from projeto.bo.model_identificador import predict_face_recognition, train_knn_model
 from projeto.utils.Exception import ControllException
 from projeto.exception.NoFaceError import FaceException
@@ -90,12 +90,11 @@ class PostsCollection(Resource):
     @ns.doc(params={
         "user": "id do usuário associado a base de dados",
         "faces": "Lista de rostos a serem adcionados na base de dados em base64",
-        "names": "Lista dos nomes correspondente as faces com mesmo indice no formato string"})
+        "name": "Nome correspondente as faces com mesmo indice no formato string"})
     def post(self):
         try:
             request_data = request.get_json()[0]
             pool = mp.Pool()
-            print(request_data.keys())
 
             user_id = request_data["user"]
             faces = request_data["face"]
@@ -108,11 +107,12 @@ class PostsCollection(Resource):
         if not isinstance(faces, list):
             faces = [faces]
 
-        if not isinstance(names, list):
-            names = [names]
+        
 
-        face_pessoa = [(faces, names, user_id)]
-        face_pessoa = face_pessoa + face_pessoa + face_pessoa
+        face_pessoa = []
+        for face in faces:
+            face_pessoa.append((face, name, user_id))
+        
         response = pool.map(train_knn_model, face_pessoa)
 
         pool.close()
@@ -135,7 +135,7 @@ class UseFaceRecognition(Resource):
         image_as_64 = request_data["image"]
 
         # É necessário que haja ao menos 3 elementos na base de dados
-        if get_num_of_faces(user_id) < 3 :
+        if mongo_db.get_num_of_faces(user_id) < 3 :
             return "nao ha imagens suficientes na base de dados"
 
         if re.findall("data:image/jpeg;base64,", image_as_64):
@@ -144,7 +144,7 @@ class UseFaceRecognition(Resource):
         else:
             print("Imagem enviada por API")
 
-        detection_response = requests.post("http://face_detection:9000/api/detection/", json={"image": image_as_64})
+        detection_response = requests.post("http://face_detection:9001/api/detection/", json={"image": image_as_64})
 
         data = detection_response.json()
 
@@ -165,29 +165,3 @@ class UseFaceRecognition(Resource):
 
         return response
 
-
-@ns.route('/database')
-class UseFaceRecognition(Resource):
-    @ns.doc(params={
-        "user_id": "id do usuário associado a base de dados"})
-    def post(self):
-        faces_n_names = get_faces_n_names_from_db()
-
-        return faces_n_names
-
-
-@ns.route('/database/delete')
-class UseFaceRecognition(Resource):
-
-    @ns.doc(params={
-        "document_id": "id do documento a ser removido da base de dados"
-    })
-    def post(self):
-
-        request_data = request.get_json()
-
-        document_id = request_data["document_id"]
-
-        delete_document_from_db(document_id)
-
-        return 200
