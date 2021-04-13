@@ -15,4 +15,10 @@
         <item name="rippleColor">?attr/colorPrimary</item>
     </style>
 
+    <style name="Widget.MyTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">#ffffff</item>
+        <!-- por enquanto esta assim mas dps vamos fazer uma referencia para a cor do tema para titulos-->
+        <item name="textAppearanceCaption">@style/TituloFragmentosOnBoard</item>
+    </style>
+
 </resources>
