@@ -150,7 +150,7 @@ class UseFaceRecognition(Resource):
             return "nao ha imagens suficientes na base de dados"
 
         payload = {"image": image_as_64}
-        detection_response = requests.post("http://{}:9000/api/detection/".format(settings.IP), json=payload).json()
+        detection_response = requests.post("http://{}:9001/api/detection/".format(settings.IP), json=payload).json()
 
         if not detection_response["have_faces"] :
             return "nao foi identificados faces na imagem"
@@ -162,7 +162,7 @@ class UseFaceRecognition(Resource):
         objLogger.debug("{}".format(predictions))
 
         payload = {"email": user_id}
-        mongo_response = requests.get("http://{}:9000/api/pdm/POC".format(settings.IP), json=payload).json()
+        mongo_response = requests.get("http://{}:9001/api/pdm/POC".format(settings.IP), json=payload).json()
         objLogger.debug("{}".format(mongo_response))
         
 
