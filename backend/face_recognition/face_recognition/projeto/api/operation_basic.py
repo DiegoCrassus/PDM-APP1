@@ -4,6 +4,7 @@ import base64
 import requests
 import multiprocessing as mp
 import ast
+import settings
 from flask import request
 from flask_restplus import Resource
 from projeto.restplus import api
@@ -49,7 +50,7 @@ class PostsCollection(Resource):
         try:
             payload = {"image": image_base64}
 
-            request_data_detection = requests.post("http://face_detection:9000/api/detection/",
+            request_data_detection = requests.post("http://{}:9000/api/detection/".format(settings.IP),
                                                    json=payload).json()
 
             try:
@@ -149,7 +150,7 @@ class UseFaceRecognition(Resource):
             return "nao ha imagens suficientes na base de dados"
 
         payload = {"image": image_as_64}
-        detection_response = requests.post("http://face_detection:9000/api/detection/", json=payload).json()
+        detection_response = requests.post("http://{}:9000/api/detection/".format(settings.IP), json=payload).json()
 
         if not detection_response["have_faces"] :
             return "nao foi identificados faces na imagem"
@@ -161,7 +162,7 @@ class UseFaceRecognition(Resource):
         objLogger.debug("{}".format(predictions))
 
         payload = {"email": user_id}
-        mongo_response = requests.get("http://mongo_crud:9000/api/pdm/POC", json=payload).json()
+        mongo_response = requests.get("http://{}:9000/api/pdm/POC".format(settings.IP), json=payload).json()
         objLogger.debug("{}".format(mongo_response))
         
 

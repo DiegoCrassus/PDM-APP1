@@ -125,7 +125,7 @@ def list_to_ndarray(list_):
 
 def detect_face(face_b64):
     payload = {"image": face_b64}
-    response = requests.post("http://face_detection:9000/api/detection/",
+    response = requests.post("http://{}:9000/api/detection/".format(settings.IP),
                              json=payload).json()
 
     return response

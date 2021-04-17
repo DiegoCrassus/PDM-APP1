@@ -6828,3 +6828,31 @@ Content-Type: application/json
 2021-04-17 19:03:52.597 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.3 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
 2021-04-17 19:03:52.597 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.3 --- Connection closed.
 2021-04-17 19:03:52.598 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.19.0.3 --- Success: response received successfully.
+2021-04-17 21:57:12.468 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Request recebida.
+2021-04-17 21:57:12.470 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.0.61:9003
+Accept-Encoding: gzip
+
+
+2021-04-17 21:57:12.472 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection established.
+2021-04-17 21:57:12.485 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-04-17 21:57:12.486 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.1 --- Connection closed.
+2021-04-17 21:57:12.487 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.19.0.1 --- Success: response received successfully.
+2021-04-17 21:57:13.402 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.6 --- Request recebida.
+2021-04-17 21:57:13.402 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.6 --- Host: mongo_crud:9000
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-04-17 21:57:13.404 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.6 --- Connection established.
+2021-04-17 21:57:13.412 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.6 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-04-17 21:57:13.413 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.19.0.6 --- Connection closed.
+2021-04-17 21:57:13.414 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.19.0.6 --- Success: response received successfully.
