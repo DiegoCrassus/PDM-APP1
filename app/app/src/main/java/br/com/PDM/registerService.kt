@@ -5,10 +5,10 @@ import okhttp3.*
 import org.json.*
 import com.google.gson.Gson
 
-private const val RECOGNITION_USE = "http://192.168.0.61:9002/api/recognition/use"
-private const val RECOGNITION_TRAIN = "http://192.168.0.61:9002/api/recognition/train"
-private const val DETECTION = "http://192.168.0.61:9001/api/detection/"
-private const val EMAIL_CHECK = "http://192.168.0.61:9003/api/pdm/POC"
+private const val RECOGNITION_USE = "http://13.68.183.62/:9002/api/recognition/use"
+private const val RECOGNITION_TRAIN = "http://13.68.183.62/:9002/api/recognition/train"
+private const val DETECTION = "http://13.68.183.62/:9001/api/detection/"
+private const val EMAIL_CHECK = "http://13.68.183.62/:9003/api/pdm/POC"
 private val client = OkHttpClient()
 
 fun faceRecognitionRegister (name: String, email: String, listPayload: List<String>): Boolean? {
