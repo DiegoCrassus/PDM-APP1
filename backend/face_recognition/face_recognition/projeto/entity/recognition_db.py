@@ -15,7 +15,7 @@ class MongoDB():
         self.client.close()
         objLogger.debug("Closed connection!")
 
-    def get_faces_n_names_from_db(user_id=None):
+    def get_faces_n_names_from_db(self, user_id=None):
         self.connect()
         faces_n_names = {
             "face": [],
@@ -32,17 +32,18 @@ class MongoDB():
         self.close()
         return faces_n_names
 
-    def get_num_of_faces(user_id):
+    def get_num_of_faces(self, user_id):
         """
             Função para retornar o numero de faces armazenadas no banco de dados
 
             :return Numero de faces no banco de dados
         """
+        objLogger.debug("User_id: {}".format(user_id))
         self.connect()
         query = {
             "user": user_id
         }
-
+        objLogger.debug("Query: {}".format(query))
         query_results = self.POC_collection.find(query)
         self.close()
 

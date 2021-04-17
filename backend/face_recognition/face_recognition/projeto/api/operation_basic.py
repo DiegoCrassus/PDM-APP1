@@ -49,7 +49,7 @@ class PostsCollection(Resource):
         try:
             payload = {"image": image_base64}
 
-            request_data_detection = requests.post("http://face_detection:9001/api/detection/",
+            request_data_detection = requests.post("http://face_detection:9000/api/detection/",
                                                    json=payload).json()
 
             try:
@@ -141,34 +141,47 @@ class UseFaceRecognition(Resource):
         user_id = request_data["user_id"]
         image_as_64 = request_data["image"]
 
+        num_faces_db = mongo_db.get_num_of_faces(user_id=user_id)
+        objLogger.debug("{}".format(num_faces_db))
+
         # É necessário que haja ao menos 3 elementos na base de dados
-        if mongo_db.get_num_of_faces(user_id) < 3 :
+        if num_faces_db < 3 :
             return "nao ha imagens suficientes na base de dados"
 
-        if re.findall("data:image/jpeg;base64,", image_as_64):
-            image_as_64 = image_as_64.split(",")[1]
-            print("Info : Imagem enviada pelo client ")
-        else:
-            print("Imagem enviada por API")
+        payload = {"image": image_as_64}
+        detection_response = requests.post("http://face_detection:9000/api/detection/", json=payload).json()
 
-        detection_response = requests.post("http://face_detection:9001/api/detection/", json={"image": image_as_64})
-
-        data = detection_response.json()
-
-        if not data["have_faces"] :
+        if not detection_response["have_faces"] :
             return "nao foi identificados faces na imagem"
 
-        faces = data["faces"]
+        faces = detection_response["faces"]
+        bound_box = detection_response["bounding_box"]
 
-        predictions = predict_face_recognition(faces, user_id)
+        predictions = predict_face_recognition(faces, user_id, bound_box)
+        objLogger.debug("{}".format(predictions))
+
+        payload = {"email": user_id}
+        mongo_response = requests.get("http://mongo_crud:9000/api/pdm/POC", json=payload).json()
+        objLogger.debug("{}".format(mongo_response))
+        
 
         if predictions:
             response = {
                 "names": predictions,
-                "faces": faces,
-                "recognised": True,
-                "have_faces": True
-            }
+                "recognised": False,
+                "have_faces": True}
+
+            objLogger.debug("predictions: {}".format(predictions))
+            for user in mongo_response["data"]:
+                objLogger.debug("mongo_data: {}".format(user))
+                for predict in predictions:
+                    objLogger.debug("predict: {}".format(predict))
+                    if user["name"] == predictions[predict]["names"][0]:
+                        response["recognised"] = True
+
+
+            objLogger.debug("response: {}".format(response))
+
 
         return response
 

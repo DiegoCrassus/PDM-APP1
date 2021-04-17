@@ -40,9 +40,7 @@ def predict_face_recognition(faces_images_as_b64, user_id, boundbox):
         face = np.expand_dims(face, 0)
         predictions = knn_model.get_predictions(face)
 
-        response[idx] = {"names": predictions,
-                         "face": faces_images_as_b64[idx],
-                         "bound_box": boundbox[idx]}
+        response[idx] = {"names": predictions}
 
     return response
 
