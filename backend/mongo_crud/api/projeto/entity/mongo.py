@@ -38,7 +38,10 @@ class MongoDB():
         db_response = []
         for result in response:
             result["_id"] = str(result["_id"])
-            db_response.append(result)
+            result_filtered = {"user": result["user"], "name": result["name"]}
+            db_response.append(result_filtered)
+            
+        objLogger.debug(db_response)
 
         self.close()
 

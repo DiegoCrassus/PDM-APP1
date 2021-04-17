@@ -19,10 +19,22 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+        release {
+            if (project.hasProperty('PDM_NOTE_APP_RELEASE_STORE_FILE')) {
+                storeFile file(PDM_NOTE_APP_RELEASE_STORE_FILE)
+                storePassword PDM_NOTE_APP_RELEASE_STORE_PASSWORD
+                keyAlias PDM_NOTE_APP_RELEASE_KEY_ALIAS
+                keyPassword PDM_NOTE_APP_RELEASE_KEY_PASSWORD
+            }
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
     compileOptions {
@@ -45,5 +57,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1'
 
 }
