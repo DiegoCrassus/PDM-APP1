@@ -50,7 +50,7 @@ class PostsCollection(Resource):
         try:
             payload = {"image": image_base64}
 
-            request_data_detection = requests.post("http://{}:9000/api/detection/".format(settings.IP),
+            request_data_detection = requests.post("http://{}:9001/api/detection/".format(settings.IP),
                                                    json=payload).json()
 
             try:
