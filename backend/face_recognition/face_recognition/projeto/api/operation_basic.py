@@ -162,7 +162,7 @@ class UseFaceRecognition(Resource):
         objLogger.debug("{}".format(predictions))
 
         payload = {"email": user_id}
-        mongo_response = requests.get("http://{}:9001/api/pdm/POC".format(settings.IP), json=payload).json()
+        mongo_response = requests.get("http://{}:9003/api/pdm/POC".format(settings.IP), json=payload).json()
         objLogger.debug("{}".format(mongo_response))
         
 
