@@ -3,6 +3,7 @@ package br.com.PDM
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_splash_screen.*
 
 import kotlinx.coroutines.delay
@@ -21,6 +22,10 @@ class SplashScreenActivity : AppCompatActivity() {
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
             finish()
         }
+    }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        Toast.makeText(this, "Nós da Reco Note cuidamos dos seus dados!", Toast.LENGTH_LONG).show()
     }
 }
