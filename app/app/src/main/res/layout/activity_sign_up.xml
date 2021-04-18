@@ -91,7 +91,7 @@
         android:id="@+id/btnSend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="52dp"
         android:enabled="false"
         android:text="@string/cadastrar"
         app:layout_constraintStart_toEndOf="@+id/btnTakePicture"
