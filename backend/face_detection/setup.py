@@ -5,7 +5,7 @@ setup(
     version='1.0.0',
     description='Arquitetura padrão Microservice módulo.',
     url='-',
-    author='Stefanini',
+    author='Crassus',
 
     classifiers=[
         'Development Status :: Developer/Alpha',
@@ -17,7 +17,7 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
 
-    keywords='Flasgger documentation Stefanini',
+    keywords='Flasgger documentation',
 
     packages=find_packages(),
 

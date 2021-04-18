@@ -1,8 +1,9 @@
 print('Start #################################################################');
 var document = {
-    "ids": "Teste2",
+    "user": 'teste@teste.com',
+    "face_encode": [0, 0],
     "name": "teste2",
-    "face": "teste2"
+    "image": "base64"
 };
 
 db.PDM.insert(document);
