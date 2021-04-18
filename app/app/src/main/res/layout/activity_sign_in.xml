@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bege"
     tools:context=".signIn">
 
     <androidx.constraintlayout.widget.Guideline
@@ -22,6 +23,7 @@
 
     <TextView
         android:id="@+id/textView"
+        style="@style/StyleTitulos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/loginTitle"
@@ -31,8 +33,9 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="199dp"
-        android:layout_height="74dp"
+        style="@style/StyleCorpos"
+        android:layout_width="246dp"
+        android:layout_height="131dp"
         android:layout_marginTop="60dp"
         android:text="@string/descrição_login"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
@@ -40,8 +43,9 @@
 
     <EditText
         android:id="@+id/textFieldEmailLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/StyleBoxes"
+        android:layout_width="359dp"
+        android:layout_height="58dp"
         android:ems="15"
         android:hint="@string/email"
         android:importantForAutofill="no"
