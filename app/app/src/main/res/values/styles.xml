@@ -1,9 +1,9 @@
 <resources>
 
-    <!--
-        O arquivo styles.xml deve conter apenas definições para componentes (widgets)
-        somente. Nenhum atributo de texto deve ser incluido nesse arquivo.
-    -->
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">?attr/colorPrimaryVariant</item>
+
+    </style>
 
     <style name="Widget.MaterialComponents.Button.OutlinedButton.PrimaryButton">
         <item name="cornerRadius">8dp</item>
