@@ -1,6 +1,6 @@
 print('Start #################################################################');
 var document = {
-    user: "diegocrassus@gmail.com",
+    user: "teste@teste.ck",
     face_encode: [
         -0.13331060111522675,
         0.07860400527715683
