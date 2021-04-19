@@ -1,1 +1,1 @@
-sudo docker-compose -p pdm down
+sudo docker stack rm pdm

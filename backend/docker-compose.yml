@@ -5,46 +5,50 @@ services:
     build:
       context: ./face_detection
       dockerfile: Dockerfile
+    image: pdm_face_detection
     volumes:
       - ./face_detection:/code
     command: /bin/sh ./run.sh
     ports:
       - 9001:9000
-    networks:
-      - backend
+#    networks:
+#      - backend
 
   face_recognition:
     build:
       context: ./face_recognition
       dockerfile: Dockerfile
+    image: pdm_face_recognition
     volumes:
       - ./face_recognition:/code
     command: /bin/sh ./run.sh
     ports:
       - 9002:9000
-    networks:
-      - backend
+ #   networks:
+ #     - backend
 
   mongo_crud:
     build:
       context: ./mongo_crud
       dockerfile: Dockerfile
+    image: pdm_mongo_crud
     volumes:
       - ./mongo_crud:/code
     command: /bin/sh ./run.sh
     ports:
       - 9003:9000
-    networks:
-      - backend
+ #   networks:
+ #     - backend
 
   mongo:
     build:
       context: ./mongo/
       dockerfile: Dockerfile
+    image: pdm_mongo
     ports:
       - "27017:27017"
-    networks:
-      - backend
+ #   networks:
+ #     - backend
 
   mongo-express:
     image: mongo-express
@@ -56,9 +60,9 @@ services:
       ME_CONFIG_BASICAUTH_USERNAME: root
       ME_CONFIG_BASICAUTH_PASSWORD: lulapt13
       ME_CONFIG_MONGODB_SERVER: mongo
-    networks:
-      - backend
+#    networks:
+#      - backend
 
-networks:
-  backend:
-    driver: bridge
+#networks:
+#  backend:
+#    driver: bridge
