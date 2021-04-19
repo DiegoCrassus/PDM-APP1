@@ -6,7 +6,7 @@ from .constants import CodeHttp, Message
 
 log = logging.getLogger(__name__)
 
-api = Api(version='2.0', title='Documentação - Stefanini PPA 2.0',
+api = Api(version='2.0', title='Documentação - PPA 2.0',
           description='APIs dizer o que cada uma contém')
 
 

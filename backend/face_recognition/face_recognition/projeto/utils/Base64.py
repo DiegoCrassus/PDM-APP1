@@ -3,6 +3,10 @@ from PIL import Image
 import io
 import logging
 import base64
+from time import time
+import cv2
+import os
+from projeto.utils.Logger import objLogger
 
 
 def base_decoding(file_base):
@@ -26,17 +30,24 @@ def decode_image_from_base64(image_as_base64):
     :return: array do NumPy contendo a representação da imagem
     :rtype: ndarray
     """
-    logger = logging.getLogger(__name__)
+    # logger = logging.getLogger(__name__)
 
-    logger.info("decode_image_from_base64: Decodificando a imagem em formato base64")
+    # logger.info("decode_image_from_base64: Decodificando a imagem em formato base64")
 
-    if isinstance(image_as_base64, bytes):
-        image_as_base64 = image_as_base64.decode("utf-8")
+    # if isinstance(image_as_base64, bytes):
+    #     image_as_base64 = image_as_base64.decode("utf-8")
 
-    image_data = base64.b64decode(image_as_base64)
+    # image_data = base64.b64decode(image_as_base64)
+    data = base64.b64decode(image_as_base64)
+    name = "{}.jpg".format(str(int(time() * 1000000)))
+    with open("./{}".format(name), "wb") as file:
+        file.write(data)
 
-    return np.array(Image.open(io.BytesIO(image_data)).convert('RGB'))
-
+    objLogger.debug("./{}".format(name))
+    image = cv2.imread("./{}".format(name))
+    os.remove("./{}".format(name))    
+    
+    return image
 
 def encode_base64_from_image(image_data):
     """

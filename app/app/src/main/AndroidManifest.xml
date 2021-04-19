@@ -23,7 +23,6 @@
         <uses-library
             android:name="com.google.android.wearable"
             android:required="true" />
-
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
@@ -35,6 +34,9 @@
         <activity
             android:name=".ui.fragment.onboarding.OnBoardingFragment"
             android:label="@string/title_activity_on_boarding_fragment">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/SplashScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -57,11 +59,7 @@
         <activity android:name=".signIn" />
         <activity android:name=".signUp" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

@@ -3,6 +3,8 @@ import logging
 import base64
 import requests
 import multiprocessing as mp
+import ast
+import settings
 from flask import request
 from flask_restplus import Resource
 from projeto.restplus import api
@@ -13,6 +15,7 @@ from projeto.bo.model_identificador import predict_face_recognition, train_knn_m
 from projeto.utils.Exception import ControllException
 from projeto.exception.NoFaceError import FaceException
 from projeto.constants import CodeHttp, Message
+from projeto.utils.Logger import objLogger
 
 log = logging.getLogger(__name__)
 ns = api.namespace('recognition', description='Post operação.')
@@ -47,7 +50,7 @@ class PostsCollection(Resource):
         try:
             payload = {"image": image_base64}
 
-            request_data_detection = requests.post("http://face_detection:9000/api/detection/",
+            request_data_detection = requests.post("http://{}:9001/api/detection/".format(settings.IP),
                                                    json=payload).json()
 
             try:
@@ -85,20 +88,25 @@ class PostsCollection(Resource):
 
 @ns.route('/train')
 class PostsCollection(Resource):
-
     @api.response(200, 'Enviado com sucesso.')
-    @ns.doc(params={
-        "user": "id do usuário associado a base de dados",
-        "faces": "Lista de rostos a serem adcionados na base de dados em base64",
-        "name": "Nome correspondente as faces com mesmo indice no formato string"})
     def post(self):
         try:
-            request_data = request.get_json()[0]
+            request_data = request.get_json()
             pool = mp.Pool()
 
             user_id = request_data["user"]
             faces = request_data["face"]
-            names = request_data["name"]
+            name = request_data["name"]
+
+            if isinstance(faces, str):
+                faces = faces.replace("[", "")
+                faces = faces.replace("]", "")
+                faces = faces.split(",")
+
+            objLogger.debug("name: {}".format(name))
+            objLogger.debug("user_id: {}".format(user_id))
+            objLogger.debug("num faces: {}".format(len(faces)))
+
 
         except KeyError as error:
             return objException.send_exception_simple(error,
@@ -111,7 +119,7 @@ class PostsCollection(Resource):
 
         face_pessoa = []
         for face in faces:
-            face_pessoa.append((face, name, user_id))
+            face_pessoa.append(([face], name, user_id))
         
         response = pool.map(train_knn_model, face_pessoa)
 
@@ -134,34 +142,47 @@ class UseFaceRecognition(Resource):
         user_id = request_data["user_id"]
         image_as_64 = request_data["image"]
 
+        num_faces_db = mongo_db.get_num_of_faces(user_id=user_id)
+        objLogger.debug("{}".format(num_faces_db))
+
         # É necessário que haja ao menos 3 elementos na base de dados
-        if mongo_db.get_num_of_faces(user_id) < 3 :
+        if num_faces_db < 3 :
             return "nao ha imagens suficientes na base de dados"
 
-        if re.findall("data:image/jpeg;base64,", image_as_64):
-            image_as_64 = image_as_64.split(",")[1]
-            print("Info : Imagem enviada pelo client ")
-        else:
-            print("Imagem enviada por API")
+        payload = {"image": image_as_64}
+        detection_response = requests.post("http://{}:9001/api/detection/".format(settings.IP), json=payload).json()
 
-        detection_response = requests.post("http://face_detection:9001/api/detection/", json={"image": image_as_64})
-
-        data = detection_response.json()
-
-        if not data["have_faces"] :
+        if not detection_response["have_faces"] :
             return "nao foi identificados faces na imagem"
 
-        faces = data["faces"]
+        faces = detection_response["faces"]
+        bound_box = detection_response["bounding_box"]
 
-        predictions = predict_face_recognition(faces, user_id)
+        predictions = predict_face_recognition(faces, user_id, bound_box)
+        objLogger.debug("{}".format(predictions))
+
+        payload = {"email": user_id}
+        mongo_response = requests.get("http://{}:9003/api/pdm/POC".format(settings.IP), json=payload).json()
+        objLogger.debug("{}".format(mongo_response))
+        
 
         if predictions:
             response = {
                 "names": predictions,
-                "faces": faces,
-                "recognised": True,
-                "have_faces": True
-            }
+                "recognised": False,
+                "have_faces": True}
+
+            objLogger.debug("predictions: {}".format(predictions))
+            for user in mongo_response["data"]:
+                objLogger.debug("mongo_data: {}".format(user))
+                for predict in predictions:
+                    objLogger.debug("predict: {}".format(predict))
+                    if user["name"] == predictions[predict]["names"][0]:
+                        response["recognised"] = True
+
+
+            objLogger.debug("response: {}".format(response))
+
 
         return response
 

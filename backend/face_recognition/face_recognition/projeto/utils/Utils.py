@@ -33,7 +33,7 @@ def encode_faces_images(faces, num_jitters=1):
         face_image = decode_image_from_base64(face)
 
         rect = face_detector(face_image)
-        print(rect)
+        
         try:
             predictor = face_pose_predictor(face_image, rect[0])
         except IndexError as error:
@@ -89,7 +89,9 @@ def save_knn_inputs(face_encondings_list, names, user_id, face_images_as_b64):
         }
         new_elements_mongo.append(new_element)
 
+    mongo_db.connect()
     status = mongo_db.POC_collection.insert_many(new_elements_mongo)
+    mongo_db.close()
 
     return status
 
@@ -103,7 +105,9 @@ def get_face_encondings_from_db(user_id):
     face_encodings = []
     names = []
 
+    mongo_db.connect()
     elements = mongo_db.POC_collection.find({"user": user_id})
+    mongo_db.close()
 
     for element in elements:
         face_encodings.append(list_to_ndarray(element['face_encode']))
@@ -121,7 +125,7 @@ def list_to_ndarray(list_):
 
 def detect_face(face_b64):
     payload = {"image": face_b64}
-    response = requests.post("http://face_detection:9000/api/detection/",
+    response = requests.post("http://{}:9001/api/detection/".format(settings.IP),
                              json=payload).json()
 
     return response

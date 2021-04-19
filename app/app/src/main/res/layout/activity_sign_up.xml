@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bege"
     tools:context=".signUp">
 
     <Button
         android:id="@+id/btnTakePicture"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:enabled="false"
         android:text="@string/tirar_foto"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="@+id/guideline" />
@@ -24,6 +24,7 @@
 
     <CheckBox
         android:id="@+id/firstPhoto"
+        style="@style/StyleBCheckBox"
         android:layout_width="127dp"
         android:layout_height="57dp"
         android:clickable="false"
@@ -33,6 +34,7 @@
 
     <CheckBox
         android:id="@+id/secondPhoto"
+        style="@style/StyleBCheckBox"
         android:layout_width="127dp"
         android:layout_height="57dp"
         android:clickable="false"
@@ -42,6 +44,7 @@
 
     <CheckBox
         android:id="@+id/thirdPhoro"
+        style="@style/StyleBCheckBox"
         android:layout_width="127dp"
         android:layout_height="57dp"
         android:layout_marginBottom="20dp"
@@ -59,6 +62,7 @@
 
     <TextView
         android:id="@+id/textView3"
+        style="@style/StyleTitulos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/cadastroTitle"
@@ -75,8 +79,9 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="199dp"
-        android:layout_height="74dp"
+        style="@style/StyleCorpos"
+        android:layout_width="212dp"
+        android:layout_height="93dp"
         android:layout_marginTop="60dp"
         android:text="@string/descrição_cadastro"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -86,35 +91,36 @@
         android:id="@+id/btnSend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:enabled="false"
+        android:layout_marginStart="12dp"
         android:text="@string/cadastrar"
         app:layout_constraintStart_toEndOf="@+id/btnTakePicture"
         app:layout_constraintTop_toTopOf="@+id/guideline" />
 
     <EditText
         android:id="@+id/textFieldEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/StyleBoxes"
+        android:layout_width="312dp"
+        android:layout_height="42dp"
         android:ems="15"
         android:hint="@string/email"
+        android:importantForAutofill="no"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toTopOf="@+id/firstPhoto"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.481"
-        android:importantForAutofill="no" />
+        app:layout_constraintVertical_bias="0.481" />
 
     <EditText
         android:id="@+id/textFieldName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/StyleBoxes"
+        android:layout_width="307dp"
+        android:layout_height="42dp"
         android:layout_marginTop="10dp"
         android:ems="15"
         android:hint="@string/name"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/textFieldEmail"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toBottomOf="@+id/textFieldEmail" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

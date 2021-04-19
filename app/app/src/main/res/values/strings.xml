@@ -17,13 +17,6 @@
     <string name="button_onBoard">Acessar</string>
 
     <string name="default_user">User</string>
-    <
-    <
-    <
-    <
-    <
-    <
-    < HEAD
     <string name="title_activity_on_boarding_fragment">OnBoardingFragment</string>
     <!--
     This string is used for square devices and overridden by hello_world in
@@ -32,8 +25,4 @@
     <string name="hello_world">Hello Square World!</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    =======
-
-
-    >>>>>>> cca6a81f6a98335b779c5ce8d7dc068fd215a2f3
 </resources>
