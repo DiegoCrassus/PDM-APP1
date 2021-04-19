@@ -33,7 +33,17 @@
             android:value="true" />
 
         <activity
-            android:name=".ui.fragment.onboarding.OnBoardingFragment"
+            android:name=".ui.fragment.onboarding.OnBoarding"
+            android:label="@string/title_activity_on_boarding">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+            <activity
+            android:name=".ui.component.OnBoardingFragment"
             android:label="@string/title_activity_on_boarding_fragment">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,7 +51,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        -->
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="br.com.PDM.fileprovider"

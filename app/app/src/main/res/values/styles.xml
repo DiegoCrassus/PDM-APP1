@@ -16,9 +16,9 @@
     </style>
 
     <style name="Widget.MyTitle" parent="Widget.AppCompat.TextView">
-        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColor">#A863D5</item>
         <!-- por enquanto esta assim mas dps vamos fazer uma referencia para a cor do tema para titulos-->
-        <item name="textAppearanceCaption">@style/TituloFragmentosOnBoard</item>
+        <item name="android:textAppearance">@style/TituloFragmentosOnBoard</item>
     </style>
 
 </resources>

@@ -1,43 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <data>
-
-        <variable
-            name="fragment"
-            type="br.com.PDM.ui.fragment.onboarding.screens.OnBoardingFirstFragment" />
-
-    </data>
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.fragment.onboarding.screens.OnBoardingFirstFragment" >
+        tools:context=".ui.fragment.onboarding.screens.OnBoardingSecondFragment" >
 
         <TextView
-            android:id="@+id/tvFrag1"
+            android:id="@+id/tvFrag2"
             style="?titleStyle"
-            android:layout_width="243dp"
-            android:layout_height="133dp"
+            android:layout_width="275dp"
+            android:layout_height="120dp"
             android:layout_marginBottom="204dp"
-            android:text="@string/title_first_fragment"
+            android:text="@string/title_second_fragment"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
             app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
-            android:id="@+id/ivFrag1"
+            android:id="@+id/ivFrag2"
             android:layout_width="272dp"
             android:layout_height="251dp"
-            android:layout_marginBottom="64dp"
-            app:layout_constraintBottom_toTopOf="@+id/tvFrag1"
+            android:layout_marginBottom="80dp"
+            app:layout_constraintBottom_toTopOf="@+id/tvFrag2"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/logo_ok" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 </layout>

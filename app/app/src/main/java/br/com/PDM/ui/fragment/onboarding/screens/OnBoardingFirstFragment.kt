@@ -1,18 +1,32 @@
 package br.com.PDM.ui.fragment.onboarding.screens
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import br.com.PDM.R
+import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.Fragment
+import br.com.PDM.databinding.FragmentOnBoardingFirstBinding
+
 
 class OnBoardingFirstFragment : Fragment() {
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
+    private lateinit var binding : FragmentOnBoardingFirstBinding
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        // diz qual é o xml q representa o xml da parte visual desse codigo
+
+        binding = FragmentOnBoardingFirstBinding.inflate(inflater, container, false)
+
+        binding.fragment = this
+        binding.lifecycleOwner = this
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_on_boarding_first, container, false)
+         return binding.root
+
     }
 
 
