@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="br.com.PDM">
 
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -16,6 +20,20 @@
         android:theme="@style/Theme.MyApplication"
         android:usesCleartextTraffic="true"
         tools:targetApi="n">
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="true" />
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+        <activity
+            android:name=".ui.fragment.onboarding.OnBoardingFragment"
+            android:label="@string/title_activity_on_boarding_fragment">
         <activity
             android:name=".SplashScreenActivity"
             android:theme="@style/SplashScreenTheme">

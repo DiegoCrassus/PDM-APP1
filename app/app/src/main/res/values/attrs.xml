@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <attr format="reference" name="primaryButtonStyle"/>
+    <attr format="reference" name="titleStyle"/>
     <attr format="reference" name="secondaryButtonStyle"/>
 </resources>
