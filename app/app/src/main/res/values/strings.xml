@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="login_teste">Login</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="login">Login</string>
     <string name="tirar_foto">Tirar foto</string>
     <string name="todo">TODO</string>
     <string name="primeira_foto">1ª Foto</string>
