@@ -17,4 +17,9 @@
     <string name="name">Name</string>
     <string name="default_user">User</string>
     <string name="loginTitle">Login</string>
+    <string name="title_first_fragment">é um aplicativo de notas com inteligência artificial</string>
+    <string name="title_second_fragment">O aplicativo reconhece sua face e só você pode acessar suas notas</string>
+    <string name="button_acess">Acessar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

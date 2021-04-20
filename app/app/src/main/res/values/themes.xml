@@ -15,5 +15,8 @@
         <item name="primaryButtonStyle">@style/Widget.MaterialComponents.Button.OutlinedButton.PrimaryButton</item>
         <item name="secondaryButtonStyle">@style/Widget.MaterialComponents.Button.OutlinedButton.SecondaryButton</item>
         <item name="textAppearanceButton">@style/TextAppearance.MaterialComponents.Button.BaseButton</item>
+        <!-- estilo para os fragmentos do onboarding -->
+        <item name="titleStyle">@style/Widget.MyTitle</item>
+        <!-- toda vez q esse tema for usado, ele vai ter a caracteristica do tema MyTitle-->
     </style>
 </resources>
