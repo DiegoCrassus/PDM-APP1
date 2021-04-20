@@ -73,6 +73,8 @@ class signIn : AppCompatActivity() {
                 Toast.makeText(this@signIn, "É necessário um email para efetuar o login!", Toast.LENGTH_SHORT).show()
             } catch (e: java.net.SocketTimeoutException) {
                 Toast.makeText(this@signIn, "Backend OFFLINE!", Toast.LENGTH_SHORT).show()
+            } catch (e: java.lang.IllegalArgumentException) {
+                Toast.makeText(this@signIn, "Falha na autenticação, tente novamente!", Toast.LENGTH_SHORT).show()
             }
             btnSendLogin.isEnabled = true
         }

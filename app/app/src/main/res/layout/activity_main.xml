@@ -12,15 +12,12 @@
         android:id="@+id/btnLogin"
         style="?primaryButtonStyle"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginTop="207dp"
+        android:layout_height="wrap_content"
         android:text="@string/login"
         app:layout_constraintBottom_toTopOf="@+id/btnCadastro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnCadastro"

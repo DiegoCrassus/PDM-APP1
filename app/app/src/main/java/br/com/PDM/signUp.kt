@@ -57,7 +57,7 @@ class signUp : AppCompatActivity() {
             try {
                 val validEmail = validateEmail(email!!)
                 Log.d("valid", validEmail.toString())
-                if (validEmail == false) {
+                if (validEmail == false && listPayload!!.size == 3) {
                     val success: Boolean? = faceRecognitionRegister(name!!, email!!, listPayload)
                     Log.d("success", success.toString())
                     if (success == true) {
