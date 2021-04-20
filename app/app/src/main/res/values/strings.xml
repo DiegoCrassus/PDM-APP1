@@ -17,4 +17,5 @@
     <string name="name">Name</string>
     <string name="default_user">User</string>
     <string name="loginTitle">Login</string>
+    <string name="ttWelcome">Seja bemvindo!</string>
 </resources>
