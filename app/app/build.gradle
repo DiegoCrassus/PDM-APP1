@@ -2,8 +2,7 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-android-extensions'
-  //  id 'kotlin-kapt'
-    //id 'dagger.hilt.android.plugin'
+
 }
 
 android {
@@ -47,7 +46,7 @@ android {
     }
 
     buildFeatures {
-        dataBinding true
+        dataBinding false
     }
 }
 
@@ -66,10 +65,5 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1'
     implementation 'com.android.databinding:library:4.1.3'
 
-    /** Hilt - Dependency Injection */
-   // implementation "com.google.dagger:hilt-android:$hiltVersion"
-//    kapt "com.google.dagger:hilt-android-compiler:$hiltVersion"
-   // implementation "androidx.hilt:hilt-lifecycle-viewmodel:$hiltAndroidXVersion"
-  //  kapt "androidx.hilt:hilt-compiler:$hiltAndroidXVersion"
 
 }
