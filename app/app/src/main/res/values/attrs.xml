@@ -3,4 +3,5 @@
     <attr format="reference" name="primaryButtonStyle"/>
     <attr format="reference" name="secondaryButtonStyle"/>
     <attr format="reference" name="titleStyle"/>
+    <attr format="reference" name="TitleStyleFragOnboard"/>
 </resources>

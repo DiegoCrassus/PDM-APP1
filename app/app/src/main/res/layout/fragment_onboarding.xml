@@ -3,6 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <data>
+
+    </data>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/frameLayout2"
         android:layout_width="match_parent"
@@ -11,8 +15,8 @@
 
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/vponboard"
-            android:layout_width="407dp"
-            android:layout_height="576dp"
+            android:layout_width="369dp"
+            android:layout_height="531dp"
             android:layout_marginBottom="55dp"
             app:layout_constraintBottom_toTopOf="@+id/btonboard"
             app:layout_constraintEnd_toEndOf="parent"

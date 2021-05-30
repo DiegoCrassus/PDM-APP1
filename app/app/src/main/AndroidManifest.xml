@@ -16,6 +16,7 @@
         android:theme="@style/Theme.MyApplication"
         android:usesCleartextTraffic="true"
         tools:targetApi="n">
+        <activity android:name=".OnboardActivity"></activity>
         <activity
             android:name=".SplashScreenActivity"
             android:theme="@style/SplashScreenTheme">
@@ -40,9 +41,7 @@
         <activity android:name=".home" />
         <activity android:name=".signIn" />
         <activity android:name=".signUp" />
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
