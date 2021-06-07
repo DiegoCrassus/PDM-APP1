@@ -11,8 +11,6 @@ services:
     command: /bin/sh ./run.sh
     ports:
       - 9001:9000
-#    networks:
-#      - backend
 
   face_recognition:
     build:
@@ -24,21 +22,30 @@ services:
     command: /bin/sh ./run.sh
     ports:
       - 9002:9000
- #   networks:
- #     - backend
 
   mongo_crud:
     build:
       context: ./mongo_crud
       dockerfile: Dockerfile
-    image: pdm_mongo_crud
     volumes:
       - ./mongo_crud:/code
     command: /bin/sh ./run.sh
+    env_file: 
+      - ./mongo_crud/environment
     ports:
       - 9003:9000
- #   networks:
- #     - backend
+
+  postgres_crud:
+    build:
+      context: ./postgres_crud
+      dockerfile: Dockerfile
+    env_file: 
+      - ./postgres_crud/environment
+    volumes:
+      - ./postgres_crud:/code
+    command: /bin/sh ./run.sh
+    ports:
+      - 9004:9000
 
   mongo:
     build:
@@ -47,8 +54,6 @@ services:
     image: pdm_mongo
     ports:
       - "27017:27017"
- #   networks:
- #     - backend
 
   mongo-express:
     image: mongo-express
@@ -60,9 +65,10 @@ services:
       ME_CONFIG_BASICAUTH_USERNAME: root
       ME_CONFIG_BASICAUTH_PASSWORD: lulapt13
       ME_CONFIG_MONGODB_SERVER: mongo
-#    networks:
-#      - backend
 
-#networks:
-#  backend:
-#    driver: bridge
+  postgres:
+    build:
+      context: ./postgres/
+      dockerfile: Dockerfile
+    ports:
+      - "5432:5432"
