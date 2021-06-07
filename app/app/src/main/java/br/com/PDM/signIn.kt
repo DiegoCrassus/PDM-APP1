@@ -114,6 +114,8 @@ class signIn : AppCompatActivity() {
                 }
             } catch (e: java.net.SocketTimeoutException) {
                 Toast.makeText(this@signIn, "Backend OFFLINE!", Toast.LENGTH_SHORT).show()
+            } catch (e: org.json.JSONException) {
+                Toast.makeText(this@signIn, "Backend ERROR!", Toast.LENGTH_SHORT).show()
             }
 
         } else {
