@@ -1,0 +1,53 @@
+<html><head>
+<title>app.py</title>
+<meta name="Generator" content="htmlizer/[Twisted, version 17.9.0]" />
+<link rel="alternate" href="app.py" type="text/x-python" />
+
+</head>
+<body>
+<pre><span class="py-src-keyword">import</span> <span class="py-src-variable">logging</span>.<span class="py-src-variable">config</span>
+<span class="py-src-keyword">import</span> <span class="py-src-variable">os</span>
+<span class="py-src-keyword">import</span> <span class="py-src-variable">settings</span>
+<span class="py-src-keyword">from</span> <span class="py-src-variable">loguru</span> <span class="py-src-keyword">import</span> <span class="py-src-variable">logger</span>
+<span class="py-src-keyword">from</span> <span class="py-src-variable">flask</span> <span class="py-src-keyword">import</span> <span class="py-src-variable">Flask</span>, <span class="py-src-variable">Blueprint</span>
+<span class="py-src-keyword">from</span> <span class="py-src-variable">flask_cors</span> <span class="py-src-keyword">import</span> <span class="py-src-variable">CORS</span>
+
+<span class="py-src-keyword">from</span> <span class="py-src-variable">projeto</span>.<span class="py-src-variable">api</span>.<span class="py-src-variable">operation_basic</span> <span class="py-src-keyword">import</span> <span class="py-src-variable">ns</span> <span class="py-src-keyword">as</span> <span class="py-src-variable">operation_basic</span>
+<span class="py-src-keyword">from</span> <span class="py-src-variable">projeto</span>.<span class="py-src-variable">restplus</span> <span class="py-src-keyword">import</span> <span class="py-src-variable">api</span>
+
+<span class="py-src-variable">app</span> = <span class="py-src-variable">Flask</span>(<span class="py-src-variable">__name__</span>)
+<span class="py-src-variable">logging_conf_path</span> = <span class="py-src-variable">os</span>.<span class="py-src-variable">path</span>.<span class="py-src-variable">normpath</span>(<span class="py-src-variable">os</span>.<span class="py-src-variable">path</span>.<span class="py-src-variable">join</span>(<span class="py-src-variable">os</span>.<span class="py-src-variable">path</span>.<span class="py-src-variable">dirname</span>(<span class="py-src-variable">__file__</span>), <span class="py-src-string">&#x27;../logging.conf&#x27;</span>))
+<span class="py-src-variable">logging</span>.<span class="py-src-variable">config</span>.<span class="py-src-variable">fileConfig</span>(<span class="py-src-variable">logging_conf_path</span>)
+<span class="py-src-variable">log</span> = <span class="py-src-variable">logging</span>.<span class="py-src-variable">getLogger</span>(<span class="py-src-variable">__name__</span>)
+<span class="py-src-variable">logger</span>.<span class="py-src-variable">add</span>(<span class="py-src-variable">settings</span>.<span class="py-src-variable">PATH_LOG</span>, <span class="py-src-variable">rotation</span>=<span class="py-src-string">&quot;1 week&quot;</span>)
+
+
+<span class="py-src-keyword">def</span> <span class="py-src-identifier">configure_app</span>(<span class="py-src-parameter">flask_app</span>):
+    <span class="py-src-variable">flask_app</span>.<span class="py-src-variable">config</span>[<span class="py-src-string">&#x27;SERVER_NAME&#x27;</span>] = <span class="py-src-variable">settings</span>.<span class="py-src-variable">FLASK_SERVER_NAME</span>
+    <span class="py-src-variable">flask_app</span>.<span class="py-src-variable">config</span>[<span class="py-src-string">&#x27;SWAGGER_UI_DOC_EXPANSION&#x27;</span>] = <span class="py-src-variable">settings</span>.<span class="py-src-variable">RESTPLUS_SWAGGER_UI_DOC_EXPANSION</span>
+    <span class="py-src-variable">flask_app</span>.<span class="py-src-variable">config</span>[<span class="py-src-string">&#x27;RESTPLUS_VALIDATE&#x27;</span>] = <span class="py-src-variable">settings</span>.<span class="py-src-variable">RESTPLUS_VALIDATE</span>
+    <span class="py-src-variable">flask_app</span>.<span class="py-src-variable">config</span>[<span class="py-src-string">&#x27;RESTPLUS_MASK_SWAGGER&#x27;</span>] = <span class="py-src-variable">settings</span>.<span class="py-src-variable">RESTPLUS_MASK_SWAGGER</span>
+    <span class="py-src-variable">flask_app</span>.<span class="py-src-variable">config</span>[<span class="py-src-string">&#x27;ERROR_404_HELP&#x27;</span>] = <span class="py-src-variable">settings</span>.<span class="py-src-variable">RESTPLUS_ERROR_404_HELP</span>
+
+
+<span class="py-src-keyword">def</span> <span class="py-src-identifier">initialize_app</span>(<span class="py-src-parameter">flask_app</span>):
+    <span class="py-src-variable">configure_app</span>(<span class="py-src-variable">flask_app</span>)
+    <span class="py-src-variable">CORS</span>(<span class="py-src-variable">flask_app</span>)
+
+    <span class="py-src-variable">blueprint</span> = <span class="py-src-variable">Blueprint</span>(<span class="py-src-string">&#x27;api&#x27;</span>, <span class="py-src-variable">__name__</span>, <span class="py-src-variable">url_prefix</span>=<span class="py-src-variable">settings</span>.<span class="py-src-variable">URL_PREFIX</span>)
+    <span class="py-src-variable">api</span>.<span class="py-src-variable">init_app</span>(<span class="py-src-variable">blueprint</span>)
+    <span class="py-src-variable">api</span>.<span class="py-src-variable">add_namespace</span>(<span class="py-src-variable">operation_basic</span>)
+    <span class="py-src-variable">flask_app</span>.<span class="py-src-variable">register_blueprint</span>(<span class="py-src-variable">blueprint</span>)
+
+
+<span class="py-src-keyword">def</span> <span class="py-src-identifier">main</span>():
+    <span class="py-src-variable">initialize_app</span>(<span class="py-src-variable">app</span>)
+    <span class="py-src-comment"># log.info(&#x27;&gt;&gt;&gt;&gt;&gt; Ao startar o server sera com as uris http://{}/api/ &lt;&lt;&lt;&lt;&lt;&#x27;.format(app.config[&#x27;SERVER_NAME&#x27;]))</span>
+    <span class="py-src-variable">logger</span>.<span class="py-src-variable">debug</span>(<span class="py-src-string">&quot;[+] --- starting at: {}:{}{}&quot;</span>.<span class="py-src-variable">format</span>(<span class="py-src-variable">settings</span>.<span class="py-src-variable">FLASK_HOST</span>, <span class="py-src-variable">settings</span>.<span class="py-src-variable">FLASK_PORT</span>, <span class="py-src-variable">settings</span>.<span class="py-src-variable">URL_PREFIX</span>))
+    <span class="py-src-variable">app</span>.<span class="py-src-variable">run</span>(<span class="py-src-variable">host</span>=<span class="py-src-variable">settings</span>.<span class="py-src-variable">FLASK_HOST</span>, <span class="py-src-variable">port</span>=<span class="py-src-variable">settings</span>.<span class="py-src-variable">FLASK_PORT</span>, <span class="py-src-variable">debug</span>=<span class="py-src-variable">settings</span>.<span class="py-src-variable">FLASK_DEBUG</span>)
+
+
+<span class="py-src-keyword">if</span> <span class="py-src-variable">__name__</span> == <span class="py-src-string">&quot;__main__&quot;</span>:
+    <span class="py-src-variable">main</span>()
+</pre>
+</body>

@@ -1,0 +1,72 @@
+2021-06-07 00:01:20.295 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:01:20.768 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:08:08.968 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:08:09.546 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:10:33.966 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:10:34.456 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:11:38.211 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:13:04.641 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:13:46.707 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:13:51.636 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:15:34.367 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:15:56.755 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:16:45.256 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:18:37.106 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:18:37.708 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:19:22.096 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:19:22.636 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:19:53.597 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:20:11.647 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:20:47.035 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:23:41.702 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:24:25.825 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:24:37.299 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:24:38.981 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:24:41.815 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:24:47.812 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:24:51.936 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('None', 'None') WHERE id_notebook=3 AND email='teste@teste.com'
+2021-06-07 00:25:50.275 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:26:16.986 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:26:19.610 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('teste1', 'x') WHERE id_notebook=3 AND email='teste@teste.com'
+2021-06-07 00:28:02.029 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:28:05.868 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:28:07.521 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:28:12.408 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('teste1', 'x') WHERE id_notebook=3 AND email='teste@teste.com'
+2021-06-07 00:28:26.919 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('teste_com commit', 'x2') WHERE id_notebook=3 AND email='teste@teste.com'
+2021-06-07 00:28:41.108 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('teste_com commit', 'x2') WHERE id_notebook=2 AND email='teste@teste.com'
+2021-06-07 00:29:31.951 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:29:37.976 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:29:42.840 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:29:56.578 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:30:01.565 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:30:22.877 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:30:36.438 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:36:18.993 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:36:32.633 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:36:34.292 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:36:36.787 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='teste@teste.com'
+2021-06-07 00:36:56.797 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='teste@teste.com' AND id_notebook=2
+2021-06-07 00:37:00.089 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='teste@teste.com' AND id_notebook=3
+2021-06-07 00:38:30.722 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('teste_com commit', 'x2') WHERE id_notebook=3 AND email='teste@teste.com'
+2021-06-07 00:39:02.832 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:39:09.664 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUE('teste@teste.com', 'teste_com commit', 'x2')
+2021-06-07 00:39:43.686 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:39:45.208 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('teste@teste.com', 'teste_com commit', 'x2')
+2021-06-07 00:40:04.141 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('teste@teste.com', 'teste_com commit', 'x2')
+2021-06-07 00:40:39.927 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='2'
+2021-06-07 00:40:48.078 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='5'
+2021-06-07 00:41:10.409 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:41:34.943 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:41:37.756 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:41:58.369 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:41:58.915 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:42:22.692 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:42:24.628 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='teste@teste.com'
+2021-06-07 00:43:12.296 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:44:29.046 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:45:05.560 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:45:18.580 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO pdm_user(email, nome) VALUES('teste@teste.com', 'test')
+2021-06-07 00:46:22.716 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:46:23.302 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-07 00:46:25.233 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO pdm_user(email, nome) VALUES('teste@teste.com', 'test')
+2021-06-07 00:46:37.780 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO pdm_user(email, nome) VALUES('teste1@teste.com', 'test')

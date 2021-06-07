@@ -1,0 +1,524 @@
+2020-07-17 13:51:43.850 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:51:44.142 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:52:00.882 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 13:52:21.643 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:52:22.170 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 13:52:40.053 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:52:41.243 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 13:52:47.942 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 13:53:08.994 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:53:16.772 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:53:23.511 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:53:28.140 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:53:30.635 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:53:34.208 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:53:39.897 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:53:43.586 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 13:54:40.205 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:54:40.496 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:54:43.119 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 13:55:04.177 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:55:06.995 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 13:55:07.004 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT n, a, m, e FROM user WHERE n=ANY(SELECT n FROM user) AND a=ANY(SELECT a FROM user) AND m=ANY(SELECT m FROM user) AND e=ANY(SELECT e FROM user)
+2020-07-17 13:56:26.553 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 13:56:40.948 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:56:41.233 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:56:45.239 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 13:56:45.250 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT n, a, m, e FROM user WHERE n=ANY(SELECT n FROM user) AND a=ANY(SELECT a FROM user) AND m=ANY(SELECT m FROM user) AND e=ANY(SELECT e FROM user)
+2020-07-17 13:57:39.854 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:57:40.758 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 13:57:40.766 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT n, a, m, e FROM user WHERE n=ANY(SELECT n FROM user) AND a=ANY(SELECT a FROM user) AND m=ANY(SELECT m FROM user) AND e=ANY(SELECT e FROM user)
+2020-07-17 13:57:45.433 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 13:57:45.442 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT n, a, m, e FROM user WHERE n=ANY(SELECT n FROM user) AND a=ANY(SELECT a FROM user) AND m=ANY(SELECT m FROM user) AND e=ANY(SELECT e FROM user)
+2020-07-17 13:58:03.547 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:58:10.725 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:58:11.015 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:58:13.083 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 13:58:13.092 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT n, a, m, e FROM user WHERE n=ANY(SELECT n FROM user) AND a=ANY(SELECT a FROM user) AND m=ANY(SELECT m FROM user) AND e=ANY(SELECT e FROM user)
+2020-07-17 13:58:43.125 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:58:45.629 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:58:53.411 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 13:58:57.721 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 13:58:57.729 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT n, a, m, e FROM user WHERE n=ANY(SELECT n FROM user) AND a=ANY(SELECT a FROM user) AND m=ANY(SELECT m FROM user) AND e=ANY(SELECT e FROM user)
+2020-07-17 14:00:03.559 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:00:04.439 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:00:04.448 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT n, a, m, e FROM user WHERE n=ANY(SELECT n FROM user) AND a=ANY(SELECT a FROM user) AND m=ANY(SELECT m FROM user) AND e=ANY(SELECT e FROM user)
+2020-07-17 14:00:31.397 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:02:04.783 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:02:08.672 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:02:08.683 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT n, a, m, e FROM user WHERE n=ANY(SELECT n FROM user) AND a=ANY(SELECT a FROM user) AND m=ANY(SELECT m FROM user) AND e=ANY(SELECT e FROM user)
+2020-07-17 14:02:18.648 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:02:18.657 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT n, a, m, e FROM user WHERE n=ANY(SELECT n FROM user) AND a=ANY(SELECT a FROM user) AND m=ANY(SELECT m FROM user) AND e=ANY(SELECT e FROM user)
+2020-07-17 14:02:45.046 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:02:45.054 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT n, a, m, e FROM user WHERE n=ANY(SELECT n FROM user) AND a=ANY(SELECT a FROM user) AND m=ANY(SELECT m FROM user) AND e=ANY(SELECT e FROM user)
+2020-07-17 14:03:15.980 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:03:16.960 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:03:16.969 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT n, a, m, e FROM user WHERE n=ANY(SELECT n FROM user) AND a=ANY(SELECT a FROM user) AND m=ANY(SELECT m FROM user) AND e=ANY(SELECT e FROM user)
+2020-07-17 14:03:46.996 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:03:53.195 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:03:53.203 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT n, a, m, e FROM user WHERE n=ANY(SELECT n FROM user) AND a=ANY(SELECT a FROM user) AND m=ANY(SELECT m FROM user) AND e=ANY(SELECT e FROM user)
+2020-07-17 14:04:25.417 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:04:27.815 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:04:27.823 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT n, a, m, e FROM user WHERE n=ANY(SELECT n FROM user) AND a=ANY(SELECT a FROM user) AND m=ANY(SELECT m FROM user) AND e=ANY(SELECT e FROM user)
+2020-07-17 14:04:39.524 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:04:45.159 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:04:51.778 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:04:51.787 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name=ANY(SELECT name FROM user) AND cpf=ANY(SELECT cpf FROM user) AND idade=ANY(SELECT idade FROM user)
+2020-07-17 14:05:14.140 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:05:16.402 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:05:16.411 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name=ANY(SELECT name FROM user) AND cpf=ANY(SELECT cpf FROM user) AND idade=ANY(SELECT idade FROM user)
+2020-07-17 14:05:51.581 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:05:51.865 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:06:04.933 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:06:10.007 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:06:10.017 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name=ANY(SELECT name FROM user) AND cpf=ANY(SELECT cpf FROM user) AND idade=ANY(SELECT idade FROM user)
+2020-07-17 14:06:33.830 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:06:34.855 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:06:34.863 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name=ANY(SELECT name FROM user) AND cpf=ANY(SELECT cpf FROM user) AND idade=ANY(SELECT idade FROM user)
+2020-07-17 14:08:47.392 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:08:47.678 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:08:49.961 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:08:49.969 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name=ANY(SELECT name FROM user) AND cpf=ANY(SELECT cpf FROM user) AND idade=ANY(SELECT idade FROM user)
+2020-07-17 14:09:05.915 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name=ANY(SELECT name FROM user) AND cpf=ANY(SELECT cpf FROM user) AND idade=ANY(SELECT idade FROM user)
+2020-07-17 14:10:00.716 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE idade IN(SELECT idade FROM user WHERE idade >= 18)
+2020-07-17 14:10:07.834 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE idade IN(SELECT idade FROM user WHERE idade <= 18)
+2020-07-17 14:10:22.124 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user
+2020-07-17 14:10:27.075 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE idade IN(SELECT idade FROM user WHERE idade = 18)
+2020-07-17 14:10:33.374 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE idade IN(SELECT idade FROM user WHERE idade >= 18)
+2020-07-17 14:10:38.837 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name>=ANY(SELECT name FROM user) OR cpf>=ANY(SELECT cpf FROM user) OR idade>=ANY(SELECT idade FROM user)
+2020-07-17 14:11:27.823 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:11:46.186 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:11:48.692 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:12:32.544 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:13:08.873 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:13:30.411 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:13:39.252 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:14:51.691 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:14:51.701 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name>=ANY(SELECT name FROM user) OR cpf>=ANY(SELECT cpf FROM user) OR idade>=ANY(SELECT idade FROM user)
+2020-07-17 14:14:57.014 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name=ANY(SELECT name FROM user) OR cpf=ANY(SELECT cpf FROM user) OR idade=ANY(SELECT idade FROM user)
+2020-07-17 14:15:07.702 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name=ANY(SELECT name FROM user) AND cpf=ANY(SELECT cpf FROM user) AND idade=ANY(SELECT idade FROM user)
+2020-07-17 14:15:12.900 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name IN(SELECT name FROM user WHERE name = 'Sara Selis') AND cpf IN(SELECT cpf FROM user WHERE cpf = '117.254.147-74') AND idade IN(SELECT idade FROM user WHERE idade = 18)
+2020-07-17 14:19:21.021 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:19:36.197 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:20:00.545 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:20:46.290 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:20:49.383 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:21:40.628 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:22:05.298 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:22:08.840 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:22:14.919 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:22:51.486 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:22:57.151 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:23:05.723 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:23:16.549 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:23:18.671 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:23:18.678 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Sara Selis', '117.254.147-74', 18)
+2020-07-17 14:23:23.283 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:23:25.807 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:23:25.815 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Sara Selis', '117.254.147-74', 18)
+2020-07-17 14:24:14.412 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:25:43.558 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:26:14.607 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:26:31.890 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:26:34.001 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:26:34.009 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Sara Selis', '117.254.147-74', 18)
+2020-07-17 14:28:02.235 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Paulo Cotta', '117.254.147-74', 33)
+2020-07-17 14:28:21.190 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user
+2020-07-17 14:31:17.790 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:32:01.516 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:32:33.584 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:32:38.172 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:32:55.474 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:33:14.870 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:33:26.899 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:48:31.802 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:48:34.900 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:49:10.241 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:50:27.822 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:50:54.630 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:50:58.591 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:52:37.592 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:52:39.425 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:53:10.729 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:53:13.331 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:53:33.337 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:53:36.587 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:53:36.595 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET name = Paulo Cotta, cpf = 117.254.147-74, idade = 33 WHERE cpf = '117.254.147.74'
+2020-07-17 14:53:43.799 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET name = Paulo Cotta, cpf = 117.254.147-74, idade = 33 WHERE cpf = '117.254.147.74'
+2020-07-17 14:54:17.086 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:54:32.268 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:54:41.111 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:54:46.779 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:54:48.999 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:54:49.007 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET name = 'Paulo Cotta', cpf = '117.254.147-74', idade = 33 WHERE cpf = '117.254.147.74'
+2020-07-17 14:54:57.733 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:55:09.755 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:55:12.747 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:55:12.757 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET name = 'Paulo Cotta', cpf = '117.254.147-74', idade = 33 WHERE cpf = '117.254.147.74'
+2020-07-17 14:55:20.765 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 14:55:22.025 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 14:55:22.034 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET name = 'Paulo Cotta', cpf = '117.254.147-74', idade = 33 WHERE cpf = '117.254.147.74'
+2020-07-17 14:55:32.238 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET name = 'Paulo Cotta', cpf = '117.254.147-74', idade = 34 WHERE cpf = '117.254.147.74'
+2020-07-17 14:56:09.823 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name IN(SELECT name FROM user WHERE name = 'Paulo Cotta') OR cpf IN(SELECT cpf FROM user WHERE cpf = '117.254.147-74') OR idade IN(SELECT idade FROM user WHERE idade = 34)
+2020-07-17 14:56:25.753 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name IN(SELECT name FROM user WHERE name = 'Paulo Cotta') AND cpf IN(SELECT cpf FROM user WHERE cpf = '117.254.147-74') AND idade IN(SELECT idade FROM user WHERE idade = 34)
+2020-07-17 14:56:31.259 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name=ANY(SELECT name FROM user) AND cpf=ANY(SELECT cpf FROM user) AND idade=ANY(SELECT idade FROM user)
+2020-07-17 14:56:52.885 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user
+2020-07-17 14:57:35.761 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-17 14:58:12.287 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Paulo Cotta', '117.254.147-74', 34)
+2020-07-17 14:58:16.565 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-17 14:58:24.388 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Paulo Cotta', '117.254.147-74', 34)
+2020-07-17 14:58:26.217 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-17 14:58:43.638 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Paulo Cotta', '117.584.147-74', 34)
+2020-07-17 14:58:45.376 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-17 14:59:16.435 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET name = 'Paulo Cotta', cpf = '117.584.147-74', idade = 50 WHERE cpf = '117.254.147.74'
+2020-07-17 14:59:19.562 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-17 15:00:04.582 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 15:00:05.480 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 15:01:48.650 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-17 15:01:49.639 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-17 15:01:49.649 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET name = 'Paulo Cotta', cpf = '117.584.147-74', idade = 50 WHERE cpf = '117.254.147.74'
+2020-07-17 15:01:53.499 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-17 15:02:11.247 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 09:37:56.481 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 09:37:56.777 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 09:38:12.009 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 09:38:12.022 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 09:38:24.030 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Paulo Cotta', '117.584.147-74', 34)
+2020-07-18 09:38:28.946 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 09:38:45.038 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 09:40:13.616 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 09:40:14.975 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 09:40:14.985 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET name = 'Paulo Cotta', cpf = '117.584.147-74', idade = 50 WHERE cpf = '117.254.147.74'
+2020-07-18 09:40:19.716 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 09:47:07.997 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET name = 'Paulo Cotta', cpf = '117.584.147-74', idade = 50 WHERE cpf = '117.254.147-74'
+2020-07-18 09:47:10.973 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 09:47:52.003 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Sara Selis', '117.584.147-74', 34)
+2020-07-18 09:48:12.292 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Diego Crassus', '117.584.367-22', 26)
+2020-07-18 09:48:15.884 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 09:48:41.038 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET idade = 27 WHERE cpf = '117.254.147-74'
+2020-07-18 09:48:43.964 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 09:48:49.191 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 09:49:00.916 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET idade = 27 WHERE cpf = '117.584.367-22'
+2020-07-18 09:49:07.478 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 09:51:30.460 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 09:52:08.847 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 09:53:03.667 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 09:53:33.836 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 09:53:35.342 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 09:54:04.863 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 09:54:07.899 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 09:54:07.906 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE cpf IN(SELECT cpf FROM user WHERE cpf = '117.584.367-22')
+2020-07-18 09:54:58.126 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 09:55:38.693 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 09:55:47.526 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 09:55:50.221 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 09:55:50.229 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- DELETE cpf FROM user WHERE cpf IN(SELECT cpf FROM user WHERE cpf = '117.584.367-22')
+2020-07-18 14:58:53.524 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 14:58:53.685 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 15:38:07.217 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 15:38:07.373 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 15:38:34.142 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 15:39:37.416 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 15:39:38.616 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 15:40:02.075 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 15:40:05.325 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 15:40:06.542 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 15:40:20.903 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 15:40:21.727 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 15:40:50.420 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 15:40:51.615 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 15:40:54.870 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 15:40:56.213 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 15:40:56.218 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- DELETE FROM user WHERE cpf IN('117.584.367-22')
+2020-07-18 15:41:23.923 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name=ANY(SELECT name FROM user) AND cpf=ANY(SELECT cpf FROM user) AND idade=ANY(SELECT idade FROM user)
+2020-07-18 15:41:30.354 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Diego Crassus', '117.584.367-22', 26)
+2020-07-18 15:41:32.942 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET idade = 27 WHERE cpf = '117.584.367-22'
+2020-07-18 15:41:36.390 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name=ANY(SELECT name FROM user) AND cpf=ANY(SELECT cpf FROM user) AND idade=ANY(SELECT idade FROM user)
+2020-07-18 15:42:09.544 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- DELETE FROM user WHERE idade IN(20)
+2020-07-18 15:42:11.032 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name=ANY(SELECT name FROM user) AND cpf=ANY(SELECT cpf FROM user) AND idade=ANY(SELECT idade FROM user)
+2020-07-18 15:42:14.449 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Diego Crassus', '117.584.367-22', 26)
+2020-07-18 15:42:21.071 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name=ANY(SELECT name FROM user) AND cpf=ANY(SELECT cpf FROM user) AND idade=ANY(SELECT idade FROM user)
+2020-07-18 15:42:28.066 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Diego Crassus', '117.584.367-22', 20)
+2020-07-18 15:42:30.478 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name=ANY(SELECT name FROM user) AND cpf=ANY(SELECT cpf FROM user) AND idade=ANY(SELECT idade FROM user)
+2020-07-18 15:42:33.339 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- DELETE FROM user WHERE idade IN(20)
+2020-07-18 15:42:34.926 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT name, cpf, idade FROM user WHERE name=ANY(SELECT name FROM user) AND cpf=ANY(SELECT cpf FROM user) AND idade=ANY(SELECT idade FROM user)
+2020-07-18 15:43:57.584 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 15:45:18.467 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Astolfo Matias', '111.222.333-44', 105)
+2020-07-18 15:45:37.811 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- DELETE FROM user WHERE idade IN([20])
+2020-07-18 15:48:28.532 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 15:53:44.829 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 15:54:13.278 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 15:58:14.772 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 16:07:03.452 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 16:07:17.826 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 16:10:10.732 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 16:21:35.583 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 16:22:16.182 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 16:22:18.397 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 16:22:24.016 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 16:22:59.971 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 16:23:01.489 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 16:23:01.495 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- DELETE FROM user WHERE idade IN(20)
+2020-07-18 16:23:14.625 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- DELETE FROM user WHERE idade IN(20, 70)
+2020-07-18 16:26:47.336 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 16:26:51.593 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 16:27:31.243 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 16:27:31.249 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET name = 'Astolfo Matias', cpf = '111.222.333-44', idade = 105 WHERE cpf = '117.254.147.74'
+2020-07-18 16:27:37.834 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 16:28:25.800 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 16:28:35.826 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 16:28:35.831 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 16:28:35.851 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET idade = 27 WHERE cpf = '117.584.367-22'
+2020-07-18 16:28:35.852 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Astolfo Matias', '111.222.333-44', 105)
+2020-07-18 16:28:46.553 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 16:28:55.191 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Astolfo Matias', '111.222.333-44', 105)
+2020-07-18 16:28:57.370 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Astolfo Matias', '111.222.333-44', 105)
+2020-07-18 16:29:00.438 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 16:29:23.612 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 16:29:33.637 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 16:30:04.333 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET name = 'Astolfo Matias', cpf = '111.222.333-44', idade = 105 WHERE cpf = '117.254.147.74'
+2020-07-18 16:31:36.819 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Astolfo Matias', '111.222.333-44', 105)
+2020-07-18 16:31:39.644 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET idade = 27 WHERE cpf = '117.584.367-22'
+2020-07-18 16:34:01.435 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 16:34:01.604 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 16:34:05.452 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 16:34:05.457 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 16:34:21.414 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- DELETE FROM user WHERE idade IN(20, 70)
+2020-07-18 16:34:22.647 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 16:34:49.345 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Astolfo Matias', '111.222.333-44', 105)
+2020-07-18 16:34:50.946 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 16:34:53.837 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- DELETE FROM user WHERE idade IN(20, 70)
+2020-07-18 16:34:56.905 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 16:35:20.575 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Romario Santana', '111.222.333-43', 22)
+2020-07-18 17:12:33.369 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 17:12:40.267 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- DELETE FROM user WHERE idade IN(20, 70)
+2020-07-18 17:12:43.238 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 17:13:06.978 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Romario Alberto', '111.222.333-43', 20)
+2020-07-18 17:13:08.403 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 17:13:14.150 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- DELETE FROM user WHERE idade IN(20, 70)
+2020-07-18 17:13:16.773 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 18:07:10.158 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:07:14.431 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:07:52.017 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:07:55.284 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:08:11.404 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 18:10:20.943 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:10:24.069 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 18:10:36.315 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:10:37.277 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 18:10:37.283 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES name, cpf, idade
+2020-07-18 18:11:29.951 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:11:34.939 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 18:11:34.946 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES 'Romario Alberto', '111.222.333-43', 20
+2020-07-18 18:13:29.329 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:13:32.215 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 18:13:32.220 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES 'Romario Alberto', '111.222.333-43', 20
+2020-07-18 18:23:22.776 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:23:25.615 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 18:23:25.621 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ("'Romario Alberto'", "'111.222.333-43'", 20)
+2020-07-18 18:23:43.135 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Romario Alberto', '111.222.333-43', 20), ('Rogerio Fragoso', '211.222.333-43', 31)
+2020-07-18 18:23:51.724 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 18:27:23.455 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:27:23.611 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:27:44.036 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:27:48.298 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:27:51.550 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:27:55.810 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:33:05.005 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:33:24.971 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:33:25.127 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:37:00.567 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:38:03.368 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:38:05.602 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:38:31.063 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:38:49.486 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:39:19.012 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:39:20.256 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 18:39:20.262 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Romario Alberto', '111.222.333-43', 20), ('Rogerio Fragoso', '211.222.333-43', 31)
+2020-07-18 18:40:00.594 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:40:23.013 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:40:24.243 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:42:17.439 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:46:20.846 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:46:27.101 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:46:37.380 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:47:40.076 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:47:54.731 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- user:root	host:localhost	password:quasar	database:bd
+2020-07-18 18:47:54.736 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- DELETE FROM user WHERE idade IN(20, 70)
+2020-07-18 18:48:10.632 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:48:17.923 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:49:00.601 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:49:52.382 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:50:20.875 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:50:37.238 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:50:45.522 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:50:56.821 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:51:16.929 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- DELETE FROM user WHERE idade IN(20, 70)
+2020-07-18 18:51:23.160 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 18:54:56.010 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:55:01.700 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Romario Alberto', '111.222.333-43', 20), ('Rogerio Fragoso', '211.222.333-43', 31)
+2020-07-18 18:55:58.983 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:56:09.336 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 18:56:19.383 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Romario Alberto', '111.222.333-43', 20), ('Rogerio Fragoso', '211.222.333-43', 31)
+2020-07-18 19:00:09.653 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:03:17.724 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:03:25.030 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:03:32.282 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:06:19.980 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:09:20.996 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:09:24.256 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:09:38.624 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:10:12.221 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:10:37.716 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:10:41.958 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:25:02.103 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:25:02.264 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:25:07.687 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-18 19:26:37.347 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:28:56.750 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:33:01.740 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:33:01.897 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:33:22.362 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:33:37.756 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:33:49.066 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:33:52.292 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:33:57.246 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-18 19:34:00.302 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-18 19:34:25.861 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:34:35.887 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-18 19:34:44.015 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-18 19:34:44.019 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Successful connection.
+2020-07-18 19:34:44.020 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM usser
+2020-07-18 19:38:35.350 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:39:01.889 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:39:10.164 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:39:11.399 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:39:17.658 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:39:55.259 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:40:32.871 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:40:50.243 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:41:00.575 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:41:24.036 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:42:22.696 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:42:25.914 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:42:32.159 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:42:35.133 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-18 19:42:35.139 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Successful connection.
+2020-07-18 19:42:35.139 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM usser
+2020-07-18 19:42:45.007 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-18 19:42:56.603 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:43:01.857 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:43:02.836 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-18 19:43:13.195 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:43:14.109 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-18 19:46:08.660 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-18 19:46:08.664 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Successful connection.
+2020-07-18 19:46:08.664 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 19:46:27.755 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO user (name, cpf, idade) VALUES ('Romario Alberto', '111.222.333-43', 20), ('Rogerio Fragoso', '211.222.333-43', 31)
+2020-07-18 19:46:29.304 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 19:46:42.188 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM usser
+2020-07-18 19:49:30.791 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:57:07.830 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:58:11.680 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:58:15.779 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-18 19:58:15.785 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Successful connection.
+2020-07-18 19:58:15.786 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM usser
+2020-07-18 19:58:27.066 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:58:28.769 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-18 19:58:28.776 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Successful connection.
+2020-07-18 19:58:28.777 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM usser
+2020-07-18 19:58:41.698 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 19:58:59.637 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:59:25.137 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:59:26.349 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 19:59:40.696 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 20:00:06.136 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 20:00:38.703 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 20:00:41.969 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 20:00:44.203 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 20:00:50.442 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-18 20:00:51.657 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-18 20:00:51.663 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Successful connection.
+2020-07-18 20:00:51.664 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-18 20:00:59.997 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- INSERT INTO uer (name, cpf, idade) VALUES ('Romario Alberto', '111.222.333-43', 20), ('Rogerio Fragoso', '211.222.333-43', 31)
+2020-07-18 20:01:05.598 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE uer SET idade = 27 WHERE cpf = '117.584.367-22'
+2020-07-18 20:01:08.474 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- UPDATE user SET idade = 27 WHERE cpf = '117.584.367-22'
+2020-07-27 20:08:40.041 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5000/api
+2020-07-27 20:08:50.465 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:08:50.615 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:09:01.818 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-27 20:09:43.450 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-27 20:09:44.928 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-27 20:09:46.197 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-27 20:10:56.142 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:11:04.451 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:11:05.681 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:11:12.968 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:11:20.537 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-27 20:11:33.393 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:12:03.042 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-27 20:12:04.623 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-27 20:12:18.962 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:12:21.016 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Connecting to the database.
+2020-07-27 20:12:35.319 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:12:52.654 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:13:10.980 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:13:38.387 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:13:40.228 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:15:03.267 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:15:03.272 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Successful connection.
+2020-07-27 20:15:03.273 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM user
+2020-07-27 20:15:14.633 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- SELECT * FROM uer
+2020-07-27 20:15:59.425 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:16:05.507 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:16:06.434 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:16:07.445 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:16:08.353 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:16:09.761 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:16:19.578 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:16:24.927 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:16:26.743 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:17:24.653 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:17:57.198 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:17:59.406 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:18:02.360 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:18:02.367 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
+2020-07-27 20:22:20.574 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:25:09.217 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:25:09.372 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:26:31.802 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:26:31.808 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
+2020-07-27 20:27:07.152 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:27:07.155 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
+2020-07-27 20:33:31.257 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:33:31.407 | DEBUG    | __main__:main:39 - [+] --- starting at: 0.0.0.0:5002/api
+2020-07-27 20:33:45.469 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:33:45.477 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
+2020-07-27 20:34:57.380 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:34:57.384 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
+2020-07-27 20:35:30.763 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:35:30.767 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
+2020-07-27 20:42:31.071 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:42:31.074 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
+2020-07-27 20:42:41.215 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:42:41.219 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
+2020-07-27 20:54:57.315 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:54:57.319 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
+2020-07-27 20:54:59.376 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:54:59.379 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
+2020-07-27 20:55:56.248 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:55:56.252 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
+2020-07-27 20:58:55.929 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 20:58:55.933 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
+2020-07-27 21:00:02.908 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 21:00:02.911 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
+2020-07-27 21:03:34.499 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 21:03:34.504 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
+2020-07-27 21:05:41.522 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 21:05:41.525 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
+2020-07-27 21:07:52.372 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 21:07:52.375 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
+2020-07-27 21:08:17.356 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 21:08:17.360 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
+2020-07-27 21:08:39.747 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Debug: Creating new connection.
+2020-07-27 21:08:39.750 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 127.0.0.1 --- Exception: Failed to try to connect to the database.
