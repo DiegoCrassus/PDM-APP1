@@ -5,6 +5,11 @@
 
     </style>
 
+    <style name="CarrosselTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">?attr/colorPrimaryVariant</item>
+
+    </style>
+
     <style name="Widget.MaterialComponents.Button.OutlinedButton.PrimaryButton">
         <item name="cornerRadius">8dp</item>
         <item name="android:paddingTop">16dp</item>
