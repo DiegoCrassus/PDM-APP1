@@ -1,4 +1,4 @@
-package br.com.PDM
+package br.com.pdm
 
 class RecoNote {
 }

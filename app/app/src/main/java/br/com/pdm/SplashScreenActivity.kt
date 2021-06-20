@@ -1,10 +1,11 @@
-package br.com.PDM
+package br.com.pdm
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import br.com.pdm.R
 import kotlinx.android.synthetic.main.activity_splash_screen.*
 
 import kotlinx.coroutines.delay

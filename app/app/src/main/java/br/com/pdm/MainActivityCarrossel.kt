@@ -1,4 +1,4 @@
-package br.com.PDM
+package br.com.pdm
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,6 +10,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.size
 import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager.widget.ViewPager
+import br.com.pdm.R
 import kotlinx.android.synthetic.main.activity_main_carrossel.*
 import kotlinx.android.synthetic.main.tip_content.view.*
 import java.lang.Math.abs

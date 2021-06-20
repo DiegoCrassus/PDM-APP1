@@ -1,27 +1,29 @@
-package br.com.PDM
+package br.com.pdm
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import br.com.pdm.R
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.fragment_main.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btInfos.setOnClickListener {
-            startActivity(Intent(this, MainActivityCarrossel::class.java))
-        }
-
-        btnLogin.setOnClickListener {
-            startActivity(Intent(this, signIn::class.java))
-        }
-
-        btnCadastro.setOnClickListener {
-            startActivity(Intent(this, signUp::class.java))
-        }
+//        btInfos.setOnClickListener {
+//            startActivity(Intent(this, MainActivityCarrossel::class.java))
+//        }
+//
+////        btnLogin.setOnClickListener {
+////            startActivity(Intent(this, signIn::class.java))
+////        }
+//
+//        btnCadastro.setOnClickListener {
+//            startActivity(Intent(this, signUp::class.java))
+//        }
     }
 
 //    override fun onStart() {
