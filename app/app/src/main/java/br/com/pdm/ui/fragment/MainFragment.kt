@@ -23,6 +23,10 @@ class MainFragment : Fragment() {
         findNavController().navigate(R.id.action_mainFragment_to_cadastroFragment)
     }
 
+    fun irParaHome(v: View) {
+        findNavController().navigate(R.id.action_loginFragment_to_homeFragment)
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

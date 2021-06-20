@@ -5,25 +5,20 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.fragment.findNavController
 import br.com.pdm.R
-import br.com.pdm.databinding.FragmentLoginBinding
+import br.com.pdm.databinding.FragmentCadastroBinding
+import br.com.pdm.databinding.FragmentHomeBinding
 
 
-class LoginFragment : Fragment() {
+class HomeFragment : Fragment() {
 
-    private lateinit var binding: FragmentLoginBinding
-
-    fun irParaHome(v: View) {
-        findNavController().navigate(R.id.action_loginFragment_to_homeFragment)
-    }
+    private lateinit var binding: FragmentHomeBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
-        binding = FragmentLoginBinding.inflate(inflater, container, false)
+        binding = FragmentHomeBinding.inflate(inflater, container, false)
 
         // o código é a própria classe
         binding.codigoFragmento = this

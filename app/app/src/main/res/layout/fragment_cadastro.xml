@@ -104,6 +104,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
             android:text="@string/cadastrar"
+            android:onClick="@{codigoFragmento::irCadastroPMain}"
             app:layout_constraintStart_toEndOf="@+id/btnTakePicture"
             app:layout_constraintTop_toTopOf="@+id/guideline" />
 

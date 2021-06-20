@@ -71,6 +71,7 @@
             android:layout_height="wrap_content"
             android:text="@string/continuar"
             app:layout_constraintEnd_toEndOf="parent"
+            android:onClick="@{codigoFragmento::irParaHome}"
             app:layout_constraintStart_toEndOf="@+id/btnTakePictureLogin"
             app:layout_constraintTop_toTopOf="@+id/guideline6" />
 

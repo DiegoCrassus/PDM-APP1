@@ -24,6 +24,9 @@
             android:name="br.com.pdm.ui.fragment.LoginFragment"
             android:label="fragment_login"
             tools:layout="@layout/fragment_login" >
+                <action
+                    android:id="@+id/action_loginFragment_to_homeFragment"
+                    app:destination="@id/homeFragment" />
         </fragment>
 
         <fragment
@@ -31,6 +34,16 @@
             android:name="br.com.pdm.ui.fragment.CadastroFragment"
             android:label="fragment_cadastro"
             tools:layout="@layout/fragment_cadastro" >
+                <action
+                    android:id="@+id/action_cadastroFragment_to_mainFragment2"
+                    app:destination="@id/mainFragment" />
+        </fragment>
+
+        <fragment
+            android:id="@+id/homeFragment"
+            android:name="br.com.pdm.ui.fragment.HomeFragment"
+            android:label="fragment_home"
+            tools:layout="@layout/fragment_home" >
         </fragment>
 
 </navigation>

@@ -15,9 +15,9 @@ class CadastroFragment : Fragment() {
 
     private lateinit var binding: FragmentCadastroBinding
 
-//    fun irParaLogin(v: View) {
-//        findNavController().navigate(R.id.action_mainFragment_to_loginFragment)
-//    }
+    fun irCadastroPMain(v: View) {
+        findNavController().navigate(R.id.action_cadastroFragment_to_mainFragment2)
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
