@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="br.com.PDM">
+    package="br.com.pdm">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -16,6 +16,7 @@
         android:theme="@style/Theme.MyApplication"
         android:usesCleartextTraffic="true"
         tools:targetApi="n">
+        <activity android:name=".MainActivityCarrossel"></activity>
         <activity
             android:name=".SplashScreenActivity"
             android:theme="@style/SplashScreenTheme">
@@ -27,7 +28,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="br.com.PDM.fileprovider"
+            android:authorities="br.com.pdm.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -40,9 +41,7 @@
         <activity android:name=".homeActivity" />
         <activity android:name=".signIn" />
         <activity android:name=".signUp" />
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name="br.com.pdm.MainActivity"></activity>
     </application>
 
 </manifest>

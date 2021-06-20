@@ -1,4 +1,4 @@
-package br.com.PDM
+package br.com.pdm
 
 import android.app.Activity
 import android.content.Intent
@@ -19,6 +19,7 @@ import kotlinx.android.synthetic.main.activity_sign_up.*
 import java.io.File
 import java.io.ByteArrayOutputStream
 import android.os.StrictMode
+import br.com.pdm.R
 import org.json.*
 import java.util.Timer
 import kotlin.concurrent.schedule
@@ -44,7 +45,7 @@ class signUp : AppCompatActivity() {
             val takePictureIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
             photoFile = getPhotoFile(FILE_NAME)
 
-            val fileProvider = FileProvider.getUriForFile(this, "br.com.PDM.fileprovider", photoFile)
+            val fileProvider = FileProvider.getUriForFile(this, "br.com.pdm.fileprovider", photoFile)
             takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, fileProvider)
             if (takePictureIntent.resolveActivity(this.packageManager) != null) {
                 startActivityForResult(takePictureIntent, REQUEST_CODE)

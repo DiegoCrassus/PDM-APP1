@@ -1,4 +1,4 @@
-package br.com.PDM
+package br.com.pdm
 
 import android.app.Activity
 import android.content.Intent
@@ -14,6 +14,7 @@ import android.widget.Toast
 import androidx.core.content.FileProvider
 import java.io.File
 import android.os.StrictMode
+import br.com.pdm.R
 import kotlinx.android.synthetic.main.activity_sign_in.*
 import org.json.JSONObject
 
@@ -37,7 +38,7 @@ class signIn : AppCompatActivity() {
             val takePictureIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
             photoFile = getPhotoFile(FILE_NAME)
 
-            val fileProvider = FileProvider.getUriForFile(this, "br.com.PDM.fileprovider", photoFile)
+            val fileProvider = FileProvider.getUriForFile(this, "br.com.pdm.fileprovider", photoFile)
             takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, fileProvider)
             if (takePictureIntent.resolveActivity(this.packageManager) != null) {
                 startActivityForResult(takePictureIntent, REQUEST_CODE)

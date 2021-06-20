@@ -20,7 +20,6 @@
 
         <item name="primaryButtonStyle">@style/Widget.MaterialComponents.Button.OutlinedButton.PrimaryButton</item>
         <item name="secondaryButtonStyle">@style/Widget.MaterialComponents.Button.OutlinedButton.SecondaryButton</item>
-<!--        <item name="textAppearanceButton">@style/TextAppearance.MaterialComponents.Button.BaseButton</item>-->
     </style>
 
 

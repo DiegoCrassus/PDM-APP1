@@ -1,4 +1,4 @@
-package br.com.PDM
+package br.com.pdm
 
 import android.util.Log
 import okhttp3.*

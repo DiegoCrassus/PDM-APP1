@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="codigoFragmento"
+            type="br.com.pdm.MainActivityCarrossel" />
+
+    </data>
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivityCarrossel">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/view_dots"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_alignParentBottom="true" >
+
+            <Button
+                android:id="@+id/btBack"
+                style="?primaryButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="@string/menuCarrosssel"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/dots"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="2.8"
+                android:layout_width="match_parent"
+                android:layout_height="56dp" />
+
+            <Button
+                android:id="@+id/btNext"
+                style="?primaryButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="@string/proxCarrosssel"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>
+
