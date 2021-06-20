@@ -1,16 +1,19 @@
 package br.com.pdm
 
-import androidx.appcompat.app.AppCompatActivity
+import android.app.PendingIntent.getActivity
+import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.size
 import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager.widget.ViewPager
-import br.com.pdm.R
+import br.com.pdm.ui.fragment.MainFragment
 import kotlinx.android.synthetic.main.activity_main_carrossel.*
 import kotlinx.android.synthetic.main.tip_content.view.*
 import java.lang.Math.abs
@@ -38,7 +41,6 @@ class MainActivityCarrossel : AppCompatActivity() {
             Tip("3 - Aepnas um texto qualquer para testar ",
                 "3 - is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it",
                 R.drawable.logo_ok, R.drawable.syd2)
-
         )
 
         addDots(tips.size)
@@ -70,13 +72,16 @@ class MainActivityCarrossel : AppCompatActivity() {
 
         next.setOnClickListener{
             if (view_pager.currentItem == view_pager.size)
-                Toast.makeText(this, "Colocar a actityvt sei la", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Retorne ao menu principal para realizar cadastro ou login", Toast.LENGTH_LONG).show()
             view_pager.setCurrentItem(view_pager.currentItem + 1, true)
         }
 
         back.setOnClickListener{
             if (view_pager.currentItem == view_pager.size)
-                Toast.makeText(this, "Colocar a actityvt para voltar", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Retornando ao menu principal...", Toast.LENGTH_LONG).show()
+                val intent=Intent(this@MainActivityCarrossel, br.com.pdm.ui.fragment.MainFragment::class.java)
+                startActivity(intent)
+
             view_pager.setCurrentItem(view_pager.currentItem - 1, true)
         }
     }

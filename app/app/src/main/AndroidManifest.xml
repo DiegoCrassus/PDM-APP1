@@ -41,7 +41,7 @@
         <activity android:name=".home" />
         <activity android:name=".signIn" />
         <activity android:name=".signUp" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name="br.com.pdm.MainActivity"></activity>
     </application>
 
 </manifest>
