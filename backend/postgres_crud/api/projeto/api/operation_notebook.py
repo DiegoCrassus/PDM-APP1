@@ -45,13 +45,14 @@ class GetDatabases(Resource):
         """
         parser = reqparse.RequestParser()
         parser.add_argument('email', type=str, required=True, help="This field 'email' cannot be left blank")
-        parser.add_argument('texto', type=str, required=False, help="This field 'text' cannot be left blank")
         parser.add_argument('titulo', type=str, required=False, help="This field 'title' cannot be left blank")
         requset_data = parser.parse_args()
+        request_data_body = request.request.get_json()
 
         try:
+
             response = create_notebook(requset_data["email"], 
-                                       requset_data["texto"],
+                                       request_data_body["texto"],
                                        requset_data["titulo"])
 
         except ConnectionError as error:
@@ -93,14 +94,14 @@ class GetDatabases(Resource):
         parser.add_argument('email', type=str, required=True, help="This field 'email' cannot be left blank")
         parser.add_argument('id_notebook', type=str, required=True, help="This field 'id_notebook' cannot be left blank")
         parser.add_argument('titulo', type=str, required=False, help="This field 'title' cannot be left blank")
-        parser.add_argument('texto', type=str, required=False, help="This field 'text' cannot be left blank")
         requset_data = parser.parse_args()
+        request_data_body = request.request.get_json()
 
         try:
             response = update_notebook(requset_data["email"], 
                                        requset_data["id_notebook"],
                                        requset_data["titulo"],
-                                       requset_data["texto"])
+                                       request_data_body["texto"])
 
         except ConnectionError as error:
             return objResponse.send_exception(error, Message.ERROR_NOT_CONNECTED)

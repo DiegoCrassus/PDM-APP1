@@ -83,7 +83,7 @@ class PostsCollection(Resource):
         if "messages" in response:
             return response
 
-        return jsonify(response)
+        return response
 
 
 @ns.route('/train')
@@ -159,10 +159,10 @@ class UseFaceRecognition(Resource):
         bound_box = detection_response["bounding_box"]
 
         predictions = predict_face_recognition(faces, user_id, bound_box)
-        objLogger.debug("{}".format(predictions))
+        objLogger.debug("Predict: {}".format(predictions))
 
         payload = {"email": user_id}
-        mongo_response = requests.get("http://{}:9003/api/pdm/POC".format(settings.IP), json=payload).json()
+        mongo_response = requests.get("http://{}:9003/api/PDM/app".format(settings.IP), json=payload).json()
         objLogger.debug("{}".format(mongo_response))
         
 

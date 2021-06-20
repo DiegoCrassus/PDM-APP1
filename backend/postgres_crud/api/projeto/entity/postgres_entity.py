@@ -115,7 +115,7 @@ class Postgres:
         """
         Faz a conexão com o banco de dados.
         """
-        objLogger.debug("INICIANDO A CONEXÃO COM O BANCO DE DADOS.")
+        objLogger.debug("INICIANDO A CONEXAO COM O BANCO DE DADOS.")
         self.connection = psycopg2.connect(host=self.host, database=self.database, user=self.user, password=self.password)
         self.connection.autocommit = True
     
@@ -123,7 +123,7 @@ class Postgres:
         """
         Fecha a conexão com o banco de dados.
         """
-        objLogger.debug("FINALZIANDO A CONEXÃO COM O BANCO DE DADOS.")
+        objLogger.debug("FINALZIANDO A CONEXAO COM O BANCO DE DADOS.")
         self.connection.close()
 
 

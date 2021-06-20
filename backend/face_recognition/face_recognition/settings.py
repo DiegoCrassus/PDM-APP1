@@ -12,7 +12,7 @@ RESTPLUS_MASK_SWAGGER = False
 RESTPLUS_ERROR_404_HELP = False
 
 MIN_FACE = 3
-IP = os.environ.get("IP", "13.68.183.62") # IP AZURE
+IP = os.environ.get("IP", "192.168.101.3") # IP AZURE
 MONGO_DATABASE = os.environ.get("MONGO_DATABASE", "pdm_recognition")
 MONGO_POC_COLLECTION = os.environ.get("MONGO_POC_COLLECTION", "PDM")
 MONGO_ID = os.environ.get("MONGO_ID", "root")
