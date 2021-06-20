@@ -17,6 +17,9 @@
                 <action
                     android:id="@+id/action_mainFragment_to_cadastroFragment"
                     app:destination="@id/cadastroFragment" />
+                <action
+                    android:id="@+id/action_mainFragment_to_carrosselActivity"
+                    app:destination="@id/carrosselActivity" />
         </fragment>
 
         <fragment
@@ -45,6 +48,13 @@
             android:label="fragment_home"
             tools:layout="@layout/fragment_home" >
         </fragment>
+
+        <activity
+            android:id="@+id/carrosselActivity"
+            android:name="br.com.pdm.MainActivityCarrossel"
+            android:label="activity_carrossel"
+            tools:layout="@layout/activity_main_carrossel" >
+        </activity>
 
 </navigation>
 

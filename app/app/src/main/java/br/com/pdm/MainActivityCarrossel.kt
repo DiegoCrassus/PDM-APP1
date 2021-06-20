@@ -23,6 +23,8 @@ class MainActivityCarrossel : AppCompatActivity() {
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
 
         setContentView(R.layout.activity_main_carrossel)
+//        setContentView(new SampleView(this));
+
 
         val tips = arrayOf(
             Tip("1 - Aepnas um texto qualquer para testar ",
@@ -107,9 +109,6 @@ class MainActivityCarrossel : AppCompatActivity() {
                 view.background = ContextCompat.getDrawable(this@MainActivityCarrossel, background)
 
             }
-
-
-
 
             container.addView(view)
 

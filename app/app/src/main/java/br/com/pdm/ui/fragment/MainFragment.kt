@@ -27,6 +27,10 @@ class MainFragment : Fragment() {
         findNavController().navigate(R.id.action_loginFragment_to_homeFragment)
     }
 
+    fun irParaCarrossel(v: View) {
+        findNavController().navigate(R.id.action_mainFragment_to_carrosselActivity)
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

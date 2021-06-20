@@ -56,6 +56,7 @@
 
         <Button
             android:id="@+id/btInfos"
+            android:onClick="@{codigoFragmento::irParaCarrossel}"
             style="?primaryButtonStyle"
             android:layout_width="94dp"
             android:layout_height="59dp"
