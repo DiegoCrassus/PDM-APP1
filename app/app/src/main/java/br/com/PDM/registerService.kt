@@ -5,10 +5,10 @@ import okhttp3.*
 import org.json.*
 
 // Endpoints na azure
-private const val RECOGNITION_USE = "http://13.68.183.62:9002/api/recognition/use"
-private const val RECOGNITION_TRAIN = "http://13.68.183.62:9002/api/recognition/train"
-private const val DETECTION = "http://13.68.183.62:9001/api/detection/"
-private const val EMAIL_CHECK = "http://13.68.183.62:9003/api/pdm/POC"
+private const val RECOGNITION_USE = "http://192.168.101.3:9002/api/recognition/use"
+private const val RECOGNITION_TRAIN = "http://192.168.101.3:9002/api/recognition/train"
+private const val DETECTION = "http://192.168.101.3:9001/api/detection/"
+private const val EMAIL_CHECK = "http://192.168.101.3:9003/api/PDM/app"
 // Endpoints local
 //private const val RECOGNITION_USE = "http://192.168.0.61:9002/api/recognition/use"
 //private const val RECOGNITION_TRAIN = "http://192.168.0.61:9002/api/recognition/train"
@@ -49,7 +49,7 @@ fun faceRecognitionRegister (name: String, email: String, listPayload: List<Stri
     }
 }
 
-fun faceRecognition (email: String, faceSelfie: String): Boolean? {
+fun faceRecognition (email: String, faceSelfie: String): JSONObject? {
 
     val jsonObj = JSONObject()
     jsonObj.put("user_id", email)
@@ -67,10 +67,23 @@ fun faceRecognition (email: String, faceSelfie: String): Boolean? {
     Log.d("Request", "request created at $RECOGNITION_USE")
     val response = client.newCall(request).execute()
     Log.d("lengthBody", response.body()?.contentLength().toString())
-    val bodyFaceRecognition = response.peekBody(response.body()!!.contentLength()).string()
-    val namesObj = JSONObject(bodyFaceRecognition).get("names") as JSONObject
-    Log.d("names", namesObj.toString())
-    return JSONObject(bodyFaceRecognition).get("recognised") as Boolean?
+    try {
+        val bodyFaceRecognition = response.peekBody(response.body()!!.contentLength()).string()
+        val namesObj = JSONObject(bodyFaceRecognition).get("names") as JSONObject
+        Log.d("names", namesObj.get("0").toString())
+        val jsonName = namesObj.get("0") as JSONObject
+        val jsonArrayName = jsonName.get("names") as JSONArray
+        val name = jsonArrayName.get(0)
+        val recognition = JSONObject()
+        recognition.put("name", name)
+        recognition.put("error", false)
+        recognition.put("recognised", JSONObject(bodyFaceRecognition).get("recognised") as Boolean?)
+        return recognition
+    } catch (e: java.net.ProtocolException) {
+        val recognition = JSONObject()
+        recognition.put("error", true)
+        return recognition
+    }
 }
 
 fun faceDetect (imageB64:String): Boolean? {
@@ -131,6 +144,9 @@ fun validateEmail (email:String): Boolean? {
         }
         valid
     } catch (e: java.net.ProtocolException) {
+        true
+    }  catch (e: org.json.JSONException) {
+        Log.d("ERROR", "Backend fail!")
         true
     }
 }

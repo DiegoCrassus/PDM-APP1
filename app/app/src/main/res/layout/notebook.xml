@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".notebookActivity">
 
     <EditText
         android:id="@+id/titleNotebook"
@@ -39,9 +40,12 @@
         android:scrollbars="vertical"
         android:scrollHorizontally="false"
         android:text="@string/digite_aqui"
+        android:textAlignment="center"
         android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleNotebook" />
 
@@ -51,6 +55,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
+        android:backgroundTint="#DF2424"
+        android:backgroundTintMode="src_in"
         android:contentDescription="@string/cancel"
         app:layout_constraintEnd_toStartOf="@+id/btnNotebookAccept"
         app:layout_constraintStart_toEndOf="@+id/titleNotebook"
@@ -63,6 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
+        android:backgroundTint="#2FD610"
         android:contentDescription="@string/accept_and_create"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnNotebookCancel"

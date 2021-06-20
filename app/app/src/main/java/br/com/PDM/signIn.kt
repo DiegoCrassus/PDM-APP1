@@ -15,6 +15,7 @@ import androidx.core.content.FileProvider
 import java.io.File
 import android.os.StrictMode
 import kotlinx.android.synthetic.main.activity_sign_in.*
+import org.json.JSONObject
 
 
 private const val FILE_NAME = "photo.jpg"
@@ -52,13 +53,27 @@ class signIn : AppCompatActivity() {
                 if (validEmail == true) {
 
                     if (faceSelfie!!.isNotEmpty()) {
-                        val recognition: Boolean? = faceRecognition(email!!, faceSelfie!!)
-
-                        Log.d("recognition", recognition.toString())
-                        if (recognition!!) {
-                            startActivity(Intent(this, home::class.java))
-                        } else {
+                        val recognitionObj = faceRecognition(email!!, faceSelfie!!) as JSONObject
+                        val error = recognitionObj.get("error") as Boolean
+                        if (error) {
                             Toast.makeText(this@signIn, "Falha na autenticação, tente novamente!", Toast.LENGTH_SHORT).show()
+                        } else {
+                            val recognition: Boolean? = recognitionObj.get("recognised") as Boolean
+                            val name: String? = recognitionObj.get("name") as String
+
+                            Log.d("recognition", recognition.toString())
+                            if (recognition!!) {
+                                val login = Intent(this, homeActivity::class.java)
+                                login.putExtra("name", name)
+                                login.putExtra("email", email)
+                                startActivity(login)
+                            } else {
+                                Toast.makeText(
+                                    this@signIn,
+                                    "Falha na autenticação, tente novamente!",
+                                    Toast.LENGTH_SHORT
+                                ).show()
+                            }
                         }
 
                     } else {
@@ -94,6 +109,7 @@ class signIn : AppCompatActivity() {
 
         })
     }
+
     private fun getPhotoFile(fileName: String): File {
         val storageDirectory = getExternalFilesDir(Environment.DIRECTORY_PICTURES)
         return File.createTempFile(fileName, ".jpg", storageDirectory)

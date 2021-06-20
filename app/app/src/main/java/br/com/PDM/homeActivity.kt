@@ -19,7 +19,7 @@ import kotlinx.android.synthetic.main.activity_home.*
 import org.json.JSONArray
 import org.json.JSONObject
 
-class home: AppCompatActivity() {
+class homeActivity: AppCompatActivity() {
     private val notebookList = ArrayList<NotebookModel>()
     private lateinit var notebookAdapter: NotebookAdapter
 
@@ -32,20 +32,20 @@ class home: AppCompatActivity() {
         Log.d("name", name.toString())
 
         GlobalScope.launch(Dispatchers.IO) {
-            val create = validateUser(email)
+            val create: Boolean = validateUser(email)
             if (create) {
                 createUserNotebook(email, name)
             }
 
-            getAllNotebooks(email, null)
+//            getAllNotebooks(email, null)
         }
 
-//        btnAddNotebook.setOnClickListener {
-//            val login = Intent(this, notebook::class.java)
-//            login.putExtra("name", name)
-//            login.putExtra("email", email)
-//            startActivity(login)
-//        }
+        btnAddNotebook.setOnClickListener {
+            val notebook = Intent(this, notebookActivity::class.java)
+            notebook.putExtra("name", name)
+            notebook.putExtra("email", email)
+            startActivity(notebook)
+        }
 
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
         notebookAdapter = NotebookAdapter(notebookList)
@@ -80,10 +80,6 @@ class home: AppCompatActivity() {
         Log.d("Debug", "Creating user on notebook database.")
         email?.let { name?.let { it1 -> createUser(it, it1) } }
     }
-
-
-
-
 
     internal class NotebookAdapter(private var notebookList: List<NotebookModel>) :
         RecyclerView.Adapter<NotebookAdapter.MyViewHolder>() {

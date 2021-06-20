@@ -5,6 +5,8 @@
     android:layout_height="100dp"
     android:layout_margin="8dp"
     app:cardBackgroundColor="@android:color/holo_red_dark">
+
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,21 +16,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_toStartOf="@+id/year"
             android:textColor="@android:color/white"
             android:textSize="16sp"
             android:textStyle="bold" />
         <TextView
-            android:id="@+id/year"
+            android:id="@+id/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:textColor="@android:color/white" />
-        <TextView
-            android:id="@+id/genre"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:textColor="@android:color/white" />
+
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

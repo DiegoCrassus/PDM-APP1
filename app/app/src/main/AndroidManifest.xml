@@ -21,7 +21,6 @@
             android:theme="@style/SplashScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -37,7 +36,8 @@
         </provider>
 
         <activity android:name=".wellcome" />
-        <activity android:name=".home" />
+        <activity android:name=".notebookActivity" />
+        <activity android:name=".homeActivity" />
         <activity android:name=".signIn" />
         <activity android:name=".signUp" />
         <activity android:name=".MainActivity">
