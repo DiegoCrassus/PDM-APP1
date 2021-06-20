@@ -36,10 +36,7 @@ class MainFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentMainBinding.inflate(inflater, container, false)
-
-        // o código é a própria classe
         binding.codigoFragmento = this
-        // o código define o ciclo de vida do fragmento
         binding.lifecycleOwner = this
 
         return binding.root

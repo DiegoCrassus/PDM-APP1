@@ -7,9 +7,7 @@
         <variable
             name="codigoFragmento"
             type="br.com.pdm.ui.fragment.CadastroFragment" />
-
     </data>
-
 
     <androidx.constraintlayout.widget.ConstraintLayout
 
@@ -20,8 +18,9 @@
 
         <Button
             android:id="@+id/btnTakePicture"
+            style="?primaryButtonStyle"
             android:layout_width="wrap_content"
-            android:layout_height="48dp"
+            android:layout_height="wrap_content"
             android:text="@string/tirar_foto"
             app:layout_constraintStart_toStartOf="@+id/guideline2"
             app:layout_constraintTop_toTopOf="@+id/guideline" />
@@ -72,7 +71,7 @@
             app:layout_constraintGuide_begin="35dp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/ttCadastroTitulo"
             style="@style/StyleTitulos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -89,7 +88,7 @@
             app:layout_constraintGuide_begin="50dp" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/ttCadastroCorpo"
             style="@style/StyleCorpos"
             android:layout_width="212dp"
             android:layout_height="93dp"
@@ -100,11 +99,12 @@
 
         <Button
             android:id="@+id/btnSend"
+            style="?primaryButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
-            android:text="@string/cadastrar"
             android:onClick="@{codigoFragmento::irCadastroPMain}"
+            android:text="@string/cadastrar"
             app:layout_constraintStart_toEndOf="@+id/btnTakePicture"
             app:layout_constraintTop_toTopOf="@+id/guideline" />
 
@@ -113,6 +113,7 @@
             style="@style/StyleBoxes"
             android:layout_width="312dp"
             android:layout_height="42dp"
+            android:layout_marginBottom="132dp"
             android:ems="15"
             android:hint="@string/email"
             android:importantForAutofill="no"
@@ -136,6 +137,5 @@
             app:layout_constraintTop_toBottomOf="@+id/textFieldEmail" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </layout>
 

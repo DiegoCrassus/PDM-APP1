@@ -29,12 +29,12 @@
             android:layout_alignParentBottom="true" >
 
             <Button
-                android:id="@+id/back"
+                android:id="@+id/btBack"
                 style="?primaryButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.2"
-                android:text="Menu"
+                android:text="@string/menuCarrosssel"
                 android:textSize="12sp" />
 
             <LinearLayout
@@ -47,16 +47,15 @@
                 android:layout_height="56dp" />
 
             <Button
-                android:id="@+id/next"
+                android:id="@+id/btNext"
                 style="?primaryButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.2"
-                android:text="Próximo"
+                android:text="@string/proxCarrosssel"
                 android:textSize="12sp" />
 
         </LinearLayout>
-
     </RelativeLayout>
 </layout>
 

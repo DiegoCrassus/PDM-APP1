@@ -24,16 +24,11 @@ class MainActivityCarrossel : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
-
         setContentView(R.layout.activity_main_carrossel)
-//        setContentView(new SampleView(this));
-
 
         val tips = arrayOf(
             Tip(R.drawable.dica1),
-
             Tip(R.drawable.dica2),
-
             Tip(R.drawable.dica3)
         )
 
@@ -46,31 +41,27 @@ class MainActivityCarrossel : AppCompatActivity() {
             page.translationX = -position * page.width
         }
 
-
         view_pager.addOnPageChangeListener(object: ViewPager.OnPageChangeListener{
-            override fun onPageScrollStateChanged(state: Int) {
-
-            }
+            override fun onPageScrollStateChanged(state: Int) {}
 
             override fun onPageScrolled(
                 position: Int,
                 positionOffset: Float,
                 positionOffsetPixels: Int
-            ) {
-            }
+            ) {}
 
             override fun onPageSelected(position: Int) {
                 addDots(tips.size, position)
             }
         })
 
-        next.setOnClickListener{
+        btNext.setOnClickListener{
             if (view_pager.currentItem == view_pager.size)
                 Toast.makeText(this, "Retorne ao menu principal para realizar cadastro ou login", Toast.LENGTH_LONG).show()
             view_pager.setCurrentItem(view_pager.currentItem + 1, true)
         }
 
-        back.setOnClickListener{
+        btBack.setOnClickListener{
             if (view_pager.currentItem == view_pager.size)
                 Toast.makeText(this, "Retornando ao menu principal...", Toast.LENGTH_LONG).show()
                 val intent=Intent(this@MainActivityCarrossel, br.com.pdm.ui.fragment.MainFragment::class.java)
@@ -90,21 +81,16 @@ class MainActivityCarrossel : AppCompatActivity() {
                     if (position == it) ContextCompat.getColor(baseContext, android.R.color.white)
                     else ContextCompat.getColor(baseContext, android.R.color.darker_gray)
                 )
-
             }
             dots.addView(textView)
         }
     }
 
     private inner class OnboardingAdapter (val tips: Array<Tip>) : PagerAdapter(){
-
         override fun instantiateItem(container: ViewGroup, position: Int): Any {
             val view = layoutInflater.inflate(R.layout.tip_content, container, false)
 
             with(tips[position]){
-//                view.tip_title.text = title
-//                view.tip_subtitle.text = subtitle
-//                view.tip_logo.setImageResource(logo)
                 view.background = ContextCompat.getDrawable(this@MainActivityCarrossel, background)
 
             }
