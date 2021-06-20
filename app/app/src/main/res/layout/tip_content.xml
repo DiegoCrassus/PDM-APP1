@@ -3,41 +3,4 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/d2">
-
-    <ImageView
-        android:id="@+id/tip_logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:src="@drawable/logo_ok" />
-
-    <TextView
-        android:id="@+id/tip_title"
-        android:layout_below="@id/tip_logo"
-        tools:text="Aepnas um texto qualquer para testar"
-        android:textSize="16sp"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:id="@+id/tip_subtitle"
-        android:layout_below="@id/tip_title"
-        tools:text="Aepnas um texto qualquer para testar asdfasdfasdf aaaa"
-        android:textSize="14sp"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content" />
-
-</RelativeLayout>
+    android:background="@drawable/d2"/>

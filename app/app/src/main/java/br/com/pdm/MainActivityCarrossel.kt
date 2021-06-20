@@ -30,17 +30,11 @@ class MainActivityCarrossel : AppCompatActivity() {
 
 
         val tips = arrayOf(
-            Tip("1 - Aepnas um texto qualquer para testar ",
-                "2 - is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it",
-                R.drawable.logo_ok, R.drawable.syd3),
+            Tip(R.drawable.dica1),
 
-            Tip("2 - Aepnas um texto qualquer para testar ",
-                "2 - is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it",
-                R.drawable.logo_ok, R.drawable.syd1),
+            Tip(R.drawable.dica2),
 
-            Tip("3 - Aepnas um texto qualquer para testar ",
-                "3 - is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it",
-                R.drawable.logo_ok, R.drawable.syd2)
+            Tip(R.drawable.dica3)
         )
 
         addDots(tips.size)
@@ -108,9 +102,9 @@ class MainActivityCarrossel : AppCompatActivity() {
             val view = layoutInflater.inflate(R.layout.tip_content, container, false)
 
             with(tips[position]){
-                view.tip_title.text = title
-                view.tip_subtitle.text = subtitle
-                view.tip_logo.setImageResource(logo)
+//                view.tip_title.text = title
+//                view.tip_subtitle.text = subtitle
+//                view.tip_logo.setImageResource(logo)
                 view.background = ContextCompat.getDrawable(this@MainActivityCarrossel, background)
 
             }
