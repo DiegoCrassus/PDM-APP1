@@ -18,16 +18,14 @@
     <string name="default_user">User</string>
     <string name="loginTitle">Login</string>
     <string name="ttDescWelcome">Nosso app protege suas informações usando reconhecimento facial! Ainda estamos em desenvolvimento...</string>
-
     <string name="ttWelcome">Seja bem-vindo(a)!</string>
-
     <string name="title_first_fragment">é um aplicativo de notas com inteligência artificial</string>
     <string name="title_second_fragment">O aplicativo reconhece sua face e só você pode acessar suas notas</string>
     <string name="button_acess">Acessar</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="submit">createNew</string>
     <string name="titulo">Titulo</string>
-    <string name="digite_aqui">Digite aqui.</string>
+    <string name="digite_aqui">  Digite aqui.</string>
     <string name="aceitar">aceitar</string>
     <string name="cancelar">cancelar</string>
     <string name="accept_and_create">accept and create</string>

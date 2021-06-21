@@ -8,9 +8,15 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import br.com.pdm.R
 import br.com.pdm.databinding.FragmentLoginBinding
+import java.io.File
 
+private const val FILE_NAME = "photo.jpg"
+private const val REQUEST_CODE = 42
+private lateinit var photoFile: File
 
 class LoginFragment : Fragment() {
+    private var faceSelfie: String? = ""
+    private var email: String? = null
 
     private lateinit var binding: FragmentLoginBinding
 
