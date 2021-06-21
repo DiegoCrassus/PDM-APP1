@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bege"
+    android:backgroundTint="#0F00BCD4"
     tools:context=".homeActivity">
 
     <TextView
@@ -46,8 +47,21 @@
         android:layout_margin="16dp"
         android:contentDescription="@string/submit"
         android:src="@drawable/ic_baseline_add_24"
+        android:tint="@android:color/white"
+        app:backgroundTint="#00BCD4"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnReload"
+        android:layout_width="66dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#00FFFFFF"
+        android:tint="#00BCD4"
         app:layout_constraintEnd_toEndOf="parent"
-        android:tint="@android:color/white"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_replay_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

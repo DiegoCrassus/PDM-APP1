@@ -28,12 +28,12 @@ fun selectNotebook (email: String?, id_notebook: Int?): String? {
     }
 
     val request = Request.Builder()
+            .header("Connection","close")
             .url(url)
             .build()
 
     Log.d("Request", "request created at $url")
     val response = client.newCall(request).execute()
-    Log.d("lengthBody", response.body()?.contentLength().toString())
     return response.body()?.string()
 }
 
@@ -45,14 +45,13 @@ fun createNotebook (email: String, title: String, text: String): Boolean? {
     val url = "$NOTEBOOK?email=$email&titulo=$title"
 
     val request = Request.Builder()
+        .header("Connection","close")
         .method("POST", payload)
         .url(url)
         .build()
 
     Log.d("Request", "request created at $url")
-    val response = client.newCall(request).execute()
-    Log.d("lengthBody", response.body()?.contentLength().toString())
-    Log.d("response", response.toString())
+    client.newCall(request).execute()
     return true
 }
 
@@ -64,14 +63,13 @@ fun updateNotebook (email: String, id_notebook: Int?, title: String?, text: Stri
     val url = "$NOTEBOOK?email=$email&id_notebook=$id_notebook&titulo=$title"
 
     val request = Request.Builder()
+        .header("Connection","close")
         .method("PUT", payload)
         .url(url)
         .build()
 
     Log.d("Request", "request created at $url")
-    val response = client.newCall(request).execute()
-    Log.d("lengthBody", response.body()?.contentLength().toString())
-    Log.d("response", response.toString())
+    client.newCall(request).execute()
 }
 
 fun deleteNotebook (email: String, id_notebook: Int) {
@@ -79,14 +77,13 @@ fun deleteNotebook (email: String, id_notebook: Int) {
     val url = "$NOTEBOOK?email=$email&id_notebook=$id_notebook"
 
     val request = Request.Builder()
+        .header("Connection","close")
         .method("DELETE", null)
         .url(url)
         .build()
 
     Log.d("Request", "request created at $url")
-    val response = client.newCall(request).execute()
-    Log.d("lengthBody", response.body()?.contentLength().toString())
-    Log.d("response", response.toString())
+    client.newCall(request).execute()
 }
 
 fun selectUser (email: String): String? {
@@ -94,12 +91,12 @@ fun selectUser (email: String): String? {
     val url = "$USER?email=$email"
 
     val request = Request.Builder()
+        .header("Connection","close")
         .url(url)
         .build()
 
     Log.d("Request", "request created at $url")
     val response = client.newCall(request).execute()
-    Log.d("lengthBody", response.body()?.contentLength().toString())
     return response.body()?.string()
 }
 
@@ -110,12 +107,11 @@ fun createUser (email: String, name: String) {
     val url = "$USER?email=$email&nome=$name"
 
     val request = Request.Builder()
+        .header("Connection","close")
         .method("POST", payload)
         .url(url)
         .build()
 
     Log.d("Request", "request created at $url")
-    val response = client.newCall(request).execute()
-    Log.d("lengthBody", response.body()?.contentLength().toString())
-    Log.d("response", response.toString())
+    client.newCall(request).execute()
 }
