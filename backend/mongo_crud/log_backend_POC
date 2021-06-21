@@ -2204,3 +2204,1767 @@ Content-Type: application/json
 2021-06-20 20:36:43.678 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
 2021-06-20 20:36:43.678 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
 2021-06-20 20:36:43.679 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-20 20:43:17.035 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-20 20:43:17.037 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-20 20:43:17.039 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-20 20:43:17.050 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-20 20:43:17.051 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-20 20:43:17.052 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-20 20:43:20.673 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-20 20:43:20.673 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-20 20:43:20.675 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-20 20:43:20.684 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-20 20:43:20.685 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-20 20:43:20.686 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-20 20:45:27.387 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-20 20:45:27.387 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-20 20:45:27.389 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-20 20:45:27.398 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-20 20:45:27.398 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-20 20:45:27.399 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-20 20:45:29.069 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-20 20:45:29.069 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-20 20:45:29.071 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-20 20:45:29.080 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-20 20:45:29.081 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-20 20:45:29.082 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-20 20:56:11.921 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-20 20:56:11.921 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-20 20:56:11.923 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-20 20:56:11.931 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-20 20:56:11.932 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-20 20:56:11.933 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-20 20:56:13.196 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-20 20:56:13.197 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-20 20:56:13.198 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-20 20:56:13.206 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-20 20:56:13.207 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-20 20:56:13.208 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-20 21:03:03.408 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-20 21:03:03.408 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-20 21:03:03.418 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-20 21:03:03.427 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-20 21:03:03.427 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-20 21:03:03.428 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-20 21:03:05.186 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-20 21:03:05.187 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-20 21:03:05.188 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-20 21:03:05.197 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-20 21:03:05.197 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-20 21:03:05.198 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-20 21:05:50.575 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-20 21:05:50.575 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-20 21:05:50.577 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-20 21:05:50.585 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-20 21:05:50.585 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-20 21:05:50.586 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-20 21:05:51.819 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-20 21:05:51.819 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-20 21:05:51.820 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-20 21:05:51.829 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-20 21:05:51.830 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-20 21:05:51.831 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-20 21:06:51.739 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-20 21:06:51.740 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-20 21:06:51.741 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-20 21:06:51.750 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-20 21:06:51.751 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-20 21:06:51.752 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-20 21:06:52.937 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-20 21:06:52.938 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-20 21:06:52.939 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-20 21:06:52.948 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-20 21:06:52.948 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-20 21:06:52.949 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-20 21:06:55.705 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-20 21:06:55.705 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-20 21:06:55.707 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-20 21:06:55.716 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-20 21:06:55.717 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-20 21:06:55.718 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-20 21:06:56.910 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-20 21:06:56.911 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-20 21:06:56.912 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-20 21:06:56.921 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-20 21:06:56.921 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-20 21:06:56.922 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-20 21:11:54.736 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-20 21:11:54.737 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-20 21:11:54.738 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-20 21:11:54.747 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-20 21:11:54.747 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-20 21:11:54.748 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-20 21:11:55.973 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-20 21:11:55.974 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-20 21:11:55.975 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-20 21:11:55.983 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-20 21:11:55.984 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-20 21:11:55.985 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 02:46:56.003 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 02:46:56.017 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 02:46:56.019 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 02:46:56.032 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 02:46:56.033 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 02:46:56.034 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 02:47:30.969 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 02:47:30.970 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 02:47:30.971 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 02:47:30.979 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 02:47:30.980 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 02:47:30.980 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 02:47:32.259 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 02:47:32.260 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 02:47:32.261 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 02:47:32.270 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 02:47:32.271 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 02:47:32.272 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 02:49:28.181 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 02:49:28.183 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 02:49:28.185 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 02:49:28.195 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 02:49:28.196 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 02:49:28.197 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 02:49:30.018 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 02:49:30.019 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 02:49:30.020 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 02:49:30.029 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 02:49:30.029 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 02:49:30.030 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 02:55:22.947 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 02:55:22.947 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 02:55:22.948 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 02:55:22.957 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 02:55:22.958 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 02:55:22.959 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 02:55:24.723 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 02:55:24.724 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 02:55:24.726 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 02:55:24.735 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 02:55:24.736 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 02:55:24.737 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 02:57:55.392 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 02:57:55.392 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 02:57:55.394 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 02:57:55.402 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 02:57:55.403 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 02:57:55.404 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 02:57:57.208 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 02:57:57.208 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 02:57:57.210 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 02:57:57.218 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 02:57:57.219 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 02:57:57.220 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 03:00:33.388 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 03:00:33.388 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 03:00:33.398 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 03:00:33.408 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 03:00:33.408 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 03:00:33.409 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 03:00:34.625 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 03:00:34.626 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 03:00:34.627 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 03:00:34.635 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 03:00:34.636 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 03:00:34.637 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 03:05:44.557 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 03:05:44.558 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 03:05:44.559 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 03:05:44.568 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 03:05:44.569 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 03:05:44.570 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 03:05:45.961 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 03:05:45.961 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 03:05:45.963 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 03:05:45.971 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 03:05:45.972 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 03:05:45.973 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:08:08.489 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:08:08.528 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 12:08:08.529 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:08:08.541 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:08:08.542 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:08:08.543 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:08:09.880 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:08:09.881 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 12:08:09.882 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:08:09.892 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:08:09.893 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:08:09.894 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:09:55.152 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:09:55.152 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 12:09:55.154 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:09:55.163 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:09:55.163 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:09:55.164 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:09:56.516 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:09:56.517 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 12:09:56.518 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:09:56.528 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:09:56.529 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:09:56.530 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:17:58.741 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:17:58.741 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 12:17:58.743 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:17:58.752 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:17:58.752 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:17:58.753 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:18:00.469 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:18:00.470 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 12:18:00.471 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:18:00.479 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:18:00.479 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:18:00.480 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:24:36.747 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:24:36.747 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: Diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 12:24:36.757 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:24:36.764 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- []
+2021-06-21 12:24:36.764 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:24:36.765 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:24:43.984 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:24:43.984 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 12:24:43.986 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:24:43.994 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:24:43.995 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:24:43.996 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:24:45.324 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:24:45.324 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 12:24:45.326 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:24:45.336 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:24:45.337 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:24:45.337 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:26:19.439 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:26:19.440 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 12:26:19.441 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:26:19.449 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:26:19.449 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:26:19.450 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:26:20.609 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:26:20.609 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 12:26:20.610 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:26:20.618 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:26:20.618 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:26:20.619 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:27:34.639 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:27:34.640 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 12:27:34.641 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:27:34.649 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:27:34.650 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:27:34.650 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:27:35.781 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:27:35.782 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 12:27:35.783 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:27:35.792 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:27:35.793 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:27:35.794 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:28:18.907 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:28:18.908 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 12:28:18.909 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:28:18.917 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:28:18.918 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:28:18.919 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:28:20.098 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:28:20.099 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 12:28:20.100 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:28:20.108 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:28:20.109 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:28:20.109 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:45:13.249 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:45:13.249 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 12:45:13.250 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:45:13.259 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:45:13.259 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:45:13.260 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:45:14.550 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:45:14.550 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 12:45:14.552 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:45:14.560 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:45:14.560 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:45:14.562 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:46:34.338 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:46:34.339 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 12:46:34.340 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:46:34.349 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:46:34.349 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:46:34.350 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:46:43.709 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:46:43.709 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 12:46:43.711 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:46:43.719 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:46:43.719 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:46:43.720 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 12:46:44.878 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 12:46:44.879 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 12:46:44.880 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 12:46:44.887 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 12:46:44.888 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 12:46:44.889 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 13:01:13.357 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 13:01:13.358 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 13:01:13.359 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 13:01:13.367 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 13:01:13.367 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 13:01:13.368 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 13:01:14.585 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 13:01:14.586 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 13:01:14.587 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 13:01:14.595 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 13:01:14.596 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 13:01:14.597 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 13:02:20.343 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 13:02:20.343 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 13:02:20.345 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 13:02:20.353 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 13:02:20.353 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 13:02:20.355 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 13:02:21.542 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 13:02:21.543 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 13:02:21.544 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 13:02:21.553 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 13:02:21.553 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 13:02:21.554 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 13:02:24.577 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 13:02:24.578 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 13:02:24.579 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 13:02:24.587 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 13:02:24.588 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 13:02:24.589 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 13:02:25.791 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 13:02:25.791 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 13:02:25.793 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 13:02:25.801 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 13:02:25.802 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 13:02:25.803 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 13:04:35.127 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 13:04:35.127 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 13:04:35.129 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 13:04:35.137 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 13:04:35.137 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 13:04:35.138 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 13:04:36.330 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 13:04:36.330 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 13:04:36.332 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 13:04:36.339 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 13:04:36.340 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 13:04:36.341 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 13:05:40.758 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 13:05:40.759 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 13:05:40.760 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 13:05:40.768 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 13:05:40.769 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 13:05:40.770 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 13:05:41.912 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 13:05:41.912 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 13:05:41.914 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 13:05:41.922 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 13:05:41.922 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 13:05:41.923 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 13:06:39.523 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 13:06:39.523 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 13:06:39.525 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 13:06:39.533 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 13:06:39.534 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 13:06:39.535 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 13:06:40.884 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 13:06:40.884 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 13:06:40.885 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 13:06:40.894 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 13:06:40.894 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 13:06:40.895 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 13:10:18.785 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 13:10:18.785 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 13:10:18.787 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 13:10:18.795 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 13:10:18.796 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 13:10:18.796 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 13:10:20.035 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 13:10:20.036 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 13:10:20.037 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 13:10:20.045 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 13:10:20.046 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 13:10:20.047 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 13:11:20.687 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 13:11:20.688 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 13:11:20.690 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 13:11:20.698 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 13:11:20.699 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 13:11:20.700 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 13:11:21.981 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 13:11:21.982 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 13:11:21.984 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 13:11:21.992 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 13:11:21.993 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 13:11:21.993 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:02:00.409 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:02:00.409 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 14:02:00.411 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:02:00.420 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:02:00.420 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:02:00.421 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:02:01.681 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:02:01.681 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 14:02:01.682 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:02:01.690 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:02:01.691 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:02:01.692 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:02:04.871 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:02:04.871 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 14:02:04.873 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:02:04.882 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:02:04.882 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:02:04.883 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:02:06.069 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:02:06.070 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 14:02:06.071 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:02:06.079 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:02:06.079 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:02:06.080 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:02:11.977 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:02:11.978 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 14:02:11.980 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:02:11.988 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:02:11.988 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:02:11.989 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:02:13.142 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:02:13.143 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 14:02:13.144 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:02:13.152 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:02:13.152 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:02:13.153 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:03:26.533 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:03:26.534 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 14:03:26.535 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:03:26.542 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:03:26.543 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:03:26.544 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:03:27.798 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:03:27.798 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 14:03:27.800 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:03:27.808 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:03:27.809 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:03:27.810 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:08:46.939 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:08:46.940 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 14:08:46.941 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:08:46.950 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:08:46.951 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:08:46.951 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:08:48.109 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:08:48.110 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 14:08:48.111 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:08:48.120 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:08:48.120 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:08:48.121 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:29:17.652 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:29:17.653 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 14:29:17.655 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:29:17.663 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:29:17.663 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:29:17.664 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:29:19.298 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:29:19.299 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 14:29:19.300 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:29:19.308 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:29:19.309 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:29:19.310 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:47:59.378 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:47:59.379 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 14:47:59.380 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:47:59.389 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:47:59.389 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:47:59.390 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:48:00.685 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:48:00.686 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 14:48:00.687 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:48:00.695 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:48:00.696 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:48:00.697 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:51:54.607 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:51:54.608 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 14:51:54.609 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:51:54.619 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:51:54.620 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:51:54.621 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:51:55.886 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:51:55.887 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 14:51:55.889 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:51:55.897 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:51:55.897 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:51:55.898 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:53:58.814 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:53:58.814 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 14:53:58.816 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:53:58.824 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:53:58.825 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:53:58.826 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 14:54:00.105 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 14:54:00.105 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 14:54:00.107 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 14:54:00.116 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 14:54:00.116 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 14:54:00.117 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:09:24.159 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:09:24.159 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 15:09:24.161 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:09:24.169 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:09:24.170 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:09:24.170 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:09:25.893 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:09:25.893 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 15:09:25.895 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:09:25.903 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:09:25.904 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:09:25.904 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:12:09.436 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:12:09.436 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 15:12:09.438 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:12:09.446 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:12:09.446 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:12:09.447 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:12:10.641 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:12:10.641 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 15:12:10.643 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:12:10.652 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:12:10.652 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:12:10.653 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:15:18.327 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:15:18.327 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 15:15:18.328 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:15:18.337 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:15:18.338 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:15:18.339 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:15:19.622 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:15:19.622 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 15:15:19.624 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:15:19.632 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:15:19.632 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:15:19.633 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:15:49.651 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:15:49.651 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 15:15:49.652 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:15:49.660 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:15:49.661 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:15:49.662 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:15:59.897 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:15:59.898 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 15:15:59.899 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:15:59.908 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:15:59.909 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:15:59.910 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:16:01.608 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:16:01.609 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 15:16:01.610 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:16:01.619 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:16:01.620 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:16:01.621 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:18:22.768 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:18:22.769 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 15:18:22.770 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:18:22.778 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:18:22.779 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:18:22.780 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:18:24.084 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:18:24.085 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 15:18:24.086 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:18:24.094 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:18:24.095 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:18:24.096 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:19:25.722 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:19:25.722 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 15:19:25.724 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:19:25.732 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:19:25.732 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:19:25.734 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:19:27.034 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:19:27.035 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 15:19:27.036 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:19:27.045 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:19:27.046 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:19:27.047 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:20:25.711 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:20:25.712 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 15:20:25.714 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:20:25.721 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:20:25.722 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:20:25.723 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:20:27.020 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:20:27.020 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 15:20:27.022 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:20:27.030 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:20:27.031 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:20:27.032 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:23:06.284 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:23:06.285 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 15:23:06.286 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:23:06.295 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:23:06.295 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:23:06.296 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:23:07.398 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:23:07.399 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 15:23:07.400 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:23:07.408 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:23:07.409 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:23:07.410 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:24:23.910 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:24:23.910 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 15:24:23.912 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:24:23.921 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:24:23.921 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:24:23.922 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:24:25.103 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:24:25.103 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 15:24:25.105 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:24:25.113 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:24:25.114 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:24:25.115 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:37:24.168 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:37:24.169 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 15:37:24.170 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:37:24.178 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:37:24.179 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:37:24.180 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:37:25.964 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:37:25.965 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 15:37:25.966 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:37:25.974 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:37:25.974 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:37:25.975 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:39:44.882 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:39:44.883 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 15:39:44.884 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:39:44.893 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:39:44.893 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:39:44.894 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:39:46.627 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:39:46.628 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 15:39:46.629 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:39:46.637 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:39:46.637 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:39:46.638 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:41:35.926 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:41:35.927 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 15:41:35.928 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:41:35.936 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:41:35.937 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:41:35.937 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:41:37.038 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:41:37.039 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 15:41:37.040 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:41:37.048 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:41:37.049 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:41:37.050 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:42:58.773 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:42:58.774 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 15:42:58.775 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:42:58.784 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:42:58.784 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:42:58.785 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 15:43:00.410 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 15:43:00.411 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 15:43:00.412 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 15:43:00.422 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 15:43:00.422 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 15:43:00.423 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 17:19:22.536 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 17:19:22.536 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 17:19:22.538 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 17:19:22.547 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 17:19:22.548 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 17:19:22.549 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 17:19:23.826 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 17:19:23.826 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 17:19:23.827 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 17:19:23.835 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 17:19:23.836 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 17:19:23.837 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 17:20:02.316 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 17:20:02.317 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 17:20:02.318 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 17:20:02.326 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 17:20:02.327 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 17:20:02.327 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 17:20:03.538 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 17:20:03.539 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 17:20:03.540 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 17:20:03.549 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 17:20:03.549 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 17:20:03.550 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 17:20:58.637 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 17:20:58.638 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 17:20:58.639 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 17:20:58.647 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 17:20:58.648 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 17:20:58.649 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 17:21:00.244 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 17:21:00.244 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 17:21:00.245 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 17:21:00.254 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 17:21:00.255 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 17:21:00.256 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 17:22:33.423 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 17:22:33.424 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 17:22:33.425 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 17:22:33.434 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 17:22:33.434 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 17:22:33.435 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 17:22:35.087 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 17:22:35.088 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 17:22:35.089 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 17:22:35.097 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 17:22:35.097 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 17:22:35.098 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 17:24:15.989 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 17:24:15.990 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 17:24:15.991 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 17:24:16.001 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 17:24:16.001 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 17:24:16.003 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 17:24:17.727 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 17:24:17.728 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 17:24:17.729 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 17:24:17.737 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 17:24:17.738 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 17:24:17.739 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 17:26:17.176 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 17:26:17.177 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 17:26:17.178 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 17:26:17.187 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 17:26:17.187 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 17:26:17.188 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 17:26:18.360 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 17:26:18.360 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 17:26:18.362 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 17:26:18.370 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 17:26:18.371 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 17:26:18.371 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 17:28:31.317 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 17:28:31.317 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 17:28:31.319 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 17:28:31.328 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 17:28:31.328 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 17:28:31.329 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 17:28:32.600 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 17:28:32.601 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 17:28:32.602 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 17:28:32.611 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 17:28:32.611 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 17:28:32.612 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 17:34:50.127 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 17:34:50.128 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- User-Agent: OkHttp Headers.java
+Accept: application/json
+Content-Type: application/json
+Connection: close
+Email: diegocrassus@gmail.com
+Host: 192.168.101.3:9003
+Accept-Encoding: gzip
+
+
+2021-06-21 17:34:50.130 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 17:34:50.138 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 17:34:50.138 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 17:34:50.139 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.
+2021-06-21 17:34:52.354 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Request recebida.
+2021-06-21 17:34:52.354 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Host: 192.168.101.3:9003
+User-Agent: python-requests/2.21.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 35
+Content-Type: application/json
+
+
+2021-06-21 17:34:52.356 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection established.
+2021-06-21 17:34:52.364 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- [{'user': 'teste@teste.ck', 'name': 'teste'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}, {'user': 'diegocrassus@gmail.com', 'name': 'Diego'}]
+2021-06-21 17:34:52.364 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- Connection closed.
+2021-06-21 17:34:52.365 | SUCCESS  | projeto.utils.Logger:success:27 - [-] - 172.20.0.1 --- Success: response received successfully.

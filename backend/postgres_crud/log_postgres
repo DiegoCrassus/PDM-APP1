@@ -368,3 +368,826 @@
 2021-06-20 20:36:46.826 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
 2021-06-20 20:36:46.834 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
 2021-06-20 20:36:46.837 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 20:43:12.314 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-20 20:43:12.867 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-20 20:43:20.951 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 20:43:20.960 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-20 20:43:20.963 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 20:45:29.336 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 20:45:29.343 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-20 20:45:29.345 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 20:56:13.465 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 20:56:13.473 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-20 20:56:13.475 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:03:05.426 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:03:05.434 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-20 21:03:05.437 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:05:52.085 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:05:52.092 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-20 21:05:52.094 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:06:57.159 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:06:57.166 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-20 21:06:57.170 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:08:32.334 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-20 21:09:06.469 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-20 21:09:08.532 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:09:08.538 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', 'Dinossaaaaaaaura
+', 'Teste')
+2021-06-20 21:09:08.551 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:10:12.220 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:10:12.227 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', 'Dinossaaaaaaaura
+', 'Teste2')
+2021-06-20 21:10:12.231 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:10:23.801 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:10:23.808 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', 'Dinossaaaaaaaura
+oxi', 'Teste2')
+2021-06-20 21:10:23.819 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:11:56.280 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:11:56.288 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-20 21:11:56.292 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:12:04.487 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:12:04.494 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', 'testeeeeeeee 1', '')
+2021-06-20 21:12:04.498 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:12:04.549 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:12:04.556 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-20 21:12:04.559 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:14:30.581 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-20 21:15:02.309 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:15:02.316 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', '', 'teste2')
+2021-06-20 21:15:02.328 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:15:02.364 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:15:02.371 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-20 21:15:02.374 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:15:29.036 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-20 21:15:29.051 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:15:29.060 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-20 21:15:29.063 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:15:43.817 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:15:43.825 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-20 21:15:43.827 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:16:44.944 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-20 21:16:51.019 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-20 21:16:58.261 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:16:58.268 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', 'teste1', 'teste2')
+2021-06-20 21:16:58.272 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:16:58.309 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:16:58.317 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-20 21:16:58.321 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:17:10.591 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:17:10.598 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', 'teste', '')
+2021-06-20 21:17:10.610 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:17:10.650 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:17:10.755 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-20 21:17:10.758 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:17:16.929 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:17:16.936 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', '', 'tetete')
+2021-06-20 21:17:16.948 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:17:16.978 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-20 21:17:16.985 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-20 21:17:16.988 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:46:55.555 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-21 02:46:56.235 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-21 02:47:32.341 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:47:32.361 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 02:47:32.386 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:47:32.399 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:47:32.412 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com' AND id_notebook=null
+2021-06-21 02:47:32.421 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:48:54.904 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-21 02:48:55.687 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-21 02:49:30.174 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:49:30.182 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 02:49:30.185 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:49:30.209 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:49:30.217 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com' AND id_notebook=null
+2021-06-21 02:49:30.218 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:51:27.397 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:51:27.406 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 02:51:27.407 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:55:24.997 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:55:25.004 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 02:55:25.007 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:55:25.027 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:55:25.035 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 02:55:25.036 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:57:57.447 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:57:57.454 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 02:57:57.456 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:57:57.476 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 02:57:57.486 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 02:57:57.486 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 03:00:34.864 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 03:00:34.872 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 03:00:34.875 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 03:00:34.897 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 03:00:34.908 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 03:00:34.908 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 03:05:46.206 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 03:05:46.215 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 03:05:46.218 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 03:05:46.249 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 03:05:46.259 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 03:05:46.259 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:07:11.624 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-21 12:07:12.249 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-21 12:08:10.155 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:08:10.175 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:08:10.195 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:08:10.243 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:08:10.258 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:08:10.258 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:09:56.853 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:09:56.862 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:09:56.864 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:09:56.895 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:09:56.904 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:09:56.905 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:18:00.758 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:18:00.765 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:18:00.767 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:18:00.787 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:18:00.796 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:18:00.796 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:24:45.603 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:24:45.610 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:24:45.613 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:24:45.644 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:24:45.654 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:24:45.654 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:26:20.857 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:26:20.865 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:26:20.867 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:26:20.896 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:26:20.906 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:26:20.906 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:27:36.049 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:27:36.057 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:27:36.060 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:27:36.086 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:27:36.095 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:27:36.096 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:28:20.338 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:28:20.346 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:28:20.349 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:28:20.376 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:28:20.385 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:28:20.386 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:44:34.283 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:44:34.291 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:44:34.294 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:44:34.314 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:44:34.324 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:44:34.324 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:44:35.035 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:44:35.044 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:44:35.048 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:44:35.068 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:44:35.077 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:44:35.078 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:45:14.786 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:45:14.793 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:45:14.795 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:45:14.817 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:45:14.827 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:45:14.828 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:45:24.800 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:45:24.808 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:45:24.810 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:45:24.835 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:45:24.844 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:45:24.845 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:46:45.028 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:46:45.035 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:46:45.038 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:46:45.046 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 12:46:45.056 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 12:46:45.057 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:01:14.826 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:01:14.832 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:01:14.835 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:01:14.885 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:01:14.895 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:01:14.896 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:02:26.005 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:02:26.015 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:02:26.016 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:02:26.115 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:02:26.123 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:02:26.126 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:02:30.555 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:02:30.563 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:02:30.564 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:02:30.580 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:02:30.588 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:02:30.590 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:02:33.883 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:02:33.892 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:02:33.893 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:02:33.938 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:02:33.945 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:02:33.948 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:02:37.289 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:02:37.297 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:02:37.298 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:02:37.318 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:02:37.324 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:02:37.327 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:03:50.334 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:03:50.360 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:03:50.384 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:03:50.392 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:03:50.393 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:03:50.413 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:03:50.419 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:03:50.422 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:04:36.512 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:04:36.521 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:04:36.521 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:04:36.643 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:04:36.650 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:04:36.653 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:05:42.097 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:05:42.106 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:05:42.107 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:05:42.226 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:05:42.233 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:05:42.236 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:06:41.084 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:06:41.092 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:06:41.093 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:06:41.201 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:06:41.208 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:06:41.210 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:07:05.726 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:07:05.734 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:07:05.735 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:07:05.754 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:07:05.760 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:07:05.763 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:10:20.222 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:10:20.231 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:10:20.231 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:10:20.341 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:10:20.348 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:10:20.351 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:11:22.165 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:11:22.173 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:11:22.174 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:11:22.288 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 13:11:22.295 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 13:11:22.298 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:02:13.346 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:02:13.355 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:02:13.355 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:02:13.451 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:02:13.457 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:02:13.460 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:03:28.001 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:03:28.010 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:03:28.011 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:03:28.157 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:03:28.165 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:03:28.168 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:08:48.297 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:08:48.306 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:08:48.306 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:08:48.428 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:08:48.435 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:08:48.437 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:08:50.542 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:08:50.549 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='6'
+2021-06-21 14:08:50.561 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:13.104 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:13.111 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='6'
+2021-06-21 14:09:13.113 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:19.346 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:19.354 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:09:19.355 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:19.378 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:19.385 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:09:19.387 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:21.854 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:21.861 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='7'
+2021-06-21 14:09:21.864 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:24.163 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:24.171 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:09:24.172 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:24.198 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:24.205 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:09:24.208 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:26.894 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:26.902 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='10'
+2021-06-21 14:09:26.913 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:28.519 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:28.527 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:09:28.528 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:28.546 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:09:28.553 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:09:28.555 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:29:19.504 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:29:19.513 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:29:19.514 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:29:19.641 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:29:19.648 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:29:19.651 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:29:31.496 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:29:31.502 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='8'
+2021-06-21 14:29:31.513 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:29:35.724 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:29:35.733 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:29:35.734 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:29:35.760 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:29:35.767 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:29:35.770 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:48:00.865 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:48:00.873 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:48:00.874 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:48:00.991 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:48:00.999 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:48:01.002 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:48:03.722 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:48:03.728 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='11'
+2021-06-21 14:48:03.731 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:48:03.802 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:48:03.812 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='null'
+2021-06-21 14:48:03.813 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:51:56.068 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:51:56.077 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:51:56.077 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:51:56.184 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:51:56.190 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:51:56.193 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:00.297 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:00.308 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:54:00.308 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:00.422 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:00.429 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:54:00.433 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:03.687 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:03.695 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='14'
+2021-06-21 14:54:03.706 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:03.776 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:03.785 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:54:03.786 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:03.803 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:03.811 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:54:03.815 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:23.266 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:23.273 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', 'Novo doc', 'Altas paradas cabulosas')
+2021-06-21 14:54:23.277 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:23.331 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:23.340 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:54:23.340 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:23.359 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:23.367 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:54:23.370 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:37.065 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:37.072 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='15'
+2021-06-21 14:54:37.075 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:37.140 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:37.149 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:54:37.149 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:37.166 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 14:54:37.172 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 14:54:37.175 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:09:26.079 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:09:26.088 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:09:26.088 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:09:26.175 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:09:26.182 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:09:26.185 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:12:10.846 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:12:10.854 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:12:10.855 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:12:10.950 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:12:10.958 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:12:10.962 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:12:20.692 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:12:20.699 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('Novo testo', '') WHERE id_notebook=null AND email='diegocrassus@gmail.com'
+2021-06-21 15:12:20.702 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:12:20.749 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:12:20.758 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:12:20.759 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:12:20.787 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:12:20.795 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:12:20.798 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:12:38.309 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:12:38.316 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('teste novo', '') WHERE id_notebook=null AND email='diegocrassus@gmail.com'
+2021-06-21 15:12:38.318 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:12:38.379 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:12:38.389 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:12:38.389 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:12:38.414 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:12:38.421 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:12:38.424 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:15:19.820 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:15:19.830 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:15:19.830 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:15:19.960 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:15:19.967 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:15:19.970 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:16:01.728 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:16:01.737 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:16:01.737 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:16:01.799 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:16:01.806 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:16:01.808 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:18:24.278 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:18:24.288 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:18:24.289 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:18:24.388 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:18:24.395 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:18:24.398 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:18:33.517 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:18:33.525 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:18:33.526 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:18:33.549 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:18:33.556 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:18:33.560 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:19:27.242 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:19:27.252 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:19:27.252 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:19:27.342 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:19:27.350 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:19:27.353 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:19:35.285 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:19:35.295 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:19:35.295 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:19:35.319 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:19:35.327 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:19:35.329 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:20:27.208 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:20:27.217 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:20:27.217 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:20:27.316 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:20:27.324 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:20:27.327 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:23:07.604 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:23:07.615 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:23:07.615 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:23:07.734 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:23:07.742 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:23:07.745 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:24:25.291 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:24:25.300 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:24:25.301 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:24:25.393 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:24:25.400 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:24:25.403 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:24:35.302 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:24:35.309 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('Texto novo', '') WHERE id_notebook=13 AND email='diegocrassus@gmail.com'
+2021-06-21 15:24:35.322 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:24:35.372 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:24:35.381 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:24:35.382 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:24:35.402 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:24:35.409 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:24:35.412 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:27:40.421 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:27:40.428 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('x', '') WHERE id_notebook=13 AND email='diegocrassus@gmail.com'
+2021-06-21 15:27:40.431 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:27:40.481 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:27:40.489 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:27:40.490 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:27:40.514 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:27:40.521 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:27:40.524 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:29:52.309 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-21 15:30:00.612 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-21 15:30:07.674 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-21 15:30:20.226 | DEBUG    | __main__:main:40 - [+] --- starting at: 0.0.0.0:9000/api
+2021-06-21 15:30:50.743 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:30:50.751 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('Novo texto', 'teste') WHERE id_notebook=13 AND email='diegocrassus@gmail.com'
+2021-06-21 15:30:50.763 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:30:50.810 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:30:50.819 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:30:50.819 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:30:50.845 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:30:50.851 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:30:50.854 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:25.106 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:25.113 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='12'
+2021-06-21 15:31:25.125 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:25.186 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:25.195 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:31:25.195 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:25.214 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:25.221 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:31:25.224 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:26.113 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:26.119 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='9'
+2021-06-21 15:31:26.131 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:26.187 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:26.196 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:31:26.197 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:26.214 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:26.222 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:31:26.225 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:34.391 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:34.400 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', '', 'teste')
+2021-06-21 15:31:34.412 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:34.455 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:34.464 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:31:34.465 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:34.486 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:31:34.494 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:31:34.497 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:34:21.078 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:34:21.085 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', 'novo', 'texto')
+2021-06-21 15:34:21.089 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:34:21.135 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:34:21.144 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:34:21.144 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:34:21.167 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:34:21.174 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:34:21.177 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:35:59.719 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:35:59.728 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:35:59.729 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:35:59.754 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:35:59.762 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:35:59.764 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:37:26.162 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:37:26.170 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:37:26.171 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:37:26.272 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:37:26.279 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:37:26.281 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:37:39.258 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:37:39.265 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', 'x', '')
+2021-06-21 15:37:39.278 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:37:39.322 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:37:39.331 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:37:39.331 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:37:39.349 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:37:39.356 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:37:39.359 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:39:46.852 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:39:46.861 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:39:46.862 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:39:47.007 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:39:47.015 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:39:47.018 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:40:06.384 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:40:06.391 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', 'Titulo', 'Texto digitado')
+2021-06-21 15:40:06.394 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:40:06.448 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:40:06.457 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:40:06.458 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:40:06.480 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:40:06.487 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:40:06.489 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:41:37.217 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:41:37.225 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:41:37.226 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:41:37.325 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:41:37.332 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:41:37.334 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:41:52.254 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:41:52.261 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', 'novo', 'texto')
+2021-06-21 15:41:52.265 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:41:52.306 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:41:52.316 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:41:52.317 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:41:52.336 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:41:52.343 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:41:52.346 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:43:00.593 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:43:00.602 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:43:00.602 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:43:00.705 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:43:00.712 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:43:00.715 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:43:50.645 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:43:50.653 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:43:50.653 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:43:50.680 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:43:50.686 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:43:50.688 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:43:53.980 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:43:53.989 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:43:53.990 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:43:54.009 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 15:43:54.015 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 15:43:54.018 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:15:03.250 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:15:03.259 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:15:03.260 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:15:03.284 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:15:03.291 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:15:03.294 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:17:20.277 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:17:20.284 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', 'titulo', 'O texto tem que ficar aqui')
+2021-06-21 17:17:20.288 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:17:20.323 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:17:20.331 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:17:20.332 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:17:20.365 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:17:20.373 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:17:20.375 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:19:24.030 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:19:24.039 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:19:24.040 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:19:24.155 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:19:24.164 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:19:24.166 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:20:03.728 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:20:03.737 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:20:03.737 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:20:03.826 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:20:03.834 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:20:03.836 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:21:00.431 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:21:00.440 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:21:00.441 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:21:00.548 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:21:00.556 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:21:00.559 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:21:18.454 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:21:18.461 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('afuadfuuau', 'Senhas') WHERE id_notebook=18 AND email='diegocrassus@gmail.com'
+2021-06-21 17:21:18.465 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:21:18.513 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:21:18.521 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:21:18.521 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:21:18.542 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:21:18.549 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:21:18.552 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:21:36.443 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:21:36.450 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('1:afuadfuuau
+2:asdaaeqew', '') WHERE id_notebook=18 AND email='diegocrassus@gmail.com'
+2021-06-21 17:21:36.454 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:21:36.507 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:21:36.516 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:21:36.517 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:21:36.538 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:21:36.545 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:21:36.548 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:22:35.284 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:22:35.293 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:22:35.294 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:22:35.387 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:22:35.394 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:22:35.397 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:22:40.348 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:22:40.354 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='16'
+2021-06-21 17:22:40.358 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:22:40.425 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:22:40.434 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:22:40.434 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:22:40.454 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:22:40.461 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:22:40.464 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:22:44.144 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:22:44.152 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('', '') WHERE id_notebook=17 AND email='diegocrassus@gmail.com'
+2021-06-21 17:22:44.164 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:22:44.208 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:22:44.217 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:22:44.217 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:22:44.239 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:22:44.246 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:22:44.249 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:24:17.946 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:24:17.955 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:24:17.956 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:24:18.048 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:24:18.055 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:24:18.058 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:24:24.452 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:24:24.459 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('', '') WHERE id_notebook=13 AND email='diegocrassus@gmail.com'
+2021-06-21 17:24:24.463 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:24:24.501 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:24:24.510 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:24:24.510 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:18.541 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:18.549 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:26:18.549 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:18.645 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:18.653 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:26:18.655 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:22.777 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:22.786 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:26:22.787 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:22.810 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:22.817 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:26:22.820 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:30.527 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:30.535 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('Texto digitado 123', '') WHERE id_notebook=19 AND email='diegocrassus@gmail.com'
+2021-06-21 17:26:30.538 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:30.588 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:30.596 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:26:30.597 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:30.616 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:30.623 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:26:30.626 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:33.227 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:33.234 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='20'
+2021-06-21 17:26:33.245 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:33.299 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:33.307 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:26:33.308 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:33.327 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:33.334 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:26:33.337 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:40.739 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:40.746 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='13'
+2021-06-21 17:26:40.749 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:40.805 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:40.813 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:26:40.814 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:40.836 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:40.843 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:26:40.846 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:42.102 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:42.108 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='17'
+2021-06-21 17:26:42.111 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:42.166 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:42.175 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:26:42.175 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:42.194 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:42.201 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:26:42.204 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:44.541 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:44.548 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', '', '')
+2021-06-21 17:26:44.553 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:44.588 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:44.596 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:26:44.597 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:44.617 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:44.625 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:26:44.627 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:47.421 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:47.429 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('', '') WHERE id_notebook=22 AND email='diegocrassus@gmail.com'
+2021-06-21 17:26:47.432 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:47.457 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:47.466 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:26:47.466 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:47.482 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:26:47.489 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:26:47.491 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:32.825 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:32.833 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:28:32.834 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:32.931 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:32.938 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:28:32.940 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:41.870 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:41.878 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', 'titulo', 'teste aquiii')
+2021-06-21 17:28:41.882 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:41.943 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:41.953 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:28:41.953 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:41.979 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:41.986 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:28:41.989 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:47.765 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:47.772 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: UPDATE notebook SET (texto, titulo)=('teste aquiii 2', '') WHERE id_notebook=23 AND email='diegocrassus@gmail.com'
+2021-06-21 17:28:47.776 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:47.824 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:47.832 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:28:47.832 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:47.856 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:47.863 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:28:47.867 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:51.125 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:51.131 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='22'
+2021-06-21 17:28:51.142 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:51.207 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:51.216 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:28:51.217 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:51.239 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:51.246 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:28:51.249 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:52.229 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:52.236 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='18'
+2021-06-21 17:28:52.247 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:52.314 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:52.323 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:28:52.324 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:52.347 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:28:52.354 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:28:52.357 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:34:52.543 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:34:52.551 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:34:52.552 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:34:52.644 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:34:52.651 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:34:52.654 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:34:55.608 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:34:55.615 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: DELETE FROM notebook WHERE id_notebook='23'
+2021-06-21 17:34:55.618 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:34:55.687 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:34:55.696 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:34:55.696 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:34:55.714 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:34:55.721 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:34:55.725 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:35:19.222 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:35:19.229 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: INSERT INTO notebook(email, titulo, texto) VALUES('diegocrassus@gmail.com', 'senhas', '1: 12345648
+2: asvbs1234')
+2021-06-21 17:35:19.242 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:35:19.288 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:35:19.296 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM notebook WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:35:19.297 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:35:19.319 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- INICIANDO A CONEXAO COM O BANCO DE DADOS.
+2021-06-21 17:35:19.327 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- QUERY: SELECT * FROM pdm_user WHERE email='diegocrassus@gmail.com'
+2021-06-21 17:35:19.330 | DEBUG    | projeto.utils.Logger:debug:15 - [+] - 172.20.0.1 --- FINALZIANDO A CONEXAO COM O BANCO DE DADOS.

@@ -21,14 +21,15 @@ class GetDatabases(Resource):
         GET method.\n
         QUERY SELECT
         """
+
         parser = reqparse.RequestParser()
         parser.add_argument('email', type=str, required=True, help="This field 'email' cannot be left blank")
         parser.add_argument('id_notebook', type=str, required=False, help="This field 'id_notebook' cannot be left blank")
         requset_data = parser.parse_args()
 
         try:
-            response = get_notebook(requset_data["email"], 
-                                    requset_data["id_notebook"])
+            response = get_notebook(email=requset_data["email"], 
+                                    id_notebook=requset_data["id_notebook"])
 
         except ConnectionError as error:
             return objResponse.send_exception(error, Message.ERROR_NOT_CONNECTED)
@@ -47,13 +48,13 @@ class GetDatabases(Resource):
         parser.add_argument('email', type=str, required=True, help="This field 'email' cannot be left blank")
         parser.add_argument('titulo', type=str, required=False, help="This field 'title' cannot be left blank")
         requset_data = parser.parse_args()
-        request_data_body = request.request.get_json()
+        request_data_body = request.get_json()
 
         try:
 
-            response = create_notebook(requset_data["email"], 
-                                       request_data_body["texto"],
-                                       requset_data["titulo"])
+            response = create_notebook(email=requset_data["email"], 
+                                       text=request_data_body["texto"],
+                                       title=requset_data["titulo"])
 
         except ConnectionError as error:
             return objResponse.send_exception(error, Message.ERROR_NOT_CONNECTED)
@@ -74,8 +75,8 @@ class GetDatabases(Resource):
         requset_data = parser.parse_args()
 
         try:
-            response = delete_notebook(requset_data["email"], 
-                                       requset_data["id_notebook"])
+            response = delete_notebook(email=requset_data["email"], 
+                                       id_notebook=requset_data["id_notebook"])
 
         except ConnectionError as error:
             return objResponse.send_exception(error, Message.ERROR_NOT_CONNECTED)
@@ -95,13 +96,13 @@ class GetDatabases(Resource):
         parser.add_argument('id_notebook', type=str, required=True, help="This field 'id_notebook' cannot be left blank")
         parser.add_argument('titulo', type=str, required=False, help="This field 'title' cannot be left blank")
         requset_data = parser.parse_args()
-        request_data_body = request.request.get_json()
+        request_data_body = request.get_json()
 
         try:
-            response = update_notebook(requset_data["email"], 
-                                       requset_data["id_notebook"],
-                                       requset_data["titulo"],
-                                       request_data_body["texto"])
+            response = update_notebook(email=requset_data["email"], 
+                                       id_notebook=requset_data["id_notebook"],
+                                       title=requset_data["titulo"],
+                                       text=request_data_body["texto"])
 
         except ConnectionError as error:
             return objResponse.send_exception(error, Message.ERROR_NOT_CONNECTED)
