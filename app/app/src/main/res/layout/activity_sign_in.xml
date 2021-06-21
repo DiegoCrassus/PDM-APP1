@@ -1,84 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/bege"
-    tools:context=".signIn">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="50dp" />
+    <data>
+        <variable
+            name="codigoFragmento"
+            type="br.com.pdm.signIn" />
+    </data>
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline5"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="35dp" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bege"
+        tools:context=".signIn">
 
-    <TextView
-        android:id="@+id/tvLogin"
-        style="@style/StyleTitulos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/loginTitle"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="@+id/guideline5"
-        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="50dp" />
 
-    <TextView
-        android:id="@+id/tvCorpoLogin"
-        style="@style/StyleCorpos"
-        android:layout_width="246dp"
-        android:layout_height="131dp"
-        android:layout_marginTop="60dp"
-        android:text="@string/descrição_login"
-        app:layout_constraintStart_toStartOf="@+id/guideline5"
-        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="35dp" />
 
-    <EditText
-        android:id="@+id/textFieldEmailLogin"
-        style="@style/StyleBoxes"
-        android:layout_width="359dp"
-        android:layout_height="58dp"
-        android:layout_marginBottom="224dp"
-        android:ems="15"
-        android:hint="@string/email"
-        android:importantForAutofill="no"
-        android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/guideline6"
-        app:layout_constraintStart_toStartOf="@+id/guideline5"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        <TextView
+            android:id="@+id/tvLogin"
+            style="@style/StyleTitulos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loginTitle"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@+id/guideline5"
+            app:layout_constraintTop_toTopOf="@+id/guideline4" />
 
-    <Button
-        android:id="@+id/btnSendLogin"
-        style="?primaryButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/continuar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnTakePictureLogin"
-        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+        <TextView
+            android:id="@+id/tvCorpoLogin"
+            style="@style/StyleCorpos"
+            android:layout_width="246dp"
+            android:layout_height="131dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/descrição_login"
+            app:layout_constraintStart_toStartOf="@+id/guideline5"
+            app:layout_constraintTop_toTopOf="@+id/guideline4" />
 
-    <Button
-        android:id="@+id/btnTakePictureLogin"
-        style="?primaryButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tirar_foto"
-        app:layout_constraintStart_toStartOf="@+id/guideline5"
-        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+        <EditText
+            android:id="@+id/textFieldEmailLogin"
+            style="@style/StyleBoxes"
+            android:layout_width="359dp"
+            android:layout_height="58dp"
+            android:layout_marginBottom="224dp"
+            android:ems="15"
+            android:hint="@string/email"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toTopOf="@+id/guideline6"
+            app:layout_constraintStart_toStartOf="@+id/guideline5"
+            app:layout_constraintTop_toBottomOf="@+id/tvCorpoLogin" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_end="73dp" />
+        <Button
+            android:id="@+id/btnSendLogin"
+            style="?primaryButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/continuar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnTakePictureLogin"
+            android:onClick="@{codigoFragmento::irParaHome}"
+            app:layout_constraintTop_toTopOf="@+id/guideline6" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/btnTakePictureLogin"
+            style="?primaryButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tirar_foto"
+            app:layout_constraintStart_toStartOf="@+id/guideline5"
+            app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_end="73dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

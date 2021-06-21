@@ -15,6 +15,7 @@ import androidx.annotation.NonNull
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import br.com.pdm.R
 import kotlinx.android.synthetic.main.activity_home.*
 import org.json.JSONArray
 import org.json.JSONObject

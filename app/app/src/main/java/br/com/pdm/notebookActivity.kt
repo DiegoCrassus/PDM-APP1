@@ -3,6 +3,7 @@ package br.com.PDM
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import br.com.pdm.R
 import kotlinx.android.synthetic.main.notebook.*
 
 class notebookActivity : AppCompatActivity() {

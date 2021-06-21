@@ -14,6 +14,7 @@ import android.widget.Toast
 import androidx.core.content.FileProvider
 import java.io.File
 import android.os.StrictMode
+import br.com.PDM.homeActivity
 import br.com.pdm.R
 import kotlinx.android.synthetic.main.activity_sign_in.*
 import org.json.JSONObject
