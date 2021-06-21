@@ -16,7 +16,7 @@
         android:theme="@style/Theme.MyApplication"
         android:usesCleartextTraffic="true"
         tools:targetApi="n">
-        <activity android:name=".MainActivityCarrossel"></activity>
+        <activity android:name=".MainActivityCarrossel" />
         <activity
             android:name=".SplashScreenActivity"
             android:theme="@style/SplashScreenTheme">
@@ -41,7 +41,7 @@
         <activity android:name=".homeActivity" />
         <activity android:name=".signIn" />
         <activity android:name=".signUp" />
-        <activity android:name="br.com.pdm.MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

@@ -1,6 +1,7 @@
-package br.com.PDM
+package br.com.pdm
 
 import android.content.Intent
+import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.coroutines.Dispatchers
@@ -10,7 +11,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.util.Log
+import android.widget.ImageButton
 import android.widget.TextView
+import android.widget.Toast
 import androidx.annotation.NonNull
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -31,41 +34,44 @@ class homeActivity: AppCompatActivity() {
         Log.d("email", email.toString())
         Log.d("name", name.toString())
 
-        GlobalScope.launch(Dispatchers.IO) {
-            val create: Boolean = validateUser(email)
-            if (create) {
-                createUserNotebook(email, name)
-            }
-
-//            getAllNotebooks(email, null)
-        }
-
-        btnAddNotebook.setOnClickListener {
-            val notebook = Intent(this, notebookActivity::class.java)
-            notebook.putExtra("name", name)
-            notebook.putExtra("email", email)
-            startActivity(notebook)
-        }
-
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
         notebookAdapter = NotebookAdapter(notebookList)
         val layoutManager = LinearLayoutManager(applicationContext)
         recyclerView.layoutManager = layoutManager
         recyclerView.itemAnimator = DefaultItemAnimator()
         recyclerView.adapter = notebookAdapter
-        prepareMovieData()
+        getAllNotebooks(email, -1, name)
+
+        GlobalScope.launch(Dispatchers.IO) {
+            val create: Boolean = validateUser(email)
+            if (create) {
+                createUserNotebook(email, name)
+            }
+        }
+
+        btnAddNotebook.setOnClickListener {
+            val notebook = Intent(this, notebookActivity::class.java)
+            notebook.putExtra("name", name)
+            notebook.putExtra("email", email)
+            notebook.putExtra("create", "true")
+            startActivity(notebook)
+        }
     }
 
-    private suspend fun createNewNotebook(email: String?, title: String?, text: String?) {
-        email?.let { title?.let { it1 -> text?.let { it2 -> createNotebook(it, it1, it2) } } }
+    fun reload(){
+        startActivity(intent)
     }
-
-    private suspend fun getAllNotebooks(email: String?, id_notebook: Any?) {
+    private fun getAllNotebooks(email: String?, id_notebook: Int?, name: String?) {
         val responseNotebooks: String? = selectNotebook(email, id_notebook)
         val jsonReponse = JSONObject(responseNotebooks)
-        Log.d("response", responseNotebooks.toString())
-        Log.d("data", jsonReponse.get("data").toString())
-        val validate = jsonReponse.get("data") as JSONArray
+        val data = jsonReponse.get("data") as JSONArray
+        for (i in 0 until data.length()) {
+            val item = data.getJSONArray(i)
+            val idNotebook: Int = item.get(0) as Int
+            val text: String = item.get(2) as String
+            val title: String = item.get(1) as String
+            prepareNotebookData(title=title, text=text, id_notebook=idNotebook, email=email, name=name)
+        }
     }
 
     private suspend fun validateUser (email: String?): Boolean {
@@ -81,11 +87,34 @@ class homeActivity: AppCompatActivity() {
         email?.let { name?.let { it1 -> createUser(it, it1) } }
     }
 
-    internal class NotebookAdapter(private var notebookList: List<NotebookModel>) :
+    internal class NotebookAdapter(private var notebookList: List<NotebookModel>):
         RecyclerView.Adapter<NotebookAdapter.MyViewHolder>() {
         internal inner class MyViewHolder(view: View) : RecyclerView.ViewHolder(view) {
             var title: TextView = view.findViewById(R.id.title)
             var text: TextView = view.findViewById(R.id.text)
+            var delete: ImageButton = view.findViewById(R.id.btnNotebookDelete)
+
+            init {
+                itemView.setOnClickListener{
+                    val position: Int = adapterPosition
+                    val notebook = Intent(itemView.context, notebookActivity::class.java)
+                    notebook.putExtra("name", notebookList[position].getName())
+                    notebook.putExtra("email", notebookList[position].getEmail())
+                    notebook.putExtra("id_notebook", notebookList[position].getId_notebook().toString())
+                    notebook.putExtra("title", notebookList[position].getTitle())
+                    notebook.putExtra("text", notebookList[position].getText())
+                    notebook.putExtra("create", "false")
+                    itemView.context.startActivity(notebook)
+                }
+                delete.setOnClickListener {
+                    val position: Int = adapterPosition
+                    notebookList[position].getId_notebook()?.let { it1 -> deleteNotebook(email = notebookList[position].getEmail(), id_notebook = it1) }
+                    val home = Intent(delete.context, homeActivity::class.java)
+                    home.putExtra("name", notebookList[position].getName())
+                    home.putExtra("email", notebookList[position].getEmail())
+                    delete.context.startActivity(home)
+                }
+            }
         }
         @NonNull
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
@@ -94,48 +123,31 @@ class homeActivity: AppCompatActivity() {
             return MyViewHolder(itemView)
         }
         override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-            val movie = notebookList[position]
-            holder.title.text = movie.getTitle()
-            holder.text.text = movie.getText()
+            val notebook = notebookList[position]
+            holder.title.text = notebook.getTitle()
+            holder.text.text = notebook.getText()
         }
         override fun getItemCount(): Int {
             return notebookList.size
         }
     }
 
-    private fun prepareMovieData() {
-        var movie = NotebookModel("Mad Max: Fury Road", "Action & Adventure")
-        notebookList.add(movie)
-        movie = NotebookModel("Inside Out", "Animation, Kids & Family")
-        notebookList.add(movie)
-        movie = NotebookModel("Star Wars: Episode VII - The Force Awakens", "Action")
-        notebookList.add(movie)
-        movie = NotebookModel("Shaun the Sheep", "Animation")
-        notebookList.add(movie)
-        movie = NotebookModel("The Martian", "Science Fiction & Fantasy")
-        notebookList.add(movie)
-        movie = NotebookModel("Mission: Impossible Rogue Nation", "Action")
-        notebookList.add(movie)
-        movie = NotebookModel("Up", "Animation")
-        notebookList.add(movie)
-        movie = NotebookModel("Star Trek", "Science Fiction")
-        notebookList.add(movie)
-        movie = NotebookModel("The LEGO MovieModel", "Animation")
-        notebookList.add(movie)
-        movie = NotebookModel("Iron Man", "Action & Adventure")
-        notebookList.add(movie)
-        movie = NotebookModel("Aliens", "Science Fiction")
-        notebookList.add(movie)
-        movie = NotebookModel("Chicken Run", "Animation")
-        notebookList.add(movie)
-        movie = NotebookModel("Back to the Future", "Science Fiction")
-        notebookList.add(movie)
-        movie = NotebookModel("Raiders of the Lost Ark", "Action & Adventure")
-        notebookList.add(movie)
-        movie = NotebookModel("Goldfinger", "Action & Adventure")
-        notebookList.add(movie)
-        movie = NotebookModel("Guardians of the Galaxy", "Science Fiction & Fantasy")
-        notebookList.add(movie)
+    private fun prepareNotebookData(title: String?, text: String?, id_notebook: Int?, email: String?, name: String?) {
+        var titleNotebook: String? = title
+        if (titleNotebook?.length!! < 1) {
+            titleNotebook = "Sem titulo"
+            
+        } else if (titleNotebook?.length!! > 25) {
+            titleNotebook = titleNotebook.chunked(25)[0]
+
+        }
+        var textNotebook: String? = text
+        if (textNotebook?.length!! > 30) {
+            textNotebook = textNotebook.chunked(30)[0]
+
+        }
+        val notebook = NotebookModel(title=titleNotebook, text=textNotebook, id_notebook=id_notebook, email=email, name=name)
+        notebookList.add(notebook)
         notebookAdapter.notifyDataSetChanged()
     }
 }

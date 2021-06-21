@@ -1,4 +1,4 @@
-package br.com.PDM
+package br.com.pdm
 
 import android.util.Log
 import okhttp3.*
@@ -18,9 +18,14 @@ private const val USER = "http://192.168.101.3:9004/api/user/"
 
 private val client = OkHttpClient()
 
-fun selectNotebook (email: String?, id_notebook: Any?): String? {
+fun selectNotebook (email: String?, id_notebook: Int?): String? {
     val json = MediaType.parse("application/json; charset=utf-8")
-    val url = "$NOTEBOOK?email=$email&id_notebook=$id_notebook"
+    var url = "$NOTEBOOK?email=$email&id_notebook=$id_notebook"
+    if (id_notebook != null) {
+        if (id_notebook < 0) {
+            url = "$NOTEBOOK?email=$email"
+        }
+    }
 
     val request = Request.Builder()
             .url(url)
@@ -29,7 +34,6 @@ fun selectNotebook (email: String?, id_notebook: Any?): String? {
     Log.d("Request", "request created at $url")
     val response = client.newCall(request).execute()
     Log.d("lengthBody", response.body()?.contentLength().toString())
-    Log.d("response", response.body()?.string().toString())
     return response.body()?.string()
 }
 
@@ -50,17 +54,17 @@ fun createNotebook (email: String, title: String, text: String): Boolean? {
     Log.d("lengthBody", response.body()?.contentLength().toString())
     Log.d("response", response.toString())
     return true
-
 }
 
-fun updateNotebook (email: String, id_notebook: Int, title: String, text: String) {
+fun updateNotebook (email: String, id_notebook: Int?, title: String?, text: String?) {
+    val jsonObj = JSONObject()
+    jsonObj.put("texto", text)
     val json = MediaType.parse("application/json; charset=utf-8")
-    val url = "$NOTEBOOK?email=$email&id_notebook=$id_notebook"
+    val payload: RequestBody? = RequestBody.create(json, jsonObj.toString())
+    val url = "$NOTEBOOK?email=$email&id_notebook=$id_notebook&titulo=$title"
 
     val request = Request.Builder()
-        .method("PUT", null)
-        .addHeader("title", title)
-        .addHeader("text", text)
+        .method("PUT", payload)
         .url(url)
         .build()
 
@@ -68,7 +72,6 @@ fun updateNotebook (email: String, id_notebook: Int, title: String, text: String
     val response = client.newCall(request).execute()
     Log.d("lengthBody", response.body()?.contentLength().toString())
     Log.d("response", response.toString())
-
 }
 
 fun deleteNotebook (email: String, id_notebook: Int) {
