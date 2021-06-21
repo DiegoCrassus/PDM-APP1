@@ -40,14 +40,17 @@ class homeActivity: AppCompatActivity() {
         recyclerView.layoutManager = layoutManager
         recyclerView.itemAnimator = DefaultItemAnimator()
         recyclerView.adapter = notebookAdapter
-        getAllNotebooks(email, -1, name)
+
 
         GlobalScope.launch(Dispatchers.IO) {
             val create: Boolean = validateUser(email)
             if (create) {
                 createUserNotebook(email, name)
             }
+            name?.let { email?.let { it1 -> loadNotes(it1, it) } }
         }
+
+
 
         btnAddNotebook.setOnClickListener {
             val notebook = Intent(this, notebookActivity::class.java)
@@ -56,13 +59,22 @@ class homeActivity: AppCompatActivity() {
             notebook.putExtra("create", "true")
             startActivity(notebook)
         }
+
+        btnReload.setOnClickListener {
+            email?.let { it1 -> name?.let { it2 -> loadNotes(it1, it2) } }
+        }
     }
 
-    fun reload(){
-        startActivity(intent)
+    fun loadNotes(email: String, name: String) {
+        notebookList.clear()
+        GlobalScope.launch(Dispatchers.Main) {
+            getAllNotebooks(email, -1, name)
+        }
     }
-    private fun getAllNotebooks(email: String?, id_notebook: Int?, name: String?) {
+
+    private suspend fun getAllNotebooks(email: String?, id_notebook: Int?, name: String?) {
         val responseNotebooks: String? = selectNotebook(email, id_notebook)
+        Log.d("response", responseNotebooks.toString())
         val jsonReponse = JSONObject(responseNotebooks)
         val data = jsonReponse.get("data") as JSONArray
         for (i in 0 until data.length()) {
