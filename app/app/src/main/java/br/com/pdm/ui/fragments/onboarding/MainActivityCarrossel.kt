@@ -2,6 +2,7 @@ package br.com.pdm.ui.fragments.onboarding
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
@@ -55,18 +56,23 @@ class MainActivityCarrossel : AppCompatActivity() {
         })
 
         btNext.setOnClickListener{
-            if (view_pager.currentItem == view_pager.size)
-                Toast.makeText(this, "Retorne ao menu principal para realizar cadastro ou login", Toast.LENGTH_LONG).show()
-            view_pager.setCurrentItem(view_pager.currentItem + 1, true)
+            if (view_pager.currentItem == view_pager.size) {
+                Toast.makeText(this, "Retornando ao menu principal...", Toast.LENGTH_LONG).show()
+                val intent = Intent(this@MainActivityCarrossel, MainActivity::class.java)
+                startActivity(intent)
+            } else {
+                view_pager.setCurrentItem(view_pager.currentItem + 1, true)
+            }
         }
 
         btBack.setOnClickListener{
-            if (view_pager.currentItem == view_pager.size)
+            if (view_pager.currentItem == 0) {
                 Toast.makeText(this, "Retornando ao menu principal...", Toast.LENGTH_LONG).show()
-                val intent=Intent(this@MainActivityCarrossel, MainActivity::class.java)
+                val intent = Intent(this@MainActivityCarrossel, MainActivity::class.java)
                 startActivity(intent)
-
-            view_pager.setCurrentItem(view_pager.currentItem - 1, true)
+            } else {
+                view_pager.setCurrentItem(view_pager.currentItem - 1, true)
+            }
         }
     }
 
@@ -91,11 +97,8 @@ class MainActivityCarrossel : AppCompatActivity() {
 
             with(tips[position]){
                 view.background = ContextCompat.getDrawable(this@MainActivityCarrossel, background)
-
             }
-
             container.addView(view)
-
             return view
         }
 

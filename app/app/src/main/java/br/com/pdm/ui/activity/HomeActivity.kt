@@ -1,4 +1,4 @@
-package br.com.pdm.repository
+package br.com.pdm.ui.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -17,7 +17,6 @@ import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import br.com.pdm.*
-import br.com.pdm.ui.activity.notebookActivity
 import kotlinx.android.synthetic.main.activity_home.*
 import org.json.JSONArray
 import org.json.JSONObject
@@ -35,7 +34,8 @@ class homeActivity: AppCompatActivity() {
         Log.d("name", name.toString())
 
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
-        notebookAdapter = NotebookAdapter(notebookList)
+        notebookAdapter =
+            NotebookAdapter(notebookList)
         val layoutManager = LinearLayoutManager(applicationContext)
         recyclerView.layoutManager = layoutManager
         recyclerView.itemAnimator = DefaultItemAnimator()
