@@ -18,9 +18,9 @@
         android:theme="@style/Theme.MyApplication"
         android:usesCleartextTraffic="true"
         tools:targetApi="n">
-        <activity android:name=".MainActivityCarrossel" />
+        <activity android:name=".ui.fragments.onboarding.MainActivityCarrossel" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".ui.activity.SplashScreenActivity"
             android:theme="@style/SplashScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,12 +38,12 @@
                 android:resource="@xml/fileprovider" />
         </provider>
 
-        <activity android:name=".wellcome" />
-        <activity android:name=".notebookActivity" />
-        <activity android:name=".homeActivity" />
+        <activity android:name=".ui.activity.wellcome" />
+        <activity android:name=".ui.activity.notebookActivity" />
+        <activity android:name=".repository.homeActivity" />
         <activity android:name=".signIn" />
         <activity android:name=".signUp" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".ui.activity.MainActivity" />
     </application>
 
 </manifest>

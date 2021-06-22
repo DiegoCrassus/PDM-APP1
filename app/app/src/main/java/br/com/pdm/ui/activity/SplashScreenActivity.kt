@@ -1,4 +1,4 @@
-package br.com.pdm
+package br.com.pdm.ui.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,8 +7,6 @@ import android.view.View
 import android.widget.Toast
 import br.com.pdm.R
 import kotlinx.android.synthetic.main.activity_splash_screen.*
-
-import kotlinx.coroutines.delay
 
 
 class SplashScreenActivity : AppCompatActivity() {
