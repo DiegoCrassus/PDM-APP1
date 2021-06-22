@@ -82,6 +82,8 @@ class signUp : AppCompatActivity() {
             } catch (e: java.net.SocketTimeoutException) {
                 Log.d("Erro", "Backend offline!")
                 Toast.makeText(this@signUp, "Backend OFFLINE!", Toast.LENGTH_SHORT).show()
+            } catch (e: java.lang.NullPointerException) {
+                Toast.makeText(this@signUp, "É necessário um email para efetuar o cadastro!", Toast.LENGTH_SHORT).show()
             }
         }
 

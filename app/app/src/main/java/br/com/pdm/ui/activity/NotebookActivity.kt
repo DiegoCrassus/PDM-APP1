@@ -8,7 +8,6 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import br.com.pdm.R
 import br.com.pdm.createNotebook
-import br.com.pdm.repository.homeActivity
 import br.com.pdm.updateNotebook
 import kotlinx.android.synthetic.main.notebook.*
 import kotlinx.coroutines.Dispatchers

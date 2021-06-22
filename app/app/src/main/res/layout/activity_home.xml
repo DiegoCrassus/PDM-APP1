@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/bege"
     android:backgroundTint="#0F00BCD4"
-    tools:context=".repository.homeActivity">
+    tools:context=".ui.activity.homeActivity">
 
     <TextView
         android:id="@+id/ttTitulo"

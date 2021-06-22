@@ -17,7 +17,7 @@ import android.os.StrictMode
 import br.com.pdm.R
 import br.com.pdm.faceDetect
 import br.com.pdm.faceRecognition
-import br.com.pdm.repository.homeActivity
+import br.com.pdm.ui.activity.homeActivity
 import br.com.pdm.validateEmail
 import kotlinx.android.synthetic.main.activity_sign_in.*
 import org.json.JSONObject
@@ -95,6 +95,8 @@ class signIn : AppCompatActivity() {
                 Toast.makeText(this@signIn, "Backend OFFLINE!", Toast.LENGTH_SHORT).show()
             } catch (e: java.lang.IllegalArgumentException) {
                 Toast.makeText(this@signIn, "Falha na autenticação, tente novamente!", Toast.LENGTH_SHORT).show()
+            } catch (e: java.lang.NullPointerException) {
+                Toast.makeText(this@signIn, "É necessário um email para efetuar o login!", Toast.LENGTH_SHORT).show()
             }
             btnSendLogin.isEnabled = true
         }
