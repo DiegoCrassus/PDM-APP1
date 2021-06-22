@@ -1,9 +1,7 @@
-package br.com.pdm
+package br.com.pdm.ui.fragments.onboarding
 
-import android.app.PendingIntent.getActivity
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
@@ -13,7 +11,8 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.size
 import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager.widget.ViewPager
-import br.com.pdm.ui.fragment.MainFragment
+import br.com.pdm.ui.activity.MainActivity
+import br.com.pdm.R
 import kotlinx.android.synthetic.main.activity_main_carrossel.*
 import kotlinx.android.synthetic.main.tip_content.view.*
 import java.lang.Math.abs
@@ -64,7 +63,7 @@ class MainActivityCarrossel : AppCompatActivity() {
         btBack.setOnClickListener{
             if (view_pager.currentItem == view_pager.size)
                 Toast.makeText(this, "Retornando ao menu principal...", Toast.LENGTH_LONG).show()
-                val intent=Intent(this@MainActivityCarrossel, br.com.pdm.ui.fragment.MainFragment::class.java)
+                val intent=Intent(this@MainActivityCarrossel, MainActivity::class.java)
                 startActivity(intent)
 
             view_pager.setCurrentItem(view_pager.currentItem - 1, true)

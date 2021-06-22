@@ -1,4 +1,4 @@
-package br.com.pdm
+package br.com.pdm.ui.fragments.onboarding
 
 import androidx.annotation.DrawableRes
 

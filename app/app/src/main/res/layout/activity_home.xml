@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/bege"
     android:backgroundTint="#0F00BCD4"
-    tools:context=".homeActivity">
+    tools:context=".repository.homeActivity">
 
     <TextView
         android:id="@+id/ttTitulo"
@@ -59,9 +59,9 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:backgroundTint="#00FFFFFF"
-        android:tint="#00BCD4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_baseline_replay_24" />
+        app:srcCompat="@drawable/ic_baseline_replay_24"
+        app:tint="#00BCD4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
