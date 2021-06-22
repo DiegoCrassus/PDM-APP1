@@ -44,5 +44,19 @@ class NotebookModel(title: String?, text: String?, id_notebook: Int?, email: Str
     fun setName(name: String?) {
         this.name = name!!
     }
+    fun getShowTitle(): String {
+        return if (this.title.length > 25) {
+            this.title.chunked(25)[0]
+        } else {
+            this.title
+        }
+    }
+    fun getShowText(): String {
+        return if (this.text.length > 40) {
+            this.text.chunked(40)[0]
+        } else {
+            this.text
+        }
+    }
 
 }

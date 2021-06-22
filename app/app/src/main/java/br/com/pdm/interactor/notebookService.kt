@@ -19,7 +19,6 @@ private const val USER = "http://192.168.101.3:9004/api/user/"
 private val client = OkHttpClient()
 
 fun selectNotebook (email: String?, id_notebook: Int?): String? {
-    val json = MediaType.parse("application/json; charset=utf-8")
     var url = "$NOTEBOOK?email=$email&id_notebook=$id_notebook"
     if (id_notebook != null) {
         if (id_notebook < 0) {

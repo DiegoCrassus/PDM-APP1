@@ -136,8 +136,8 @@ class homeActivity: AppCompatActivity() {
         }
         override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
             val notebook = notebookList[position]
-            holder.title.text = notebook.getTitle()
-            holder.text.text = notebook.getText()
+            holder.title.text = notebook.getShowTitle()
+            holder.text.text = notebook.getShowText()
         }
         override fun getItemCount(): Int {
             return notebookList.size
@@ -148,16 +148,8 @@ class homeActivity: AppCompatActivity() {
         var titleNotebook: String? = title
         if (titleNotebook?.length!! < 1) {
             titleNotebook = "Sem titulo"
-            
-        } else if (titleNotebook?.length!! > 25) {
-            titleNotebook = titleNotebook.chunked(25)[0]
-
-        }
-        var textNotebook: String? = text
-        if (textNotebook?.length!! > 30) {
-            textNotebook = textNotebook.chunked(30)[0]
-
-        }
+            }
+        val textNotebook: String? = text
         val notebook = NotebookModel(title=titleNotebook, text=textNotebook, id_notebook=id_notebook, email=email, name=name)
         notebookList.add(notebook)
         notebookAdapter.notifyDataSetChanged()

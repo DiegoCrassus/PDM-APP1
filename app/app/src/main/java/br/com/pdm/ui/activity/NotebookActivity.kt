@@ -8,11 +8,14 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import br.com.pdm.R
 import br.com.pdm.createNotebook
+import br.com.pdm.selectNotebook
 import br.com.pdm.updateNotebook
 import kotlinx.android.synthetic.main.notebook.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
+import org.json.JSONArray
+import org.json.JSONObject
 
 class notebookActivity : AppCompatActivity() {
     private var title: String? = ""
@@ -32,6 +35,9 @@ class notebookActivity : AppCompatActivity() {
         Log.d("name", name.toString())
         Log.d("email", email.toString())
 
+        GlobalScope.launch(Dispatchers.Main) {
+            getNotebook(email, notebookIdNotebook?.toInt())
+        }
 
         titleNotebook.setText(notebookTitle)
         textNotebook.setText(notebookText)
@@ -90,5 +96,14 @@ class notebookActivity : AppCompatActivity() {
     }
     private suspend fun editNotebook(email: String?, id_notebook: String?, text: String?, title: String?) {
         email?.let { it1 -> title?.let { it2 -> text?.let { it3 -> updateNotebook(email =it1, title =it2, text =it3, id_notebook= id_notebook?.toInt()) } } }
+    }
+    private suspend fun getNotebook(email: String?, idNotebook: Int?) {
+        val responseNotebook: String? =  selectNotebook(email=email, id_notebook =idNotebook)
+        Log.d("response", responseNotebook.toString())
+        val jsonReponse = JSONObject(responseNotebook)
+        var data = jsonReponse.get("data") as JSONArray
+        data = data.get(0) as JSONArray
+        this.text = data.get(2) as String?
+        this.title = data.get(1) as String?
     }
 }
